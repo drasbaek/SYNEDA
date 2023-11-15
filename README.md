@@ -1,0 +1,1 @@
+# synthetic-data-for-danish-NER
