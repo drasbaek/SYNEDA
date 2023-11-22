@@ -37,7 +37,7 @@ def sample_person_tags(person_df, n_names):
     '''
 
     # sample name
-    sampled_names = person_df.sample(n_names, weights="amount", replace=True, random_state=2502) #NB. find a better way to sample more frequent names more often!! 
+    sampled_names = person_df.sample(n_names, weights="amount", replace=True, random_state=2502) #NB. find a better way to sample more frequent names more often!! # maybe calculate probability see https://stackoverflow.com/questions/74955370/how-to-sample-based-on-long-tail-distribution-from-a-pandas-dataframe
 
     # save sampled names to a df, add a PERSON tag
     sampled_names["tag"] = "PERSON"
