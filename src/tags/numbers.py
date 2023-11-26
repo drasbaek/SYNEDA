@@ -22,3 +22,10 @@ def percent():
     '''
     pass
 
+def money(currencies:list): 
+    '''
+    Generate money with different currencies from list. 
+    
+    (Note that we need to account for all kinds of weird formatting e.g., 1,000.00 kr and 200DKK, 200 DKK, 200 kr. 200kr.)
+    '''
+    pass
