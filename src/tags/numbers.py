@@ -22,6 +22,14 @@ def percent():
     '''
     pass
 
+
+def quantity():
+    '''
+    Generate quantities with different units 
+    '''
+    pass
+
+
 def money(currencies:list): 
     '''
     Generate money with different currencies from list. 
