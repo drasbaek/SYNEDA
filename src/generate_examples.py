@@ -55,12 +55,13 @@ def main():
     data_path = path.parents[1] / "data"
 
     # load data
-    df = load_data(data_path)
+    df = load_data(data_path, entity_types=["EVENT", "FACILITY", "GPE", "LANGUAGE", "LAW", "LOCATION", "NORP", "ORDINAL", "ORGANIZATION", "PRODUCT", "TIME", "WORK OF ART"])
 
     # create examples
-    examples = create_examples(df, n_examples=10, n_entities=[1,3])
+    examples = create_examples(df, n_examples=50, n_entities=[1,3])
 
-    print(examples)
+    for i, example in enumerate(examples):
+        print(f"{i+1}. {example}")
 
     
 
