@@ -1,3 +1,7 @@
+'''
+Create money tags from list of currencies and numbers.
+'''
+
 import pathlib
 import pandas as pd
 import numpy as np
@@ -101,9 +105,10 @@ def money(data_path):
     return formatted_numbers
 
 
-
-
 def main():
+    # set seed
+    np.random.seed(2502)
+
     # define paths 
     path = pathlib.Path(__file__)
     data_path = path.parents[2] / "data"
