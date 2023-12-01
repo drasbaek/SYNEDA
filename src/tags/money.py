@@ -2,8 +2,31 @@ import pathlib
 import pandas as pd
 import numpy as np
 
-def numbers_word(): 
-    pass
+def number_words(): 
+    '''
+    Create list of numbers in words (danish) from pre-defined list of small numbers and big numbers.
+    '''
+
+    small_numbers = [
+        "to", "tre", "fire", "fem", "seks", "syv", "otte", "ni", "ti", "tolv", "tretten", "fjorten", "femten", "seksten", "sytten", "atten", "nitten",
+        "tyve", "tredive", "fyrre", "halvtreds", "tres", "firs", "halvfems", "halvfems", "halvfjerds", "firs", "halvfems"
+    ]
+
+    big_numbers = ["hundrede", "tusinde", "millioner"]
+
+    big_combined_nums = []
+
+    for num in small_numbers: 
+        for big_num in big_numbers: 
+            big_combined_nums.append(f"{num} {big_num}")
+
+    # sample 30 big nums 
+    big_combined_numbers = np.random.choice(big_combined_nums, size=28)
+
+    # combine with small nums 
+    all_numbers = np.concatenate([small_numbers, big_combined_numbers])
+
+    return all_numbers
 
 def money(data_path): 
     '''
@@ -12,24 +35,22 @@ def money(data_path):
     (Note that we need to account for all kinds of weird formatting e.g., 1,000.00 kr and 200DKK, 200 DKK, 200 kr. 200kr.)
     '''
     # read in data
-    df = pd.read_excel(data_path / "LISTS.xlsx", sheet_name="MONEY")
+    df = pd.read_excel(data_path / "CLEAN_LISTS.xlsx", sheet_name="MONEY")
 
     # generate random numbers (100)
-    small_numbers = np.random.randint(1, 100, size=100)
+    small_numbers = np.random.randint(1, 150, size=100)
     big_numbers = np.random.randint(1000, 10000, size=50)
-    numbers_words = ["to", "tre", "fire", "fem", "seks", "syv", "otte", "ni", "ti", "tusinde", "hundrede", "halvtreds", "halvfjerds", "tres", "firs", "halvfems", "halvfems"]
+    numbers_words = number_words()
 
     # combine numbers and words
     numbers = np.concatenate([small_numbers, big_numbers, numbers_words])
 
-    # weights (TEMP)
-    df["weight"] = 1
-    total_weight = df["weight"].sum()
-    df["normalized_weight"] = df["weight"] / total_weight
+    # duplicate entities based on weight
+    df = df.loc[df.index.repeat(df["weight"])].reset_index(drop=True)
 
     # define string invalid currencies, all currencies that have single quantiy as NO in df + ",-"
     string_invalid_currencies = df[df["only_single_quantity"] == "YES"]["entity"].tolist()
-    string_invalid_currencies.append(",-")
+    string_invalid_currencies.extend([",-", "$", "€", "£"])
 
     # filter out invalid currencies
     df_string_valid =  df[~df["entity"].isin(string_invalid_currencies)]
@@ -37,45 +58,43 @@ def money(data_path):
     formatted_numbers = []
 
     for num in numbers: 
-        # sample currency based on weight col 
-        currency = np.random.choice(df["entity"], p=df["normalized_weight"])
-
-        # extract index of currency
-        currency_idx = df[df["entity"] == currency].index[0]
-
-        # extract placement of currency
-        placement = df.loc[currency_idx, "placement"]
-
-        # identify single quantity 
-        single_quantity = df.loc[currency_idx, "only_single_quantity"]
+        # sample randomly from df with replacement
+        currency = np.random.choice(df["entity"])
 
         # define accepted formats
         after_format = f"{num} {currency}"
         before_format = f"{currency} {num}"
         after_no_space_format = f"{num}{currency}"
         before_no_space_format = f"{currency}{num}"
+        
+        currency_idx = df[df["entity"] == currency].index[0]
 
+        # extract placement and single quantity
+        placement = df.loc[currency_idx, "placement"]
+        single_quantity = df.loc[currency_idx, "only_single_quantity"]
+
+        # check if single quantity is YES, update number
         if single_quantity == "YES":
             # update num
             num = np.random.choice(["en", 1])
 
+        # if placement is both, update placement to before or after based on random choice 
         if placement == 'both':
-            placement = np.random.choice(["before", "after"])        
+            placement = np.random.choice(["before", "after"])   
 
-        # if placement is before/after and number is int 
-        if placement == "before" and isinstance(num, int):
-            formatted_num = np.random.choice([before_format, before_no_space_format])
-        
-        elif placement == "after" and isinstance(num, int):
-            formatted_num = np.random.choice([after_format, after_no_space_format])
+        if num in numbers_words:
+            if currency in string_invalid_currencies: # replace invalid currency with random valid currency
+                currency = np.random.choice(df_string_valid["entity"])
+                print(num, currency)
+                
+            formatted_num = after_format     
 
-        if isinstance(num, str):
-            # replace string invalid currency with random currency
-            if currency in string_invalid_currencies:
-                # filter out invalid currencies
-                df_filtered = df[~df["entity"].isin(string_invalid_currencies)]
-                currency = np.random.choice(df_filtered["entity"])
-            formatted_num = after_format
+        # if num is int
+        elif num not in numbers_words: 
+            if placement == "before":
+                formatted_num = np.random.choice([before_format, before_no_space_format])
+            elif placement == "after":
+                formatted_num = np.random.choice([after_format, after_no_space_format])
 
         # append to list of formatted numbers
         formatted_numbers.append(formatted_num)
