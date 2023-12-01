@@ -42,7 +42,7 @@ def money(data_path):
     df = pd.read_excel(data_path / "CLEAN_LISTS.xlsx", sheet_name="MONEY")
 
     # generate random numbers (100)
-    small_numbers = np.random.randint(1, 150, size=100)
+    small_numbers = np.random.randint(1, 350, size=100)
     big_numbers = np.random.randint(1000, 10000, size=50)
     numbers_words = number_words()
 
@@ -61,13 +61,13 @@ def money(data_path):
         currency_placement = row["placement"]
         single_quantity = row["only_single_quantity"]
         number_word = row["number_word"]
-        
+
         # check if single quantity is YES, update number
         if single_quantity == "YES":
             num = np.random.choice(["en", 1])
             formatted_num = f"{num} {currency}"
 
-        if number_word == "NO":
+        elif number_word == "NO" and single_quantity == "NO":
             num = np.random.choice(numeric_numbers)
             if currency_placement == "both":
                 currency_placement = np.random.choice(["before", "after"])
@@ -75,8 +75,8 @@ def money(data_path):
                     formatted_num = np.random.choice([f"{num} {currency}", f"{num}{currency}"])
     
                 elif currency_placement == "before":
-                    formatted_num = np.random.choice([f"{currency} {num}", f"{currency}{num}"])
-        
+                    formatted_num = np.random.choice([f"{currency} {num}", f"{currency}{num}"]) 
+
         else:
             if currency_placement == "after":
                 num = np.random.choice(all_numbers)
@@ -104,10 +104,9 @@ def money(data_path):
         
     return formatted_numbers
 
-
 def main():
     # set seed
-    np.random.seed(2502)
+    np.random.seed(1209)
 
     # define paths 
     path = pathlib.Path(__file__)
@@ -115,8 +114,17 @@ def main():
 
     # load data
     formatted_numbers = money(data_path)
-
     print(formatted_numbers)
+
+    # save data
+    df = pd.DataFrame(formatted_numbers, columns=["entity"])
+
+    # add weights col and context col (to match other lists)
+    df["weights"] = 1
+    df["context"] = None
+
+    # save to excel
+    df.to_csv(data_path / "MONEY.csv", index=False) 
 
 if __name__ == "__main__":
     main()
