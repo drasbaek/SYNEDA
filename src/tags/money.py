@@ -1,5 +1,5 @@
 '''
-Create money tags from list of currencies and numbers.
+Create money ents from list of currencies and numbers.
 '''
 
 import pathlib
