@@ -2,22 +2,7 @@ import pathlib
 import pandas as pd
 import numpy as np
 
-
-def load_data(data_path):
-    # define entities
-    entity_types = ["EVENT", "FACILITY", "GPE", "LANGUAGE", "LAW", "LOCATION", "MONEY", "NORP", "ORDINAL", "ORGANIZATION", "PRODUCT", "QUANTITY", "TIME", "WORK OF ART"]
-
-    # initialize df for all entities
-    df_all = pd.DataFrame()
-
-    # load data for all entities
-    for type in entity_types:
-        df = pd.read_excel(data_path / "LISTS.xlsx", sheet_name=type)
-        df["TYPE"] = type
-        df_all = pd.concat([df_all, df], ignore_index=True)
-
-    return df_all
-
+from utils import load_data
 
 def create_examples(df_all, n_examples, n_entities=[1,3]):
     """
