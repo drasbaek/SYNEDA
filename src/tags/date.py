@@ -8,7 +8,7 @@ import locale
 import numpy as np
 import pandas as pd
 
-def generate_dates(year1=1970, year2=2023):
+def generate_dates(n_dates, year1=1970, year2=2023):
     '''
     Generate a list of dates every day between two years (e.g., 1970-2023)
     '''
@@ -25,124 +25,140 @@ def generate_dates(year1=1970, year2=2023):
         date_list.append(start_date.strftime("%Y-%m-%d"))
         start_date += delta
 
-    return date_list
+    # sample a subset of dates
+    sampled_date_list = np.random.choice(date_list, n_dates, replace=False)
+
+    return sampled_date_list
 
 def define_date_formats():
     '''
     Define a list of different date formats
     '''
-    date_formats = [
-        "%d. %b %y",                   # 20. jul 21
-        "%d/%m/%y",                    # 20/07/21
-        "%d. %B %Y",                   # 20. juli 2021
-        "%B %d %Y",                    # Juli 20 2021
-        "%Y-%m-%d",                     # 2021-07-20
-        "%d-%m-%Y",                    # 20-07-2021
-        "%d %b, %Y",                   # 20 jul, 2021
-        "%A, %d. %B %Y",               # Tirsdag, 20. juli 2021
-        "%d/%b/%Y",                    # 20/jul/2021
-        "%b %dth, %Y",                 # jul 20th, 2021
-        "%A, %d-%b-%y",                # Tirsdag, 20-jul-21
-        "%A, %d. %B '%y",               # Tirsdag, 20. juli '21
-    ]
+    date_formats = {
+        "%d. %b %y": 2,                    # 20. Jul 21
+        "%d/%m/%y": 15,                    # 20/07/21
+        "%d. %B %Y": 25,                   # 20. Juli 2021
+        "%B %d %Y": 2,                     # Juli 20 2021
+        "%Y-%m-%d": 2,                     # 2021-07-20
+        "%d-%m-%Y": 10,                     # 20-07-2021
+        "%d %b, %Y": 2,                    # 20 jul, 2021
+        "%A, %d. %B %Y": 8,                # Tirsdag, 20. juli 2021
+        "%d/%b/%Y": 2,                     # 20/jul/2021
+        "%A, %d-%b-%y": 2,                 # Tirsdag, 20-jul-21
+        "%A, %d. %B '%y": 5,               # Tirsdag, 20. juli '21
+        "%d-%m-%y": 8,                     # 20-07-21
+        "%Y": 20,                           # 2021 
+        "%A": 20,                           # Mandag
+        "%B": 20,                           # Juli
+    }
 
     return date_formats
 
-def format_dates(date_list, date_formats):
+def define_specific_dates():
     '''
-    Format dates randomly using a variety of date_formats. 
-    Ensures that all formats are used equally often.
-
-    Args:
-        date_list (list): list of dates
-        date_formats (list): list of date formats
-
-    Returns:
-        all_formatted_dates (list): list of formatted dates
+    Specifiy some specific date formats
     '''
+    set_formats_dict = {
+        "i morgen": 5,
+        "imorgen": 2,
+        "igår": 2,
+        "i går": 5,
+        "i dag": 5,
+        "idag": 2,
+        "næste uge": 2,
+        "næste måned": 2,
+        "næste år": 2,
+        "overmorgen": 3,
+        "sidste uge": 2,
+        "sidste måned": 2,
+        "sidste år": 2,
+    }
 
-    all_formatted_dates = []
-    
+    periods_dict = {
+        "en måned": 5,
+        "to måneder": 2,
+        "9 måneder": 2,
+        "elleve måneder": 2,
+        "en uge": 2,
+        "fire uger": 2,
+        "fem-seks uger": 2,
+        "18 uger": 2,
+        "1910'erne": 2,
+        "firserne": 2,
+        "90'erne": 2,
+        "1950'erne": 2,
+        "et år": 5,
+        "15 år": 2,
+        "3 år": 2,
+        "syv år": 2,
+        "ni år": 2,
+        "10-årig": 2,
+        "tolvårig": 1,
+        "toårig": 1,
+        "femårig": 1,
+        "halvtredsårig": 1,
+        "8-11-årige": 1,
+        "+18 år": 1,
+        "+16 år": 1,
+    }
+
+    # combine dicts 
+    specific_formats = {**set_formats_dict, **periods_dict}
+
+    # make into a list (where key is repeated n times for n values)
+    all_specific_formats = [key for key, value in specific_formats.items() for _ in range(value)]
+
+    return all_specific_formats
+
+def format_dates():
+    '''
+    Format dates randomly using a variety of date_formats.
+    '''
+    # generate a list of dates
+    date_formats = define_date_formats()
+
+    # compute length of ents 
+    num_ents = sum(date_formats.values())
+
+    # generate dates 
+    dates = generate_dates(n_dates=num_ents)
+
+    # make into a list (where key is repeated n times for n values)
+    all_formats = [key for key, value in date_formats.items() for _ in range(value)]
+
+    formatted_dates = []
+
     # set locale to danish to get danish month names
     locale.setlocale(locale.LC_TIME, "da_DK.utf-8")
 
-    # dict for keeping track of how many times each format has been used
-    format_count = {format_str: 0 for format_str in date_formats}
+    for i, date in enumerate(dates):
+        date_obj = datetime.strptime(date, "%Y-%m-%d")
 
-    for date_str in date_list:
-            date_obj = datetime.strptime(date_str, "%Y-%m-%d")
+        # format the date
+        formatted_date = date_obj.strftime(all_formats[i])
 
-            # Create a copy of date_formats, shuffle it using NumPy to randomize format selection
-            shuffled_formats = date_formats.copy()
-            np.random.shuffle(shuffled_formats)
+        formatted_dates.append(formatted_date)
 
-            selected_formats = []
+    return formatted_dates
 
-            # Select the first two formats that have the lowest usage count
-            for format_str in shuffled_formats:
-                if len(selected_formats) == 2:
-                    break
-                if format_count[format_str] == min(format_count.values()):
-                    selected_formats.append(format_str)
-                    format_count[format_str] += 1
-
-            # Format the date using the selected formats and append to the list
-            formatted_dates = [date_obj.strftime(format_str) for format_str in selected_formats]
-
-            all_formatted_dates.extend(formatted_dates)
-
-    return all_formatted_dates, format_count
-
-def sample_dates_favor_recent(date_list, num_samples, cutoff=2000, ratio=(1, 0.25)):
-    '''
-    Sample dates from a list of dates, favouring recent dates above cutoff value. 
-
-    Args:
-        date_list (list): list of dates
-        num_samples (int): number of samples to draw
-        cutoff (int): year cutoff for favouring recent dates
-        ratio (tuple): ratio of recent dates to older dates
-
-    Returns:
-        sampled_dates (list): list of sampled dates
-    '''
-
-    # make str dates into date time objects only to define weights
-    date_objects = [datetime.strptime(date_str, "%Y-%m-%d") for date_str in date_list]
-
-    # define weights (favour recent dates above 2000)
-    weights = np.where(np.array([date.year for date in date_objects]) >= cutoff, ratio[0], ratio[1])
-
-    # sample with weights
-    sampled_indices = np.random.choice(len(date_list), num_samples, p=weights / np.sum(weights))
-
-    # extract sampled dates from sampled indices
-    sampled_dates = [date_list[i] for i in sampled_indices]
-
-    return sampled_dates
-
-def main():
-    # set seed
+def main(): 
     np.random.seed(1209)
 
     # define paths
     path = pathlib.Path(__file__)
     data_path = path.parents[2] / "data"
 
-    # generate a list of dates
-    dates = generate_dates()
+    # add specific dates
+    specific_dates = define_specific_dates()
 
-    # select a random subset of dates, favouring dates closer to the present
-    dates_subset = sample_dates_favor_recent(dates, 300)
+    # format dates
+    formatted_dates = format_dates()
 
-    # define a list of different date formats
-    date_formats = define_date_formats()
-
-    # generate balanced formats
-    formatted_dates, format_count = format_dates(dates_subset, date_formats)
+    # combine lists
+    all_dates = formatted_dates + specific_dates
 
     # save to file
-    df = pd.DataFrame(formatted_dates, columns=["entity"])
+    df = pd.DataFrame(all_dates, columns=["entity"])
 
     # add weights and context col (to match other lists)
     df["weight"] = 1
@@ -150,6 +166,6 @@ def main():
 
     # save to file
     df.to_csv(data_path / "DATE.csv", index=False)
-
+    
 if __name__ == "__main__":
     main()
