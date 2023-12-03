@@ -96,7 +96,7 @@ def main():
     df = pd.DataFrame(formatted_numbers, columns=["entity"])
 
     # add weights col and context col (to match other lists)
-    df["weights"] = 1
+    df["weight"] = 1
     df["context"] = None
 
     # save to excel
