@@ -15,7 +15,7 @@ def money(data_path):
     (Note that we need to account for all kinds of weird formatting e.g., 1,000.00 kr and 200DKK, 200 DKK, 200 kr. 200kr.)
     '''
     # read in data
-    df = pd.read_excel(data_path / "CLEAN_LISTS.xlsx", sheet_name="MONEY")
+    df = pd.read_excel(data_path / "MANUAL_LISTS.xlsx", sheet_name="MONEY")
 
     # generate random numbers (100)
     small_numbers = np.random.randint(1, 350, size=100)

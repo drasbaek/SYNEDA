@@ -372,7 +372,7 @@ def main():
 
     # load famous names
     data_path = path.parents[2] / "data"
-    famous_names = pd.read_excel(data_path / "CLEAN_LISTS.xlsx", sheet_name="PERSON")
+    famous_names = pd.read_excel(data_path / "MANUAL_LISTS.xlsx", sheet_name="PERSON")
 
     # combine the two lists
     all_names.extend(famous_names["entity"].tolist())

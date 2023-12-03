@@ -13,7 +13,7 @@ def quantity(data_path):
     Generate quantities with different units 
     '''
     # load data
-    df = pd.read_excel(data_path / "CLEAN_LISTS.xlsx", sheet_name="QUANTITY")
+    df = pd.read_excel(data_path / "MANUAL_LISTS.xlsx", sheet_name="QUANTITY")
 
     # generate random numbers (100)
     small_numbers = np.random.randint(1, 350, size=150)
