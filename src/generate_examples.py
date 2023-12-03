@@ -55,32 +55,80 @@ def sample_number():
     # Use np.random.choice to sample based on the specified probabilities
     return np.random.choice(numbers, p=probabilities)
 
-def create_examples(df_all, n_examples):
-    """
-    Creates lists of entity examples (such as: [WORK OF ART: "One Dance", EVENT: "Folketingsvalget 2019"]) to generate synthetic text from.
 
-    Args:
-        df_all (pd.DataFrame): Dataframe containing all entities.
-        n_examples (int): Number of examples to create.
-        n_entities (list): Range describing number of entities to include in each example
-    
-    Returns:
-        examples (list): List of examples.
-    """
-    
+def shuffle_df(df):
+    '''
+    Shuffle a df, but ensure that two of the same "MULTIPLE" type are not next to each other.
+    '''
+    while True:
+        # Shuffle df
+        df = df.sample(frac=1).reset_index(drop=True)
+
+        # Get indices of MULTIPLE
+        multiple_indices = df[df["TYPE"] == "MULTIPLE"].index
+
+        # Check if any of the MULTIPLE indices are next to each other
+        if all(multiple_indices[i+1] - multiple_indices[i] != 1 for i in range(len(multiple_indices)-1)):
+            return df
+        else:
+            print("Shuffling again ...")
+
+
+def fix_multiples(df_subset, multiple):
+    '''
+    Fix multiples by replacing the multiple with the two entities. E.g., "Dan Jørgensen (S)" -> "Dan Jørgensen" and "(S)".
+    '''
+    # get multiple
+    df_subset_multiple = df_subset[df_subset["TYPE"] == "MULTIPLE"].iloc[0]
+
+    # get index of df_subset_multiple in multiple
+    index = multiple[multiple["entity"] == df_subset_multiple["entity"]].index[0]
+
+    # get the first and second entity in the multiple
+    entity_1 = multiple.iloc[index]["entity_1"]
+    entity_2 = multiple.iloc[index]["entity_2"]
+
+    # get the types
+    type_1 = multiple.iloc[index]["type_1"]
+    type_2 = multiple.iloc[index]["type_2"]
+
+    context = multiple.iloc[index]["context"]
+
+    # replace the multiple with the two entities
+    df_subset = df_subset[df_subset["TYPE"] != "MULTIPLE"]
+    row_1 = {"entity": entity_1, "TYPE": type_1, "context": context}
+    row_2 = {"entity": entity_2, "TYPE": type_2, "context": context}
+
+    # concat new rows to df_subset
+    df_subset = pd.concat([df_subset, pd.DataFrame([row_1, row_2])], ignore_index=True)   
+
+    return df_subset
+
+def create_examples(df_all, multiple): 
     # initialize list of examples
     examples = []
 
     # shuffle all rows in df_all
-    df_all = df_all.sample(frac=1, random_state=1209).reset_index(drop=True)
+    df_all = shuffle_df(df_all)
 
-    # create examples
-    for i in range(n_examples):
+    print("Creating examples ...")
+    while len(df_all) != 0:
         # sample number of entities
         n_entities = sample_number()
         
+        # check if we have enough entities left in df_all
+        if n_entities > len(df_all):
+            n_entities = len(df_all)
+        
         # subset df_all to only include n_entities
-        df_subset = df_all.sample(n_entities, replace=False).reset_index(drop=True)
+        df_subset = df_all.sample(n_entities, replace=False)
+
+        # drop subsetted entities from all df 
+        df_all = df_all.drop(df_subset.index)
+
+        # check if any of our entities are multiples
+        if "MULTIPLE" in df_subset["TYPE"].values:
+            df_subset = fix_multiples(df_subset, multiple)
 
         # create example
         example = []
@@ -95,7 +143,18 @@ def create_examples(df_all, n_examples):
 
     return examples
 
+def write_to_csv(examples, data_path):
+    '''
+    Write examples to csv file.
+    '''
+    # write to csv file - each example is a row
+    df = pd.DataFrame({"entities": examples})
+    print(df)
 
+    df.to_csv(data_path / "NER_EXAMPLES.csv", index=True)
+
+    print("Done writing to csv file.")
+    
 def main():
     # set seed
     np.random.seed(1209)
@@ -110,14 +169,10 @@ def main():
     # multiply rows by weight
     df = expand_data(df)
 
-    # save df to check 
-    df.to_csv(data_path / "test.csv", index=False)
-
     # create examples
-    examples = create_examples(df, n_examples=50)
+    examples = create_examples(df, multiple)
 
-    for i, example in enumerate(examples):
-        print(f"{i+1}. {example}")
+    write_to_csv(examples, data_path)
 
 if __name__ == "__main__":
     main()
