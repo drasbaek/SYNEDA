@@ -48,8 +48,8 @@ def preprocess_person_df(df:pd.DataFrame, remove_first_two_rows:bool=True):
     # copy df
     new_df = df.copy()
 
-    # capitalize the names
-    new_df["name"] = new_df["name"].str.capitalize()
+    # capitalize the names (but if it is a hyphenated name, capitalize both parts)
+    new_df["name"] = new_df["name"].str.title()
 
     return new_df
 
@@ -149,7 +149,6 @@ def sample_persons(men_df, women_df, last_names_df):
     sampled_men, sampled_women, sampled_last_names = name_lists 
 
     return sampled_men, sampled_women, sampled_last_names
-
 
 def get_first_names(sampled_men, sampled_women, n_entities=100):
     '''
@@ -264,7 +263,7 @@ def get_first_name_initial(sampled_men, sampled_women, n_entities=26):
     return first_name_initial, sampled_men_remaining, sampled_women_remaining
     
     
-def get_double_last_name(sampled_men, women_df, n_entities=76): 
+def get_double_last_name(sampled_men, sampled_women, sampled_last_names, n_entities=76): 
     '''
     Obtain entities that consist of a first and double last_name
     '''
@@ -273,7 +272,7 @@ def get_double_last_name(sampled_men, women_df, n_entities=76):
     women_first_names = np.random.choice(sampled_women, size=n_entities//2, replace=False)
 
     # sample 76 last names
-    last_names = np.random.choice(sampled_last_names, size=n_entities, replace=False)
+    last_names = np.random.choice(sampled_last_names, size=n_entities*2, replace=False)
 
     # obtain all names that have not been sampled
     sampled_men_remaining = [name for name in sampled_men if name not in men_first_names]
@@ -283,7 +282,17 @@ def get_double_last_name(sampled_men, women_df, n_entities=76):
     # put two last names together
     last_double = [last_names[i] + " " + last_names[i + 1] for i in range(0, len(last_names), 2) if i + 1 < len(last_names)]
 
-    return last_double, sampled_men_remaining, sampled_women_remaining, sampled_last_names_remaining
+    # combine the two lists
+    first_names = list(men_first_names) + list(women_first_names)
+
+    first_double_last_names = []
+
+    # combine the two ents into one 
+    for first_name, last_name in zip(first_names, last_double):
+        first_double_last_names.append(first_name + " " + last_name)
+
+    return first_double_last_names, sampled_men_remaining, sampled_women_remaining, sampled_last_names_remaining
+
 
 def get_first_name_initial_last(sampled_men, sampled_women, sampled_last_names, n_entities=50):
     '''
@@ -307,7 +316,7 @@ def get_first_name_initial_last(sampled_men, sampled_women, sampled_last_names, 
     uppercase_letters = list(string.ascii_uppercase)
 
     # sample 26 initials
-    initials = np.random.choice(uppercase_letters, size=n_entities, replace=False)
+    initials = np.random.choice(uppercase_letters, size=n_entities, replace=True)
 
     # add a dot at the end of each initial
     initials = [initial + "." for initial in initials]
@@ -318,20 +327,18 @@ def get_first_name_initial_last(sampled_men, sampled_women, sampled_last_names, 
     for first_name, initial, last_name in zip(first_names, initials, last_names):
         first_name_initial_last.append(first_name + " " + initial + " " + last_name)
 
-    return first_name_initial_last
+    return first_name_initial_last, sampled_men_remaining, sampled_women_remaining, sampled_last_names_remaining
 
-    
-    
 
 def main():
     # set seed
     np.random.seed(1209)
 
     path = pathlib.Path(__file__)
-    data_path = path.parents[2] / "lists" / "names" 
+    names_path = path.parents[2] / "lists" / "names" 
 
     # load the three lists
-    men_df, women_df, last_names_df = load_persons(data_path)
+    men_df, women_df, last_names_df = load_persons(names_path)
 
     # sample persons
     sampled_men, sampled_women, sampled_last_names = sample_persons(men_df, women_df, last_names_df)
@@ -352,11 +359,33 @@ def main():
     first_name_initial, sampled_men_remaining, sampled_women_remaining = get_first_name_initial(sampled_men_remaining, sampled_women_remaining)
 
     # sample first + last + last
+    double_last_names, sampled_men_remaining, sampled_women_remaining, sampled_last_names_remaining = get_double_last_name(sampled_men_remaining, sampled_women_remaining, sampled_last_names)
     
     # sample first + initial + last
-    first_name_initial_last, sampled_men_remaining, sampled_women_remainingget_first_name_initial_last(sampled_men_remaining, sampled_women_remaining, sampled_last_names_remaining)
-    print(first_name_initial_last)
+    first_name_initial_last, sampled_men_remaining, sampled_women_remaining, sampled_last_names_remaining = get_first_name_initial_last(sampled_men_remaining, sampled_women_remaining, sampled_last_names_remaining)
+    
+    # combine all lists
+    all_names = []
 
+    for lst in [first_names, last_names, first_last_names, double_first_names, double_last_names, first_name_initial, first_name_initial_last]:
+        all_names.extend(lst)
+
+    # load famous names
+    data_path = path.parents[2] / "data"
+    famous_names = pd.read_excel(data_path / "CLEAN_LISTS.xlsx", sheet_name="PERSON")
+
+    # combine the two lists
+    all_names.extend(famous_names["entity"].tolist())
+
+    # make all names into a dataframe
+    df = pd.DataFrame(all_names, columns=["entity"])
+
+    # add weights and context col (to match other lists)
+    df["weight"] = 1
+    df["context"] = None
+
+    # save to file
+    df.to_csv(data_path / "PERSON.csv", index=False)
 
 
 if __name__ == '__main__':
