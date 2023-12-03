@@ -1,0 +1,3585 @@
+entity,context,TYPE
+Irakkrigen,,EVENT
+krigen i Afghanistan,,EVENT
+Kosovokrigen,,EVENT
+Golfkrigen,,EVENT
+Første Verdenskrig,,EVENT
+1. Verdenskrig,,EVENT
+1.Verdenskrig,,EVENT
+Anden Verdenskrig,,EVENT
+2. Verdenskrig,,EVENT
+2.Verdenskrig,,EVENT
+Den Kolde Krig,,EVENT
+Koreakrigen,,EVENT
+Napoleonskrigene,,EVENT
+1. Slesviske krig,,EVENT
+2. Slesviske krig,,EVENT
+Trediveårskrigen,,EVENT
+Slaget ved Dybbøl,,EVENT
+Vietnamkrigen,,EVENT
+Krystalnatten,,EVENT
+9/11,terror attack,EVENT
+11. september,terror attack,EVENT
+terrorangrebet den 11. september 2001,,EVENT
+finanskrisen,,EVENT
+Human Genome Projektet,,EVENT
+Sovjetunionens sammenbrud,,EVENT
+Oklahoma City-Bombningen,,EVENT
+coronapandemien,,EVENT
+cornonaviruspandemien,,EVENT
+Bhopaulykken,,EVENT
+Tjernobylulykken,,EVENT
+OL i Rio,,EVENT
+OL 2016,,EVENT
+De olympiske lege i Beijing,,EVENT
+VM i Qatar,,EVENT
+2000 Sydney OL,,EVENT
+Wimbledon 2012,,EVENT
+"VM i ishockey, Herning og København",,EVENT
+Ryder Cup,,EVENT
+Super Bowl XLV,,EVENT
+Touren 2022,tour de france,EVENT
+Cyklonen Bhola,,EVENT
+Tsunamien i Indonesien,,EVENT
+Cyklonen Nagir,,EVENT
+Orkanen Sandy,,EVENT
+Orkanen Igor,,EVENT
+Olga,the storm,EVENT
+udbytteskandalen,,EVENT
+PFA-sagen,,EVENT
+Hafnia-sagen,,EVENT
+Folketingsvalget 2019,,EVENT
+H.K.H. Prins Christians 18-års fødselsdag,,EVENT
+nytårsaften,,EVENT
+nytårsaften,,EVENT
+nytårsaften,,EVENT
+nytårsaften,,EVENT
+nytårsaften,,EVENT
+nytår,,EVENT
+nytår,,EVENT
+nytår,,EVENT
+nytår,,EVENT
+nytår,,EVENT
+julefrokosten,,EVENT
+juleaften,,EVENT
+juleaften,,EVENT
+juleaften,,EVENT
+juleaften,,EVENT
+juleaften,,EVENT
+Brexit,,EVENT
+Aalborg Karneval,,EVENT
+Roskilde Festival,,EVENT
+Smukfest,,EVENT
+Grimfest,,EVENT
+EM-slutrunde,,EVENT
+VM-slutrunden,,EVENT
+Klimatopmødet COP26,,EVENT
+klimatopmødet COP24,,EVENT
+COP20,,EVENT
+X Games,,EVENT
+Vildbjerg Cup,,EVENT
+Fanø SummerCup,,EVENT
+Copenhagen Pride,,EVENT
+CPH halvmarathon,,EVENT
+Tivolis Juleshow,,EVENT
+jul,,EVENT
+Storebæltsbroen,,FACILITY
+Storebæltsbroen,,FACILITY
+Storebæltsbroen,,FACILITY
+Storebæltsbroen,,FACILITY
+Storebæltsbroen,,FACILITY
+Lillebæltsbroen,,FACILITY
+Studstrupværket,,FACILITY
+Lighthouse,,FACILITY
+Københavns Rådhus,,FACILITY
+Aarhus Domkirke,,FACILITY
+Christiansborg,,FACILITY
+Nikolaj Kirke,,FACILITY
+Helligåndskirken,,FACILITY
+Roskilde Domkirke,,FACILITY
+Rosenborg Slot,,FACILITY
+Magasin du Nord,,FACILITY
+Pasteurs Tårn,,FACILITY
+Herlev Hospital,,FACILITY
+Bohrs Tårn,,FACILITY
+Domus Vista,apartment complex,FACILITY
+Øresundsbroerne,,FACILITY
+Svendborgsundbroen,,FACILITY
+Funder Ådalsbroen,,FACILITY
+Limfjordsbroen,,FACILITY
+Næstved Svingbro,,FACILITY
+Den gamle Lillebæltsbro,,FACILITY
+Silkeborgtunnellen,,FACILITY
+Øresundstunnelen,,FACILITY
+E45,highway,FACILITY
+E39,highway,FACILITY
+Frederikshavnmotorvejen,,FACILITY
+Nordjyske Motorvej,,FACILITY
+E47,highway,FACILITY
+Motorring 4,,FACILITY
+Aarhus Lufthavn,,FACILITY
+Københavns Lufthavn,,FACILITY
+CPH lufthavn,,FACILITY
+Aalborg lufthavn,,FACILITY
+Billund lufthavn,,FACILITY
+BLL,airport,FACILITY
+Målev flyveplads,,FACILITY
+Almegårds Kaserne,,FACILITY
+Garderkasernen,,FACILITY
+Nyholm,,FACILITY
+Frøslevlejren,,FACILITY
+Stevnsfortet,,FACILITY
+Viborg Kaserne,,FACILITY
+Ribe Domkirke,,FACILITY
+Kastellet,,FACILITY
+Copenhagen Opera House,,FACILITY
+Grundtvigs Kirke,,FACILITY
+Aarhus hovedbanegård,,FACILITY
+Musikhuset,,FACILITY
+Vor Frue Kirke - Københavns Domkirke,,FACILITY
+den Sorte Diamant,,FACILITY
+Utzon Center,,FACILITY
+Operaen,,FACILITY
+Bella Sky Hotel,,FACILITY
+LEGO House,,FACILITY
+Dokk1,,FACILITY
+Skovtårnet,,FACILITY
+Lærkevej,,FACILITY
+Lærkevej 13,,FACILITY
+Østergade,,FACILITY
+Østergade 76,,FACILITY
+Birkevej,,FACILITY
+Vibevej,,FACILITY
+Vinkelvej,,FACILITY
+Industrivej,,FACILITY
+Vestergade 23,,FACILITY
+Hans Hartvig Seedorffs Stræde,,FACILITY
+Georg Walther Andersens Vænge,,FACILITY
+Flemming Bamse Jørgensens Plads,,FACILITY
+Georg Walther Andersens Vænge,,FACILITY
+Morten Olsens Allé,,FACILITY
+Danmark,,GPE
+Danmark,,GPE
+Danmark,,GPE
+Danmark,,GPE
+Danmark,,GPE
+Danmark,,GPE
+Danmark,,GPE
+Danmark,,GPE
+Danmark,,GPE
+Danmark,,GPE
+Danmark,,GPE
+Danmark,,GPE
+Danmark,,GPE
+Danmark,,GPE
+Danmark,,GPE
+Danmark,,GPE
+Danmark,,GPE
+Danmark,,GPE
+Danmark,,GPE
+Danmark,,GPE
+Danmark,,GPE
+Danmark,,GPE
+Danmark,,GPE
+Danmark,,GPE
+Danmark,,GPE
+Danmark,,GPE
+Danmark,,GPE
+Danmark,,GPE
+Danmark,,GPE
+Danmark,,GPE
+DK,country,GPE
+DK,country,GPE
+DK,country,GPE
+DK,country,GPE
+DK,country,GPE
+Denmark,,GPE
+Norge,,GPE
+Norge,,GPE
+Norge,,GPE
+Norge,,GPE
+Norge,,GPE
+Sverige,,GPE
+Sverige,,GPE
+Sverige,,GPE
+Sverige,,GPE
+Sverige,,GPE
+Finland,,GPE
+Finland,,GPE
+Finland,,GPE
+Finland,,GPE
+Finland,,GPE
+Nederlandene,,GPE
+Nederlandene,,GPE
+Nederlandene,,GPE
+Holland,,GPE
+Holland,,GPE
+Holland,,GPE
+Frankrig,,GPE
+Frankrig,,GPE
+Frankrig,,GPE
+Irland,,GPE
+Spanien,,GPE
+Spanien,,GPE
+Spanien,,GPE
+Portugal,,GPE
+Italien,,GPE
+Italien,,GPE
+Italien,,GPE
+Tyskland,,GPE
+Tyskland,,GPE
+Tyskland,,GPE
+Belgien,,GPE
+Østrig,,GPE
+Slovenien,,GPE
+Kroatien,,GPE
+Grækenland,,GPE
+Rumænien,,GPE
+Bulgarien,,GPE
+Albanien,,GPE
+Malta,,GPE
+Estland,,GPE
+Letland,,GPE
+Lithauen,,GPE
+Polen,,GPE
+Tjekkiet,,GPE
+Schweiz,,GPE
+Cypern,,GPE
+Island,,GPE
+Grønland,,GPE
+Færøerne,,GPE
+Serbien,,GPE
+Luxembourg,,GPE
+Liechtenstein,,GPE
+Moldova,,GPE
+Montenegro,,GPE
+Nordmakedonien,,GPE
+Tyrkiet,,GPE
+Ukraine,,GPE
+Ungarn,,GPE
+Paris,,GPE
+Madrid,,GPE
+Lissabon,,GPE
+Bern,,GPE
+Berlin,,GPE
+Wien,,GPE
+Prag,,GPE
+Amsterdam,,GPE
+Dublin,,GPE
+Oslo,,GPE
+Stockholm,,GPE
+Talinn,,GPE
+Riga,,GPE
+Helsinki,,GPE
+Zagreb,,GPE
+Bratislava,,GPE
+Bruxelles,,GPE
+Rom,,GPE
+Athen,,GPE
+Bukarest,,GPE
+Budapest,,GPE
+Warszawa,,GPE
+Beograd,,GPE
+Sofia,,GPE
+Reykjavik,,GPE
+Nuuk,,GPE
+Indien,,GPE
+Pakistan,,GPE
+Iran,,GPE
+Sydafrika,,GPE
+USA,,GPE
+USA,,GPE
+USA,,GPE
+Kina,,GPE
+Kina,,GPE
+Kina,,GPE
+Canada,,GPE
+Rusland,,GPE
+Rusland,,GPE
+Rusland,,GPE
+Australien,,GPE
+Argentina,,GPE
+Peru,,GPE
+Brasilien,,GPE
+Sydafrika,,GPE
+Columbia,,GPE
+Etiopien,,GPE
+Bolivia,,GPE
+Egypten,,GPE
+Venezula,,GPE
+Kenya,,GPE
+Vietnam,,GPE
+Cuba,,GPE
+Jordan,,GPE
+Japan,,GPE
+Sydkorea,,GPE
+San Marino,,GPE
+England,,GPE
+Storbritannien,,GPE
+Fillipinerne,,GPE
+Malaysia,,GPE
+Irak,,GPE
+Usbekistan,,GPE
+Ghana,,GPE
+Syrien,,GPE
+Nepal,,GPE
+Bangladesh,,GPE
+Tunesien,,GPE
+Nicaragua,,GPE
+Nordkorea,,GPE
+Malawi,,GPE
+Aserbajdsjan,,GPE
+Afghanistan,,GPE
+Hviderusland,,GPE
+Uruguay,,GPE
+Senegal,,GPE
+Haiti,,GPE
+Rwanda,,GPE
+El Salvador,,GPE
+Israel,,GPE
+Qatar,,GPE
+Singapore,,GPE
+Honduras,,GPE
+Uganda,,GPE
+New Zealand,,GPE
+Elfenbenskysten,,GPE
+Zimbabwe,,GPE
+Turkmenistan,,GPE
+Yemen,,GPE
+Botswana,,GPE
+Somalia,,GPE
+Mozambique,,GPE
+Libyen,,GPE
+Sudan,,GPE
+Mexico,,GPE
+Saudi-Arabien,,GPE
+Bergen,,GPE
+München,,GPE
+Köln,,GPE
+Linköping,,GPE
+Thorshavn,,GPE
+Tórshavn,,GPE
+Hamborg,,GPE
+Hamburg,,GPE
+Dortmund,,GPE
+Malmø,,GPE
+Malmö,,GPE
+Frankfurt,,GPE
+Leeds,,GPE
+Glasgow,,GPE
+Liverpool,,GPE
+London,,GPE
+Manchester,,GPE
+New York,,GPE
+København,,GPE
+København,,GPE
+København,,GPE
+København,,GPE
+København,,GPE
+København,,GPE
+København,,GPE
+København,,GPE
+København,,GPE
+København,,GPE
+Copenhagen,,GPE
+Copenhagen,,GPE
+Copenhagen,,GPE
+Aarhus,,GPE
+Aarhus,,GPE
+Aarhus,,GPE
+Aarhus,,GPE
+Aarhus,,GPE
+Aarhus,,GPE
+Aarhus,,GPE
+Aarhus,,GPE
+Aarhus,,GPE
+Aarhus,,GPE
+Århus,,GPE
+Århus,,GPE
+Århus,,GPE
+Kbh,,GPE
+Kbh,,GPE
+Kbh,,GPE
+Kbh,,GPE
+Kbh,,GPE
+KBH,,GPE
+CPH,,GPE
+Cph,,GPE
+Odense,,GPE
+Odense,,GPE
+Odense,,GPE
+Odense,,GPE
+Odense,,GPE
+Odense,,GPE
+Odense,,GPE
+Odense,,GPE
+Odense,,GPE
+Odense,,GPE
+Aalborg,,GPE
+Aalborg,,GPE
+Aalborg,,GPE
+Aalborg,,GPE
+Aalborg,,GPE
+Aalborg,,GPE
+Aalborg,,GPE
+Aalborg,,GPE
+Aalborg,,GPE
+Aalborg,,GPE
+Esbjerg,,GPE
+Esbjerg,,GPE
+Esbjerg,,GPE
+Esbjerg,,GPE
+Esbjerg,,GPE
+Esbjerg,,GPE
+Esbjerg,,GPE
+Esbjerg,,GPE
+Esbjerg,,GPE
+Esbjerg,,GPE
+Randers,,GPE
+Randers,,GPE
+Randers,,GPE
+Randers,,GPE
+Randers,,GPE
+Kolding,,GPE
+Kolding,,GPE
+Kolding,,GPE
+Kolding,,GPE
+Kolding,,GPE
+Horsens,,GPE
+Horsens,,GPE
+Horsens,,GPE
+Horsens,,GPE
+Horsens,,GPE
+Vejle,,GPE
+Vejle,,GPE
+Vejle,,GPE
+Vejle,,GPE
+Vejle,,GPE
+Roskilde,,GPE
+Roskilde,,GPE
+Roskilde,,GPE
+Roskilde,,GPE
+Roskilde,,GPE
+Varde,,GPE
+Skjern,,GPE
+Aabenraa,,GPE
+Albertslund,,GPE
+Agerbæk,,GPE
+Allerød,,GPE
+Auning,,GPE
+Aars,,GPE
+Bagsværd,,GPE
+Ballerup,,GPE
+Beder,,GPE
+Blåvand,,GPE
+Brøndby,,GPE
+Brønderslev,,GPE
+Charlottenlund,,GPE
+Christiansfeld,,GPE
+Dragør,,GPE
+Dronninglund,,GPE
+Ebeltoft,,GPE
+Egå,,GPE
+Esbjerg,,GPE
+Espergærde,,GPE
+Faaborg,,GPE
+Fanø,,GPE
+Farsø,,GPE
+Frederiksberg,,GPE
+Frederikshavn,,GPE
+Galten,,GPE
+Gentofte,,GPE
+Gilleleje,,GPE
+Gråsten,,GPE
+Grenaa,,GPE
+Greve,,GPE
+Haderslev,,GPE
+Hadsten,,GPE
+Hammel,,GPE
+Hasle,,GPE
+Hasselager,,GPE
+Herning,,GPE
+Hirtshals,,GPE
+Hillerød,,GPE
+Helsingør,,GPE
+Helsinge,,GPE
+Hjortshøj,,GPE
+Hobro,,GPE
+Holbæk,,GPE
+Horsens,,GPE
+Hornslet,,GPE
+Hvide Sande,,GPE
+Hvidovre,,GPE
+Høje Taastrup,,GPE
+Hurup Thy,,GPE
+Holte,,GPE
+Jelling,,GPE
+Kalundborg,,GPE
+Kastrup,,GPE
+Kerteminde,,GPE
+Kolding,,GPE
+Køge,,GPE
+Knebel,,GPE
+Klampenborg,,GPE
+Kirke Såby,,GPE
+Kirke Hyllinge,,GPE
+Lemvig,,GPE
+Lille Skensved,,GPE
+Lundby,,GPE
+Malling,,GPE
+Middelfart,,GPE
+Maribo,,GPE
+Munkebo,,GPE
+Nakskov,,GPE
+Nexø,,GPE
+Nordhavn,,GPE
+Næstved,,GPE
+Nibe,,GPE
+Odder,,GPE
+Oksbøl,,GPE
+Otterup,,GPE
+Padborg,,GPE
+Præstø,,GPE
+Ribe,,GPE
+Risskov,,GPE
+Roskilde,,GPE
+Rudkøbing,,GPE
+Rønde,,GPE
+Rødovre,,GPE
+Rødekro,,GPE
+Ry,,GPE
+Ringe,,GPE
+Ringkøbing,,GPE
+Sabro,,GPE
+Sakskøbing,,GPE
+Silkeborg,,GPE
+Samsø,,GPE
+Sindal,,GPE
+Skagen,,GPE
+Skals,,GPE
+Skanderborg,,GPE
+Skive,,GPE
+Skovlunde,,GPE
+Slagelse,,GPE
+Solbjerg,,GPE
+Sorø,,GPE
+Sunds,,GPE
+Sønderborg,,GPE
+Struer,,GPE
+Store Heddinge,,GPE
+Solrød,,GPE
+Sorø,,GPE
+Suldrup,,GPE
+Sydals,,GPE
+Taastrup,,GPE
+Tarm,,GPE
+Tilst,,GPE
+Thyborøn,,GPE
+Tønder,,GPE
+Tørring,,GPE
+Toftlund,,GPE
+Thisted,,GPE
+Tappernøje,,GPE
+Ulfborg,,GPE
+Valby,,GPE
+Vallensbæk,,GPE
+Vanløse,,GPE
+Virum,,GPE
+Viby,,GPE
+Ølstykke,,GPE
+Ørsted ,,GPE
+kinesisk,,LANGUAGE
+kinesisk,,LANGUAGE
+kinesisk,,LANGUAGE
+mandarin,,LANGUAGE
+mandarin,,LANGUAGE
+mandarin,,LANGUAGE
+spansk,,LANGUAGE
+spansk,,LANGUAGE
+spansk,,LANGUAGE
+spansk,,LANGUAGE
+spansk,,LANGUAGE
+engelsk,,LANGUAGE
+engelsk,,LANGUAGE
+engelsk,,LANGUAGE
+engelsk,,LANGUAGE
+engelsk,,LANGUAGE
+engelsk,,LANGUAGE
+engelsk,,LANGUAGE
+engelsk,,LANGUAGE
+engelsk,,LANGUAGE
+engelsk,,LANGUAGE
+arabisk,,LANGUAGE
+arabisk,,LANGUAGE
+arabisk,,LANGUAGE
+arabisk,,LANGUAGE
+arabisk,,LANGUAGE
+bengali,,LANGUAGE
+hindi,,LANGUAGE
+hindi,,LANGUAGE
+hindi,,LANGUAGE
+hindi,,LANGUAGE
+hindi,,LANGUAGE
+russisk,,LANGUAGE
+russisk,,LANGUAGE
+russisk,,LANGUAGE
+portugisisk,,LANGUAGE
+japansk,,LANGUAGE
+fransk,,LANGUAGE
+fransk,,LANGUAGE
+fransk,,LANGUAGE
+fransk,,LANGUAGE
+fransk,,LANGUAGE
+tysk,,LANGUAGE
+tysk,,LANGUAGE
+tysk,,LANGUAGE
+tysk,,LANGUAGE
+tysk,,LANGUAGE
+javanesisk,,LANGUAGE
+koreansk,,LANGUAGE
+italiensk,,LANGUAGE
+italiensk,,LANGUAGE
+italiensk,,LANGUAGE
+italiensk,,LANGUAGE
+italiensk,,LANGUAGE
+tyrkisk,,LANGUAGE
+vietnamesisk,,LANGUAGE
+indisk,,LANGUAGE
+indisk,,LANGUAGE
+indisk,,LANGUAGE
+cantonesisk,,LANGUAGE
+marathi,,LANGUAGE
+tamil,,LANGUAGE
+urdu,,LANGUAGE
+polsk,,LANGUAGE
+ukrainsk,,LANGUAGE
+farsi,,LANGUAGE
+persisk,,LANGUAGE
+panjabi,,LANGUAGE
+rumænsk,,LANGUAGE
+bhojpuri,,LANGUAGE
+azerbaijani,,LANGUAGE
+maithili,,LANGUAGE
+hausa,,LANGUAGE
+burmesisk,,LANGUAGE
+thai,,LANGUAGE
+hollandsk,,LANGUAGE
+yoruba,,LANGUAGE
+bulgarsk,,LANGUAGE
+dansk,,LANGUAGE
+dansk,,LANGUAGE
+dansk,,LANGUAGE
+dansk,,LANGUAGE
+dansk,,LANGUAGE
+dansk,,LANGUAGE
+dansk,,LANGUAGE
+dansk,,LANGUAGE
+dansk,,LANGUAGE
+dansk,,LANGUAGE
+dansk,,LANGUAGE
+dansk,,LANGUAGE
+dansk,,LANGUAGE
+dansk,,LANGUAGE
+dansk,,LANGUAGE
+dansk,,LANGUAGE
+dansk,,LANGUAGE
+dansk,,LANGUAGE
+dansk,,LANGUAGE
+dansk,,LANGUAGE
+dansk,,LANGUAGE
+dansk,,LANGUAGE
+dansk,,LANGUAGE
+dansk,,LANGUAGE
+dansk,,LANGUAGE
+dansk,,LANGUAGE
+dansk,,LANGUAGE
+dansk,,LANGUAGE
+dansk,,LANGUAGE
+dansk,,LANGUAGE
+estisk,,LANGUAGE
+finsk,,LANGUAGE
+græsk,,LANGUAGE
+irsk,,LANGUAGE
+kroatisk,,LANGUAGE
+lettisk,,LANGUAGE
+litauisk,,LANGUAGE
+maltesisk,,LANGUAGE
+nederlandsk,,LANGUAGE
+slovakisk,,LANGUAGE
+slovensk,,LANGUAGE
+svensk,,LANGUAGE
+svensk,,LANGUAGE
+svensk,,LANGUAGE
+svensk,,LANGUAGE
+svensk,,LANGUAGE
+tjekkisk,,LANGUAGE
+ungarnsk,,LANGUAGE
+catalansk,,LANGUAGE
+norsk,,LANGUAGE
+færøsk,,LANGUAGE
+islandsk,,LANGUAGE
+swahili,,LANGUAGE
+afrikaans,,LANGUAGE
+oromo,,LANGUAGE
+somali,,LANGUAGE
+hebraisk,,LANGUAGE
+english,,LANGUAGE
+deutsch,,LANGUAGE
+danish,,LANGUAGE
+german,,LANGUAGE
+suomi,,LANGUAGE
+español,,LANGUAGE
+svenska,,LANGUAGE
+nynorsk,,LANGUAGE
+bokmål,,LANGUAGE
+français,,LANGUAGE
+"A-skattelåneloven § 2§ 1, 1. pkt.",,LAW
+opkrævningslovens § 11,,LAW
+straffelovens § 289,,LAW
+Arveloven,,LAW
+"§ 1, stk. 2",,LAW
+"værgemålslovens § 1, stk. 1",,LAW
+værgemålslovens § 5,,LAW
+"§ 92, stk. 1, i lov om skifte af dødsboer",,LAW
+lov om skifte af dødsboer,,LAW
+Innovationsloven,,LAW
+§§ 6-9,,LAW
+§ 5 i økologiloven,,LAW
+"retsplejelovens § 834, stk. 1, nr. 2 ",,LAW
+§ 9 i lov nr. 395 ,,LAW
+BEK nr 1332,,LAW
+"Lov om ændring af lov om midlertidig opholdstilladelse til personer, der i Afghanistan har bistået danske myndigheder m.v.",,LAW
+kildeskatteloven,,LAW
+ejendomsvurderingsloven,,LAW
+LOV nr 1430,,LAW
+Årsregnskabsloven,,LAW
+§ 143 i selskabsloven,,LAW
+Havneloven,,LAW
+straffelovens §§ 152 - 152 e,,LAW
+Hesteloven,,LAW
+Høstpantebrevsloven,,LAW
+Barselsloven,,LAW
+Forordning om stavnsbånd,,LAW
+Lov om Værnepligt af 1912,,LAW
+"Danske lov af 1683, Bog 1",,LAW
+Norske Lov,,LAW
+Grundloven,,LAW
+Novemberforfatningen,,LAW
+Kongeloven,,LAW
+Tvindloven,,LAW
+retsplejelovens § 56 stk,,LAW
+§ 77,,LAW
+grundlovens paragraffer om menneskerettigheder (§§ 71-80),,LAW
+Natur- og Miljøklagenævnsloven,,LAW
+"§ 5, stk. 1, nr. 2",,LAW
+naturbeskyttelseslovens § 60 a,,LAW
+naturbeskyttelseslovens §§ 19 d-19 f.,,LAW
+NIS-loven,,LAW
+§ 1 i lov nr. 667,,LAW
+Navneloven,,LAW
+"§ 11, stk. 1, nr. 4.",,LAW
+Lov om ophørsstøtte til jordbrugere,,LAW
+§§ 4-7,,LAW
+Lov om visse landdistriktsrelaterede tilskudsordninger m.v.,,LAW
+Lukkeloven,,LAW
+Ligningsloven,,LAW
+"ligningslovens § 16 H, stk. 6",,LAW
+kildeskattelovens §§ 1,,LAW
+Kvælstofoxiderafgiftsloven,,LAW
+Komitéloven,,LAW
+Jagt og vildtforvaltningsloven,,LAW
+Inspire-loven,,LAW
+Bill of Rights,,LAW
+Artikel fire i USA's forfatning,,LAW
+Corwintilføjelsen,,LAW
+Ligeretstilføjelsen,,LAW
+Jim Crow-lovene,,LAW
+2019/944/EU,,LAW
+Direktiv om fælles regler for det indre marked for elektricitet,,LAW
+2015/121/EU,,LAW
+CO2-kvoteloven,,LAW
+lovbekendtgørelse nr. 1222,,LAW
+Stillehavet,,LOCATION
+det Indiske Ocean,,LOCATION
+Atlanterhavet,,LOCATION
+det Arktiske Ocean,,LOCATION
+Ishavet,,LOCATION
+det Sydlige Ishav,,LOCATION
+det Kaspiske Hav,,LOCATION
+Victoria Søen,,LOCATION
+Arresø,,LOCATION
+Esrum Sø,,LOCATION
+Stadil Fjord,,LOCATION
+Vejle Fjord,,LOCATION
+Klosterheden,,LOCATION
+Rold Skov,,LOCATION
+Gribskov,,LOCATION
+Ejer Bavnehøj,,LOCATION
+Himmelbjerget,,LOCATION
+Gudenåen,,LOCATION
+Varde Å,,LOCATION
+Skjern Å,,LOCATION
+Jylland,,LOCATION
+Jylland,,LOCATION
+Jylland,,LOCATION
+Jylland,,LOCATION
+Jylland,,LOCATION
+Jylland,,LOCATION
+Jylland,,LOCATION
+Jylland,,LOCATION
+Jylland,,LOCATION
+Jylland,,LOCATION
+Sjælland,,LOCATION
+Sjælland,,LOCATION
+Sjælland,,LOCATION
+Sjælland,,LOCATION
+Sjælland,,LOCATION
+Sjælland,,LOCATION
+Sjælland,,LOCATION
+Sjælland,,LOCATION
+Sjælland,,LOCATION
+Sjælland,,LOCATION
+Fyn,,LOCATION
+Fyn,,LOCATION
+Fyn,,LOCATION
+Fyn,,LOCATION
+Fyn,,LOCATION
+Fyn,,LOCATION
+Fyn,,LOCATION
+Fyn,,LOCATION
+Fyn,,LOCATION
+Fyn,,LOCATION
+Lolland,,LOCATION
+Lolland,,LOCATION
+Lolland,,LOCATION
+Lolland,,LOCATION
+Lolland,,LOCATION
+Lolland,,LOCATION
+Lolland,,LOCATION
+Lolland,,LOCATION
+Lolland,,LOCATION
+Lolland,,LOCATION
+Bornholm,,LOCATION
+Bornholm,,LOCATION
+Bornholm,,LOCATION
+Bornholm,,LOCATION
+Bornholm,,LOCATION
+Falster,,LOCATION
+Falster,,LOCATION
+Falster,,LOCATION
+Falster,,LOCATION
+Falster,,LOCATION
+Mors,,LOCATION
+Mors,,LOCATION
+Als,,LOCATION
+Als,,LOCATION
+Langeland,,LOCATION
+Langeland,,LOCATION
+Møn,,LOCATION
+Møn,,LOCATION
+Andesbjergene,,LOCATION
+Uralbjergene,,LOCATION
+Pyrenæerne,,LOCATION
+Alperne,,LOCATION
+Rocky Mountains,,LOCATION
+Naturpark Åmosen,,LOCATION
+Dyrehaven,,LOCATION
+Møns Klint,,LOCATION
+Råbjerg Mile,,LOCATION
+Jammerbugten,,LOCATION
+Rubjerg Knude,,LOCATION
+Knudeklint,,LOCATION
+Vadehavet,,LOCATION
+Anholt,,LOCATION
+Assistens Kirkegården,,LOCATION
+Ejby Ådal,,LOCATION
+Fladstensdalen,,LOCATION
+Madsebakke,,LOCATION
+Skagen Gren,,LOCATION
+Grenen,sandbar spit,LOCATION
+Rebild Bakker,,LOCATION
+Nilen,,LOCATION
+Amazonas,,LOCATION
+Congo-Chambeshi,,LOCATION
+Yangtze,,LOCATION
+Sønderjylland,,LOCATION
+Sønderjylland,,LOCATION
+Sønderjylland,,LOCATION
+Sønderjylland,,LOCATION
+Sønderjylland,,LOCATION
+Sønderjylland,,LOCATION
+Sønderjylland,,LOCATION
+Sønderjylland,,LOCATION
+Sønderjylland,,LOCATION
+Sønderjylland,,LOCATION
+Syddanmark,,LOCATION
+Syddanmark,,LOCATION
+Syddanmark,,LOCATION
+Syddanmark,,LOCATION
+Syddanmark,,LOCATION
+Syddanmark,,LOCATION
+Syddanmark,,LOCATION
+Syddanmark,,LOCATION
+Syddanmark,,LOCATION
+Syddanmark,,LOCATION
+Midtjylland,,LOCATION
+Midtjylland,,LOCATION
+Midtjylland,,LOCATION
+Midtjylland,,LOCATION
+Midtjylland,,LOCATION
+Midtjylland,,LOCATION
+Midtjylland,,LOCATION
+Midtjylland,,LOCATION
+Midtjylland,,LOCATION
+Midtjylland,,LOCATION
+Vestjylland,,LOCATION
+Vestjylland,,LOCATION
+Vestjylland,,LOCATION
+Vestjylland,,LOCATION
+Vestjylland,,LOCATION
+Vestjylland,,LOCATION
+Vestjylland,,LOCATION
+Vestjylland,,LOCATION
+Vestjylland,,LOCATION
+Vestjylland,,LOCATION
+Nordjylland,,LOCATION
+Nordjylland,,LOCATION
+Nordjylland,,LOCATION
+Nordjylland,,LOCATION
+Nordjylland,,LOCATION
+Nordjylland,,LOCATION
+Nordjylland,,LOCATION
+Nordjylland,,LOCATION
+Nordjylland,,LOCATION
+Nordjylland,,LOCATION
+Midtfyn,,LOCATION
+Midtfyn,,LOCATION
+Midtfyn,,LOCATION
+Midtfyn,,LOCATION
+Midtfyn,,LOCATION
+Midtfyn,,LOCATION
+Midtfyn,,LOCATION
+Midtfyn,,LOCATION
+Midtfyn,,LOCATION
+Midtfyn,,LOCATION
+Lolland-Falster,,LOCATION
+Lolland-Falster,,LOCATION
+Lolland-Falster,,LOCATION
+Lolland-Falster,,LOCATION
+Lolland-Falster,,LOCATION
+Lolland-Falster,,LOCATION
+Lolland-Falster,,LOCATION
+Lolland-Falster,,LOCATION
+Lolland-Falster,,LOCATION
+Lolland-Falster,,LOCATION
+Syd- og Sønderjylland,,LOCATION
+Syd- og Sønderjylland,,LOCATION
+Syd- og Sønderjylland,,LOCATION
+Syd- og Sønderjylland,,LOCATION
+Syd- og Sønderjylland,,LOCATION
+Midt- og Vestjylland,,LOCATION
+Midt- og Vestjylland,,LOCATION
+Midt- og Vestjylland,,LOCATION
+Midt- og Vestjylland,,LOCATION
+Midt- og Vestjylland,,LOCATION
+Nordsjælland,,LOCATION
+Nordsjælland,,LOCATION
+Nordsjælland,,LOCATION
+Nordsjælland,,LOCATION
+Nordsjælland,,LOCATION
+Nordsjælland,,LOCATION
+Nordsjælland,,LOCATION
+Nordsjælland,,LOCATION
+Nordsjælland,,LOCATION
+Nordsjælland,,LOCATION
+Sydsjælland,,LOCATION
+Sydsjælland,,LOCATION
+Sydsjælland,,LOCATION
+Sydsjælland,,LOCATION
+Sydsjælland,,LOCATION
+Sydsjælland,,LOCATION
+Sydsjælland,,LOCATION
+Sydsjælland,,LOCATION
+Sydsjælland,,LOCATION
+Sydsjælland,,LOCATION
+de Canariske øer,,LOCATION
+Kreta,,LOCATION
+Bora Bora,,LOCATION
+De Vestindiske Øer,,LOCATION
+Dansk Vestindien,,LOCATION
+Carbien,,LOCATION
+De store antiller,,LOCATION
+Nordeuropa,,LOCATION
+Skandinavien,,LOCATION
+Østeuropa,,LOCATION
+Vesteuropa,,LOCATION
+St. Thomas,,LOCATION
+St. Croix,,LOCATION
+Lanzarote,,LOCATION
+Tenerife,,LOCATION
+Fuerteventura,,LOCATION
+Mallorca,,LOCATION
+Cabrera-øgruppen,,LOCATION
+Balearerne,,LOCATION
+Svalbard,,LOCATION
+Nordishavet,,LOCATION
+Rødehavet,,LOCATION
+det døde hav,,LOCATION
+Middelhavet,,LOCATION
+Limfjorden,,LOCATION
+Refshalvøen,,LOCATION
+Aarhus C,,LOCATION
+Aarhus N,,LOCATION
+Aarhus V,,LOCATION
+Aalborg SV,,LOCATION
+Aalborg SØ,,LOCATION
+Aalborg Øst,,LOCATION
+København K,,LOCATION
+Esbjerg N,,LOCATION
+Esbjerg V,,LOCATION
+Esbjerg Ø,,LOCATION
+Randers C,,LOCATION
+Randers,,LOCATION
+Randers NV,,LOCATION
+Randers SØ,,LOCATION
+Socialdemokratiet,,NORP
+Socialdemokratiet,,NORP
+Socialdemokratiet,,NORP
+Venstre,,NORP
+Venstre,,NORP
+Venstre,,NORP
+Socialistisk Folkeparti,,NORP
+Socialistisk Folkeparti,,NORP
+Socialistisk Folkeparti,,NORP
+Moderaterne,,NORP
+Moderaterne,,NORP
+Moderaterne,,NORP
+Danmarksdemokraterne,,NORP
+Danmarksdemokraterne,,NORP
+Danmarksdemokraterne,,NORP
+Liberal Alliance,,NORP
+Liberal Alliance,,NORP
+Liberal Alliance,,NORP
+Det Konservative Folkeparti,,NORP
+Det Konservative Folkeparti,,NORP
+Det Konservative Folkeparti,,NORP
+Enhedslisten,,NORP
+Enhedslisten,,NORP
+Enhedslisten,,NORP
+Radikale Venstre,,NORP
+Radikale Venstre,,NORP
+Radikale Venstre,,NORP
+Dansk Folkeparti,,NORP
+Dansk Folkeparti,,NORP
+Dansk Folkeparti,,NORP
+Alternativet,,NORP
+Alternativet,,NORP
+Alternativet,,NORP
+Nye Borgerlige,,NORP
+Nye Borgerlige,,NORP
+Nye Borgerlige,,NORP
+Siumut,,NORP
+Inuit Ataqatigiit,,NORP
+Sambandsflokkurin,,NORP
+Javnaðarflokkurin,,NORP
+Socialdemokratiet (S),,NORP
+Soc.Dem,,NORP
+Venstre (V),,NORP
+"Venstre, Danmarks Liberale Parti",,NORP
+SF,political party,NORP
+SF - Socialistisk Folkeparti,,NORP
+Moderaterne (M),,NORP
+Danmarksdemokraterne (DD),,NORP
+Liberal Alliance (LA),,NORP
+LA,political party,NORP
+De Konservative,,NORP
+Konservative,,NORP
+De Rød-Grønne,,NORP
+Enhedslisten (Ø),,NORP
+De Radikale,,NORP
+Det Radikale Venstre,,NORP
+RV,political party,NORP
+DF,political party,NORP
+Dansk Folkeparti (DF),,NORP
+Alternativet (Å),,NORP
+Nye Borgerlige (NB),,NORP
+Frie Grønne,,NORP
+Kristendemokraterne,,NORP
+Stram Kurs,,NORP
+Ny Alliance,,NORP
+Veganerpartiet,,NORP
+Kristne,,NORP
+Kristne,,NORP
+Kristne,,NORP
+de kristne,,NORP
+de kristne,,NORP
+de kristne,,NORP
+muslimsk,,NORP
+muslimsk,,NORP
+muslimsk,,NORP
+muslimer,,NORP
+muslimer,,NORP
+muslimer,,NORP
+muslimerne,,NORP
+muslimerne,,NORP
+muslimerne,,NORP
+buddhister,,NORP
+buddhisterne,,NORP
+buddhistisk,,NORP
+hinduer,,NORP
+hinduerne,,NORP
+jøder,,NORP
+jøderne,,NORP
+jødisk,,NORP
+sikher,,NORP
+ateister,,NORP
+ateisterne,,NORP
+de areligiøse,,NORP
+de irreligiøse,,NORP
+hinduistiske trossamfund,,NORP
+muslimske trossamfund,,NORP
+kristne trossamfund,,NORP
+konvertitbuddhister,,NORP
+det ortodokse kristne trossamfund,,NORP
+danskere,,NORP
+danskere,,NORP
+danskere,,NORP
+danskere,,NORP
+danskere,,NORP
+danskere,,NORP
+danskere,,NORP
+danskere,,NORP
+danskere,,NORP
+danskere,,NORP
+dansker,,NORP
+dansker,,NORP
+dansker,,NORP
+dansker,,NORP
+dansker,,NORP
+dansker,,NORP
+dansker,,NORP
+dansker,,NORP
+dansker,,NORP
+dansker,,NORP
+dansk,,NORP
+dansk,,NORP
+dansk,,NORP
+dansk,,NORP
+dansk,,NORP
+dansk,,NORP
+dansk,,NORP
+dansk,,NORP
+dansk,,NORP
+dansk,,NORP
+danske,,NORP
+danske,,NORP
+danske,,NORP
+danske,,NORP
+danske,,NORP
+danske,,NORP
+danske,,NORP
+danske,,NORP
+danske,,NORP
+danske,,NORP
+svenskere,,NORP
+svenskere,,NORP
+svenskere,,NORP
+svensker,,NORP
+svensker,,NORP
+svensker,,NORP
+svensk,,NORP
+svensk,,NORP
+svensk,,NORP
+svenske,,NORP
+svenske,,NORP
+svenske,,NORP
+tyskere,,NORP
+tyskere,,NORP
+tyskere,,NORP
+tysker,,NORP
+tysker,,NORP
+tysker,,NORP
+tysk,,NORP
+tysk,,NORP
+tysk,,NORP
+tyske,,NORP
+tyske,,NORP
+tyske,,NORP
+polsk,,NORP
+polsk,,NORP
+polsk,,NORP
+polakker,,NORP
+polakker,,NORP
+polakker,,NORP
+indere,,NORP
+tyrkere,,NORP
+tyrkerne,,NORP
+tyrkiske,,NORP
+nordmænd,,NORP
+nordmænd,,NORP
+nordmænd,,NORP
+norsk,,NORP
+norsk,,NORP
+norsk,,NORP
+norske,,NORP
+norske,,NORP
+norske,,NORP
+franskmænd,,NORP
+franske,,NORP
+spanierne,,NORP
+spaniere,,NORP
+spanioler,,NORP
+italiener,,NORP
+italienerne,,NORP
+aztekere,,NORP
+romænere,,NORP
+kinesere,,NORP
+kinserne,,NORP
+japanerne,,NORP
+iranerne,,NORP
+koreanerne,,NORP
+vietnamesere,,NORP
+første,,ORDINAL
+første,,ORDINAL
+første,,ORDINAL
+første,,ORDINAL
+første,,ORDINAL
+første,,ORDINAL
+første,,ORDINAL
+første,,ORDINAL
+første,,ORDINAL
+første,,ORDINAL
+anden,,ORDINAL
+anden,,ORDINAL
+anden,,ORDINAL
+anden,,ORDINAL
+anden,,ORDINAL
+tredje,,ORDINAL
+tredje,,ORDINAL
+tredje,,ORDINAL
+tredje,,ORDINAL
+tredje,,ORDINAL
+fjerde,,ORDINAL
+femte,,ORDINAL
+sjette,,ORDINAL
+syvende,,ORDINAL
+ottende,,ORDINAL
+niende,,ORDINAL
+tiende,,ORDINAL
+sekstende,,ORDINAL
+trettende,,ORDINAL
+hundredende,,ORDINAL
+1.,,ORDINAL
+1.,,ORDINAL
+1.,,ORDINAL
+1.,,ORDINAL
+1.,,ORDINAL
+1.,,ORDINAL
+1.,,ORDINAL
+1.,,ORDINAL
+1.,,ORDINAL
+1.,,ORDINAL
+2.,,ORDINAL
+2.,,ORDINAL
+2.,,ORDINAL
+2.,,ORDINAL
+2.,,ORDINAL
+3.,,ORDINAL
+3.,,ORDINAL
+3.,,ORDINAL
+4.,,ORDINAL
+5.,,ORDINAL
+6.,,ORDINAL
+7.,,ORDINAL
+8.,,ORDINAL
+9.,,ORDINAL
+10.,,ORDINAL
+11.,,ORDINAL
+12.,,ORDINAL
+13.,,ORDINAL
+14.,,ORDINAL
+15.,,ORDINAL
+16.,,ORDINAL
+17.,,ORDINAL
+18.,,ORDINAL
+19.,,ORDINAL
+20.,,ORDINAL
+21.,,ORDINAL
+22.,,ORDINAL
+23.,,ORDINAL
+24.,,ORDINAL
+25.,,ORDINAL
+Bagsværd Lakrids,,ORGANIZATION
+Salling Group,,ORGANIZATION
+Føtex,,ORGANIZATION
+Netto,,ORGANIZATION
+Rema 1000,,ORGANIZATION
+Superbrugsen,,ORGANIZATION
+Dagli' Brugsen,,ORGANIZATION
+Carlsberg,,ORGANIZATION
+ISS,international service system,ORGANIZATION
+Arla,,ORGANIZATION
+Arla Foods,,ORGANIZATION
+Vestas,,ORGANIZATION
+Vestas Wind Systems,,ORGANIZATION
+USTC,,ORGANIZATION
+Ørsted,,ORGANIZATION
+DONG energy,,ORGANIZATION
+Novo,medical company,ORGANIZATION
+Novo Nordisk,,ORGANIZATION
+DSV,,ORGANIZATION
+Maersk,,ORGANIZATION
+Mærsk,,ORGANIZATION
+e-Boks Nordic A/S,,ORGANIZATION
+Lego A/S,,ORGANIZATION
+Coop Danmark A/S,,ORGANIZATION
+Coop,,ORGANIZATION
+Siemens Gamesa Renewable Energy A/S,,ORGANIZATION
+Danish Crown,,ORGANIZATION
+Pandora,,ORGANIZATION
+Bestseller,,ORGANIZATION
+Velux,,ORGANIZATION
+Lundbeck,,ORGANIZATION
+Dagrofa Logistik,,ORGANIZATION
+Circle K Danmark A/S,,ORGANIZATION
+DSB,trains,ORGANIZATION
+BYGMA,,ORGANIZATION
+OK,energy company,ORGANIZATION
+Nets,payment system,ORGANIZATION
+Stark,,ORGANIZATION
+Danish Agro,,ORGANIZATION
+Elgiganten A/S,,ORGANIZATION
+Andel Energi,,ORGANIZATION
+Tulip Food Company,,ORGANIZATION
+Mercedes-Benz,,ORGANIZATION
+DLA Agro AmbA,,ORGANIZATION
+Power A/S,electronics company,ORGANIZATION
+Post Danmark,,ORGANIZATION
+Postnord,,ORGANIZATION
+Ikea,,ORGANIZATION
+Uno-X,,ORGANIZATION
+Matas,,ORGANIZATION
+Dupont Nutrition Biosciences ApS,,ORGANIZATION
+Grundfos Holding,,ORGANIZATION
+Copenhagen Business Academy,,ORGANIZATION
+Erhvervsakademi Aarhus,,ORGANIZATION
+Zealand - Sjællands Erhvervsakademi,,ORGANIZATION
+Arkitektskolen Aarhus,,ORGANIZATION
+Designskolen,,ORGANIZATION
+Designskolen Kolding,,ORGANIZATION
+Fredericia Maskinmesterskole,,ORGANIZATION
+MARTEC,,ORGANIZATION
+SIMAC - Svendborg International Maritime Academy,,ORGANIZATION
+Århus Maskinmesterskole,,ORGANIZATION
+Danmarks Medie- og Journalisthøjskole,,ORGANIZATION
+DMJX,journalism school,ORGANIZATION
+University College SYD,,ORGANIZATION
+VIA University College,,ORGANIZATION
+VIA,university,ORGANIZATION
+Aarhus Universitet,,ORGANIZATION
+AU,university,ORGANIZATION
+Aarhus Uni,,ORGANIZATION
+Aalborg Universitet,,ORGANIZATION
+DTU,university,ORGANIZATION
+Danmarks Tekniske Universitet,,ORGANIZATION
+CBS,university,ORGANIZATION
+Copenhagen Business School,,ORGANIZATION
+Roskilde Universitet,,ORGANIZATION
+RUC,university,ORGANIZATION
+Syddansk,,ORGANIZATION
+Syddansk Universitet,,ORGANIZATION
+KU,university,ORGANIZATION
+Københavns Universitet,,ORGANIZATION
+Berlingske Media,,ORGANIZATION
+Berlingske,,ORGANIZATION
+KiMs,,ORGANIZATION
+JP/Politikens Hus,,ORGANIZATION
+JP,media,ORGANIZATION
+Jyllands-Posten,,ORGANIZATION
+Politiken,,ORGANIZATION
+Information,,ORGANIZATION
+Zetland,,ORGANIZATION
+B.T.,,ORGANIZATION
+Ekstra Bladet,,ORGANIZATION
+Presselogen,,ORGANIZATION
+Jysk Fynske Medier,,ORGANIZATION
+Nordjyske Medier,,ORGANIZATION
+Stiftstidende,,ORGANIZATION
+Fyens Stiftstidende,,ORGANIZATION
+Infomedia,,ORGANIZATION
+Scanpix,,ORGANIZATION
+Podimo,,ORGANIZATION
+DR,media,ORGANIZATION
+Danmarks Radio,,ORGANIZATION
+TV2,,ORGANIZATION
+Viaplay,,ORGANIZATION
+youSee,,ORGANIZATION
+Disney,,ORGANIZATION
+C MORE,,ORGANIZATION
+HBO,,ORGANIZATION
+Amazon,,ORGANIZATION
+Amazon Prime,,ORGANIZATION
+Netflix,,ORGANIZATION
+hayu,,ORGANIZATION
+Eurosport,,ORGANIZATION
+Danske Spil,,ORGANIZATION
+Sund & Bælt Holding A/S,,ORGANIZATION
+TV2|DANMARK,,ORGANIZATION
+PostNord AB,,ORGANIZATION
+SAS AB,,ORGANIZATION
+SAS,airline,ORGANIZATION
+Scandinavian Airlines,,ORGANIZATION
+Energinet,,ORGANIZATION
+Naviair,,ORGANIZATION
+Apple,company,ORGANIZATION
+Microsoft,,ORGANIZATION
+Saudi Aramco,,ORGANIZATION
+Alphabet,,ORGANIZATION
+Google,,ORGANIZATION
+NVIDIA,,ORGANIZATION
+Meta,company,ORGANIZATION
+Facebook,,ORGANIZATION
+Snap,snapchat,ORGANIZATION
+FB,facebook,ORGANIZATION
+Snapchat,,ORGANIZATION
+Insta,instagram,ORGANIZATION
+IG,instagram,ORGANIZATION
+Instagram,,ORGANIZATION
+Twitter,,ORGANIZATION
+Berkshire Hathaway,,ORGANIZATION
+Visa,,ORGANIZATION
+TESLA,,ORGANIZATION
+TikTok,,ORGANIZATION
+National Banken,,ORGANIZATION
+PRIME,beverages,ORGANIZATION
+Egedal kommune,,ORGANIZATION
+Ishøj kommune,,ORGANIZATION
+Glostrup kommune,,ORGANIZATION
+Favrskov kommune,,ORGANIZATION
+Viborg kommune,,ORGANIZATION
+Rebild kommune,,ORGANIZATION
+Silkeborg kommune,,ORGANIZATION
+Køge kommune,,ORGANIZATION
+Odsherred kommune,,ORGANIZATION
+byretten,,ORGANIZATION
+landsretten,,ORGANIZATION
+højesteret,,ORGANIZATION
+byretterne,,ORGANIZATION
+landsretterne,,ORGANIZATION
+Danmarks Domstole,,ORGANIZATION
+politiet,,ORGANIZATION
+forsvaret,,ORGANIZATION
+folketinget,,ORGANIZATION
+FC. København,,ORGANIZATION
+FCK,football team,ORGANIZATION
+Brøndby,football team,ORGANIZATION
+BIF,football team,ORGANIZATION
+Silkeborg,football team,ORGANIZATION
+SIF,football team,ORGANIZATION
+Nordsjælland,football team,ORGANIZATION
+Midtjylland,football team,ORGANIZATION
+AGF,football team,ORGANIZATION
+OB,football team,ORGANIZATION
+Randers,football team,ORGANIZATION
+Viborg,football team,ORGANIZATION
+Manchester United,,ORGANIZATION
+United,football team,ORGANIZATION
+Liverpool,football team,ORGANIZATION
+Chelsea,,ORGANIZATION
+Barcelona,football team,ORGANIZATION
+FC Barcelona,,ORGANIZATION
+Real Madrid,,ORGANIZATION
+Aalborg Håndbold,,ORGANIZATION
+Fredericia HK,handball team,ORGANIZATION
+Mors-Thy Håndbold,,ORGANIZATION
+Bjerringbro-Silkeborg,handball team,ORGANIZATION
+GOG,handball team,ORGANIZATION
+Skjern,handball team,ORGANIZATION
+SønderjyskE,handball team,ORGANIZATION
+TTH Holsterbro,handball team,ORGANIZATION
+KIF Kolding,handball team,ORGANIZATION
+herrelandsholdet,,ORGANIZATION
+kvindelandsholdet,,ORGANIZATION
+Superligaen,,ORGANIZATION
+Fortuna Hjørring,,ORGANIZATION
+Bakken Bears,,ORGANIZATION
+Svendborg Rabbits,,ORGANIZATION
+Herning Blue Fox,,ORGANIZATION
+Aalborg Pirates,,ORGANIZATION
+Dallas Cowboys,,ORGANIZATION
+Arizon Cardinals,,ORGANIZATION
+The Packers,football team,ORGANIZATION
+Los Angeles Rams,,ORGANIZATION
+Miami Dolphins,,ORGANIZATION
+The Patriots,,ORGANIZATION
+Cleveland Brows,,ORGANIZATION
+Celtics,basketball team,ORGANIZATION
+New York Knicks,,ORGANIZATION
+Houston Rockets,,ORGANIZATION
+EU,,ORGANIZATION
+Europæiske Union,,ORGANIZATION
+Europa-Parliamentet,,ORGANIZATION
+Europa-Kommisionen,,ORGANIZATION
+FN,united nations,ORGANIZATION
+Forenede Nationer,,ORGANIZATION
+NATO,,ORGANIZATION
+NATO-alliancen,,ORGANIZATION
+Klima- og Energiministeriet,,ORGANIZATION
+Landbrugsministeriet,,ORGANIZATION
+Skatteministeriet,,ORGANIZATION
+Justitsministeriet,,ORGANIZATION
+Finansministeriet,,ORGANIZATION
+Ministeriet for Digitalisering,,ORGANIZATION
+SKAT,,ORGANIZATION
+OISTER,,ORGANIZATION
+Fibia,,ORGANIZATION
+Telia,,ORGANIZATION
+Telenor,,ORGANIZATION
+"Institut for Engelsk, Germansk og Romansk",,ORGANIZATION
+Saxo-Instituttet,,ORGANIZATION
+Institut for Fødevarevidenskab,,ORGANIZATION
+Niels Bohr Institutet,,ORGANIZATION
+Institut for Statskundskab,,ORGANIZATION
+Institut for Veterinær- og Husdyrvidenskab,,ORGANIZATION
+Billedbladet,,ORGANIZATION
+Se og Hør,,ORGANIZATION
+DBA,den blå avis,ORGANIZATION
+Den Blå Avis,,ORGANIZATION
+PepsiCo,,ORGANIZATION
+Coca-Cola,,ORGANIZATION
+SONY,,ORGANIZATION
+Huawei,,ORGANIZATION
+Disney,,ORGANIZATION
+Shell,,ORGANIZATION
+NIKE,,ORGANIZATION
+adidas,,ORGANIZATION
+Spotify,,ORGANIZATION
+SpaceX,,ORGANIZATION
+Nintendo,,ORGANIZATION
+NASA,,ORGANIZATION
+FBI,,ORGANIZATION
+CIA,,ORGANIZATION
+PET,politiets efterretningstjeneste,ORGANIZATION
+Buzzfeed,,ORGANIZATION
+New York Times,,ORGANIZATION
+Fox News,,ORGANIZATION
+CNN,,ORGANIZATION
+The Sun,,ORGANIZATION
+The Mirror,,ORGANIZATION
+The Guardian,,ORGANIZATION
+Louisiana,museum,ORGANIZATION
+AROS,museum,ORGANIZATION
+Kremlin,,ORGANIZATION
+Det Hvide Hus,,ORGANIZATION
+@twittter,,ORGANIZATION
+@NASA,,ORGANIZATION
+@cnnbrk,,ORGANIZATION
+@CNN,,ORGANIZATION
+@nytimes,,ORGANIZATION
+@tv2nyhederne,,ORGANIZATION
+@superligaen,,ORGANIZATION
+@NBA,,ORGANIZATION
+@premierleague,,ORGANIZATION
+KiMs Chips,,PRODUCT
+kims chips,,PRODUCT
+Big Mac,,PRODUCT
+Smarties,,PRODUCT
+Fanta Exotic,,PRODUCT
+Kit Kat,,PRODUCT
+P-tærter,,PRODUCT
+Kinderæg,,PRODUCT
+Dumle Slikkepind,,PRODUCT
+Faxe Kondi,,PRODUCT
+Faxe Kondi Free,,PRODUCT
+Ceres Top,,PRODUCT
+Tuborg Grøn,,PRODUCT
+Tuborg Classic,,PRODUCT
+Pepsi Max,,PRODUCT
+Blanc,beer,PRODUCT
+1664 Blanc,,PRODUCT
+Odense 1859,beer,PRODUCT
+Cola Zero,,PRODUCT
+Odense Pilsner,,PRODUCT
+Erdinger Weissbier,,PRODUCT
+"Macbook Air 15"" M2",,PRODUCT
+iPhone,,PRODUCT
+Macbook,,PRODUCT
+Nintendo Switch,,PRODUCT
+Playstation 5,,PRODUCT
+PS5,,PRODUCT
+ThinkPad,,PRODUCT
+GoPro MAX,,PRODUCT
+Mac Pro,,PRODUCT
+iPhone 14 Plus,,PRODUCT
+Airpods,,PRODUCT
+Chromecast,,PRODUCT
+Desert Eagle,,PRODUCT
+AR47,weapon,PRODUCT
+AK-47,weapon,PRODUCT
+AR-15,weapon,PRODUCT
+Air Max 90 GTX,,PRODUCT
+Air Force 1 '07 LV8,,PRODUCT
+Emma Electric Kettle,,PRODUCT
+Barbie drømmecamper-eventyr,,PRODUCT
+Explore 6 Airfryer,,PRODUCT
+Combi XXL Connected Airfryer,,PRODUCT
+Titanium Chef Baker XL,,PRODUCT
+VitaBoost Blender MMBH6P6B,,PRODUCT
+VitaPower Blender MMB6141B,,PRODUCT
+Easy pro frituregryde FR333070,,PRODUCT
+Duraceramic sandwichtoaster,,PRODUCT
+Bugles,chips,PRODUCT
+Foodi Max AF400,,PRODUCT
+Thermoball Traction Winter Mules,,PRODUCT
+Xbox Series X,,PRODUCT
+Xbox,,PRODUCT
+Gameboy,,PRODUCT
+Deluxe Railway Set,toy,PRODUCT
+OneBlade Pro,,PRODUCT
+Flowerpot VP9,,PRODUCT
+Men's Atom Hoody,,PRODUCT
+Xperia 10 V,,PRODUCT
+Acqua Di Gio Deodorant Spray,,PRODUCT
+Big Pony Women Pink Eau de Toilette,,PRODUCT
+Deo Pure Roll-On,,PRODUCT
+Crush Cheirosa '62 Body Mist,,PRODUCT
+L.12.12 White Deodorant Spray,,PRODUCT
+Donna Born in Roma Eau de Parfum,,PRODUCT
+Wonder Perfect Mascara 4D 01 Black,,PRODUCT
+Telescopic Mascara Black,,PRODUCT
+Extended Play Gigablack Lash Intense Black,,PRODUCT
+Duo Concealer,,PRODUCT
+Facestudio Lasting Fix Spray,,PRODUCT
+Addict Lip Maximizer 001 Pink,,PRODUCT
+Curly Low-Poo Shampoo,,PRODUCT
+Nutritive Overnight Serum,,PRODUCT
+Luna Parka 4,,PRODUCT
+Kiruna Padded Parka,,PRODUCT
+Daylite Plus rygsæk,,PRODUCT
+Sirrus 46 vandrerygsæk,,PRODUCT
+Apple Watch,,PRODUCT
+iPad,,PRODUCT
+Aben,wooden figure,PRODUCT
+PH Snowball,lamp,PRODUCT
+Ægget,chair,PRODUCT
+Påfuglestolen,,PRODUCT
+Kähler vase,,PRODUCT
+Bikuben,lamp,PRODUCT
+Sinus Pendel,,PRODUCT
+Knoglestolen,,PRODUCT
+Skippers Lakridspibe,,PRODUCT
+PS2,,PRODUCT
+Click Mix,candy,PRODUCT
+Passat,car,PRODUCT
+Golf,car,PRODUCT
+Rubiks terning,,PRODUCT
+Splash Vase Round,,PRODUCT
+Hammershøi Vase,,PRODUCT
+Jackie Year Bird 2023,wooden figure,PRODUCT
+Kubus,candlestick,PRODUCT
+Gytha gås,decoration,PRODUCT
+Eva Lysestage ,,PRODUCT
+Matima O-Neck Tee,,PRODUCT
+Kaleem Crop Blazer,,PRODUCT
+Brook Knit Rib Cardigan,,PRODUCT
+Tommy Teddy Snowboot,,PRODUCT
+Tosca Anju Hat,,PRODUCT
+Organic Thor Tee,t-shirt,PRODUCT
+Blåvand 1/2 Zip Fleece,,PRODUCT
+Tornø Badedragt,,PRODUCT
+Trek badesandal,,PRODUCT
+Duvet Dream Pillow Bag,,PRODUCT
+Base Camp Duffel,,PRODUCT
+Everyday Tote Bag,,PRODUCT
+Nokia 3310,,PRODUCT
+Gameboy,,PRODUCT
+Wii,,PRODUCT
+Fidget spinner,,PRODUCT
+Kindle,,PRODUCT
+Oculus Rift,,PRODUCT
+NATURLI' havredrik,,PRODUCT
+Oatly Oat Drink Barista,,PRODUCT
+Ben & Jerry's Cookie Dough,,PRODUCT
+Beyond burgerbøf,,PRODUCT
+Lego Juletræ,,PRODUCT
+LEGO Colosseum,,PRODUCT
+Lego X-wing-stjernejager,,PRODUCT
+i går morges,,TIME
+i aftes,,TIME
+i aftes,,TIME
+i aftes,,TIME
+i aftes,,TIME
+i aftes,,TIME
+i aften,,TIME
+i aften,,TIME
+i aften,,TIME
+i aften,,TIME
+i aften,,TIME
+i nat,,TIME
+i nat,,TIME
+i nat,,TIME
+i nat,,TIME
+i nat,,TIME
+i morges,,TIME
+i morges,,TIME
+i morges,,TIME
+i morges,,TIME
+i morges,,TIME
+formiddag,,TIME
+formiddag,,TIME
+formiddag,,TIME
+formiddag,,TIME
+formiddag,,TIME
+eftermiddag,,TIME
+eftermiddag,,TIME
+eftermiddag,,TIME
+eftermiddag,,TIME
+eftermiddag,,TIME
+om dagen,,TIME
+om dagen,,TIME
+om dagen,,TIME
+om dagen,,TIME
+om dagen,,TIME
+om natten,,TIME
+om natten,,TIME
+om natten,,TIME
+om natten,,TIME
+om natten,,TIME
+to minutter,,TIME
+1 minut,,TIME
+2 minutter,,TIME
+to minutter,,TIME
+fem minutter,,TIME
+5 minutter,,TIME
+10 minutter,,TIME
+10 min,,TIME
+20 min,,TIME
+90 minutter,,TIME
+et kvarter,,TIME
+en time,,TIME
+en halv time,,TIME
+et halvt døgn,,TIME
+to timer,,TIME
+10 timer,,TIME
+5-10 timer,,TIME
+14-16 minutter,,TIME
+30-45 minutter,,TIME
+kl 13.30,,TIME
+kl 10.00,,TIME
+kl 06.48,,TIME
+kl 05.00,,TIME
+kl 09:11,,TIME
+kl 22:28,,TIME
+kl 10:15,,TIME
+kl. 14.10,,TIME
+kl. 17.00,,TIME
+kl. 08.10,,TIME
+kl. 03.00,,TIME
+kl. 10.00,,TIME
+15:28,,TIME
+02:58,,TIME
+23:57,,TIME
+21:20,,TIME
+20:00,,TIME
+15.30,,TIME
+17.30,,TIME
+19.00,,TIME
+23.00,,TIME
+08.15,,TIME
+9.15,,TIME
+16.10,,TIME
+22:30:00,,TIME
+16:31:59,,TIME
+12:00:00,,TIME
+10-16,,TIME
+12.00-16.15,,TIME
+13.00-23.00,,TIME
+06.00-15.00,,TIME
+04:30-10.00,,TIME
+18:15-19.15,,TIME
+10.00 - 11.00,,TIME
+12.30 - 14.15,,TIME
+20.00 - 20.30,,TIME
+5 minutter over 16,,TIME
+klokken halv syv,,TIME
+Erasmus Montanus,,WORK OF ART
+Brudstykker af en Landsbydegns dagbog,,WORK OF ART
+Enten-Eller,,WORK OF ART
+Fru Marie Grubbe,,WORK OF ART
+Lykke-Per,,WORK OF ART
+Kongens fald ,,WORK OF ART
+Pelle Erobreren,,WORK OF ART
+Fiskerne,,WORK OF ART
+Hærværk,,WORK OF ART
+Den Afrikanske Farm ,,WORK OF ART
+Det forsømte forår,,WORK OF ART
+Barndommens Gade,,WORK OF ART
+Løgneren,,WORK OF ART
+Den kroniske uskyld,,WORK OF ART
+Midt i en jazztid,,WORK OF ART
+Helt og heltinde,,WORK OF ART
+Ægteskabet mellem vejen og udvejen,,WORK OF ART
+Rødby-Puttgarden,,WORK OF ART
+Selskabet,,WORK OF ART
+Huden er det elastiske hylster der omgiver hele legemet,,WORK OF ART
+Blinkende lygter,,WORK OF ART
+Druk,,WORK OF ART
+Den eneste ene,,WORK OF ART
+Olsen Banden-filmene,,WORK OF ART
+Adams æbler,,WORK OF ART
+De grønne slagtere,,WORK OF ART
+Jagten,,WORK OF ART
+Afdeling Q-filmene,,WORK OF ART
+Nattevagten,,WORK OF ART
+I Kina spiser de hunde,,WORK OF ART
+Hævnen,,WORK OF ART
+Fasandræberne,,WORK OF ART
+"Ser du månen, Daniel",,WORK OF ART
+R,movie,WORK OF ART
+Kapringen,,WORK OF ART
+Blå mænd,,WORK OF ART
+Mens vi lever,,WORK OF ART
+Under sandet,,WORK OF ART
+Supervoksen,,WORK OF ART
+En frygtelig kvinde,,WORK OF ART
+En kongelig affære,,WORK OF ART
+Sover Dolly på ryggen?,,WORK OF ART
+Underverden,,WORK OF ART
+Kom Tilbage Nu,,WORK OF ART
+Sømand Af Verden,,WORK OF ART
+Kærligheden Kalder,,WORK OF ART
+Det Er Mig Der Står Herude og Banker På,,WORK OF ART
+Kvinde Min,,WORK OF ART
+Bag Duggede Ruder,,WORK OF ART
+Jeg Ved Det Godt,,WORK OF ART
+Let Your Fingers Do The Walking,,WORK OF ART
+Den Jeg Elsker,,WORK OF ART
+»Vi Tager Fuglen på Dig« ,,WORK OF ART
+Uden Forsvar,,WORK OF ART
+Alle Har En Drøm At Befri,,WORK OF ART
+En Dag Tilbage,,WORK OF ART
+København,,WORK OF ART
+Proletar (Hvor Jeg Står),,WORK OF ART
+Velkommen Til Medina,,WORK OF ART
+»De Første Kærester på Månen«,,WORK OF ART
+Det Er Knud Som Er Død,,WORK OF ART
+Engel,song,WORK OF ART
+Danmarksfilm,book,WORK OF ART
+d.a.u.d.a.,song,WORK OF ART
+Hjørringvej,movie,WORK OF ART
+Lolland Falster,movie,WORK OF ART
+De vindfølsomme,,WORK OF ART
+Om udregning af rumfang,,WORK OF ART
+Græshoppens år,,WORK OF ART
+En digters bazar,,WORK OF ART
+I dragens kløer,,WORK OF ART
+Funk'erne,,WORK OF ART
+Spaen,book,WORK OF ART
+Mesteren og Margarita,,WORK OF ART
+Måske Ikke,book,WORK OF ART
+9000 Chancer,,WORK OF ART
+Før daggry,,WORK OF ART
+Matador,,WORK OF ART
+Krøniken,,WORK OF ART
+Badehotellet,,WORK OF ART
+Forbrydelsen,,WORK OF ART
+Rita,tv series,WORK OF ART
+Borgen,,WORK OF ART
+Klovn,tv series,WORK OF ART
+Dicte,tv series,WORK OF ART
+Arvingerne,,WORK OF ART
+Broen,tv series,WORK OF ART
+Sex and the City,,WORK OF ART
+Game of Thrones,,WORK OF ART
+Bedrag,tv series,WORK OF ART
+Herrens Veje,,WORK OF ART
+Sherlock,,WORK OF ART
+Orange is the new Black,,WORK OF ART
+Breaking Bad,,WORK OF ART
+House of Cards,,WORK OF ART
+Sygeplejeskolen,tv series,WORK OF ART
+Alene i vildmarken,,WORK OF ART
+Bachelor,tv series,WORK OF ART
+Danmark har talent,,WORK OF ART
+Den store bagedyst,,WORK OF ART
+Divaer i Junglen,,WORK OF ART
+Ex on the Beach,,WORK OF ART
+Familien fra Bryggen,,WORK OF ART
+For lækker til love,,WORK OF ART
+Forsidefruer,,WORK OF ART
+Masterchef Danmark,,WORK OF ART
+Luksusfælden,,WORK OF ART
+Korpset,tv series,WORK OF ART
+Med kniven for struben,,WORK OF ART
+Paradise Hotel,,WORK OF ART
+Paradise,tv series,WORK OF ART
+Robinson,,WORK OF ART
+Robinson Ekspeditionen,,WORK OF ART
+Sommer i Sunny Beach,,WORK OF ART
+Til middag hos...,,WORK OF ART
+X Factor,,WORK OF ART
+X-Factor,,WORK OF ART
+Fortnite,,WORK OF ART
+The Legend of Zelda,,WORK OF ART
+FIFA 12,,WORK OF ART
+Madden NFL,,WORK OF ART
+GTA,,WORK OF ART
+GTA V,,WORK OF ART
+Grand Theft Auto,,WORK OF ART
+Final Fantasy,,WORK OF ART
+Tetris,,WORK OF ART
+PacMan,,WORK OF ART
+Pac-Man,,WORK OF ART
+Need of Speed Underground,,WORK OF ART
+SIMS,,WORK OF ART
+The SIMS,,WORK OF ART
+Pokemon,,WORK OF ART
+Pokemon GO,,WORK OF ART
+Super Mario Bros 3,,WORK OF ART
+Minecraft,,WORK OF ART
+Biblen,,WORK OF ART
+Ulysses,,WORK OF ART
+In Search of Lost Time,,WORK OF ART
+Don Quixote,,WORK OF ART
+The Great Gatsby,,WORK OF ART
+Moby Dick,,WORK OF ART
+War and Peace,,WORK OF ART
+Hamlet,,WORK OF ART
+Odysseen,,WORK OF ART
+Lolita,,WORK OF ART
+Pride and Prejudice,,WORK OF ART
+En Verden Udenfor,,WORK OF ART
+The Godfather,,WORK OF ART
+The Godfather Part II,,WORK OF ART
+Schindler's Liste,,WORK OF ART
+Pulp Fiction,,WORK OF ART
+Forrest Gump,,WORK OF ART
+Fight Club,,WORK OF ART
+Fight the Power,,WORK OF ART
+A Change Is Gonna Come,,WORK OF ART
+Like a Rolling Stone,,WORK OF ART
+Smells like Teen Spirit,,WORK OF ART
+Strawberry Fields Forever,,WORK OF ART
+Get Ur Freak On,,WORK OF ART
+Blinding Lights,,WORK OF ART
+Shape of You,,WORK OF ART
+Someone You Loved,,WORK OF ART
+Sunflower,,WORK OF ART
+Dance Monkey,,WORK OF ART
+Stay,song,WORK OF ART
+One Dance,song,WORK OF ART
+As It Was,song,WORK OF ART
+Starboy,,WORK OF ART
+Rockstar,,WORK OF ART
+Uno,,WORK OF ART
+Monopoly,,WORK OF ART
+Partners ,,WORK OF ART
+Bezzerwizzer Familie,board game,WORK OF ART
+Cluedo,,WORK OF ART
+Skip-Bo,,WORK OF ART
+Bezzerwizzer,,WORK OF ART
+Ludo,,WORK OF ART
+Stratego,,WORK OF ART
+1,,CARDINAL
+1,,CARDINAL
+1,,CARDINAL
+1,,CARDINAL
+1,,CARDINAL
+1,,CARDINAL
+1,,CARDINAL
+1,,CARDINAL
+1,,CARDINAL
+1,,CARDINAL
+2,,CARDINAL
+2,,CARDINAL
+2,,CARDINAL
+2,,CARDINAL
+2,,CARDINAL
+3,,CARDINAL
+3,,CARDINAL
+3,,CARDINAL
+3,,CARDINAL
+3,,CARDINAL
+4,,CARDINAL
+4,,CARDINAL
+4,,CARDINAL
+5,,CARDINAL
+5,,CARDINAL
+5,,CARDINAL
+6,,CARDINAL
+6,,CARDINAL
+6,,CARDINAL
+7,,CARDINAL
+7,,CARDINAL
+7,,CARDINAL
+8,,CARDINAL
+8,,CARDINAL
+8,,CARDINAL
+9,,CARDINAL
+9,,CARDINAL
+9,,CARDINAL
+10,,CARDINAL
+10,,CARDINAL
+10,,CARDINAL
+en,,CARDINAL
+en,,CARDINAL
+en,,CARDINAL
+en,,CARDINAL
+en,,CARDINAL
+to,,CARDINAL
+to,,CARDINAL
+to,,CARDINAL
+to,,CARDINAL
+to,,CARDINAL
+tre,,CARDINAL
+tre,,CARDINAL
+tre,,CARDINAL
+tre,,CARDINAL
+tre,,CARDINAL
+fire,,CARDINAL
+fire,,CARDINAL
+fire,,CARDINAL
+fem,,CARDINAL
+fem,,CARDINAL
+fem,,CARDINAL
+seks,,CARDINAL
+seks,,CARDINAL
+seks,,CARDINAL
+syv,,CARDINAL
+syv,,CARDINAL
+syv,,CARDINAL
+otto,,CARDINAL
+otto,,CARDINAL
+otto,,CARDINAL
+ni,,CARDINAL
+ni,,CARDINAL
+ni,,CARDINAL
+ti,,CARDINAL
+ti,,CARDINAL
+ti,,CARDINAL
+12,,CARDINAL
+15,,CARDINAL
+21,,CARDINAL
+29,,CARDINAL
+33,,CARDINAL
+40,,CARDINAL
+41,,CARDINAL
+45,,CARDINAL
+50,,CARDINAL
+56,,CARDINAL
+60,,CARDINAL
+70,,CARDINAL
+80,,CARDINAL
+92,,CARDINAL
+100,,CARDINAL
+125,,CARDINAL
+201,,CARDINAL
+203,,CARDINAL
+299,,CARDINAL
+300,,CARDINAL
+500,,CARDINAL
+931,,CARDINAL
+1021,,CARDINAL
+1249,,CARDINAL
+1291,,CARDINAL
+10039,,CARDINAL
+20312,,CARDINAL
+30000,,CARDINAL
+fjorten,,CARDINAL
+nitten,,CARDINAL
+femten,,CARDINAL
+seksten,,CARDINAL
+atten,,CARDINAL
+elleve,,CARDINAL
+tolv,,CARDINAL
+to-og-tyve,,CARDINAL
+seks hundrede,,CARDINAL
+to tusinde,,CARDINAL
+en tredjedel,,CARDINAL
+en fjerdedel,,CARDINAL
+halvdelen,,CARDINAL
+"1,1",,CARDINAL
+"2,5",,CARDINAL
+"10,50",,CARDINAL
+"13,3",,CARDINAL
+10.5,,CARDINAL
+11.0,,CARDINAL
+1/3,,CARDINAL
+1/5,,CARDINAL
+13. Sep 19,,DATE
+11. Mar 90,,DATE
+17/08/95,,DATE
+31/01/84,,DATE
+25/05/12,,DATE
+31/01/85,,DATE
+08/06/17,,DATE
+15/05/96,,DATE
+26/12/96,,DATE
+05/11/11,,DATE
+11/12/16,,DATE
+11/02/05,,DATE
+09/09/05,,DATE
+11/10/97,,DATE
+01/11/13,,DATE
+11/10/21,,DATE
+12/10/15,,DATE
+22. Oktober 1999,,DATE
+04. November 1996,,DATE
+13. Juli 1996,,DATE
+01. Juni 2014,,DATE
+06. August 2013,,DATE
+14. Oktober 1992,,DATE
+26. September 2000,,DATE
+20. Januar 2009,,DATE
+21. April 1999,,DATE
+04. Juni 1979,,DATE
+24. Februar 1996,,DATE
+05. Februar 1976,,DATE
+05. November 2010,,DATE
+11. December 1984,,DATE
+18. April 1989,,DATE
+15. Februar 2018,,DATE
+06. August 2007,,DATE
+07. Juli 2013,,DATE
+23. December 1979,,DATE
+11. December 2001,,DATE
+18. November 1984,,DATE
+02. Maj 2013,,DATE
+22. Februar 2000,,DATE
+12. Oktober 1985,,DATE
+19. Juni 1986,,DATE
+Juli 26 1987,,DATE
+Oktober 27 2014,,DATE
+2001-07-04,,DATE
+2013-02-03,,DATE
+23-10-2004,,DATE
+12-09-2013,,DATE
+19-10-2003,,DATE
+25-10-1980,,DATE
+08-09-1987,,DATE
+19-09-1992,,DATE
+15-01-2023,,DATE
+02-04-1974,,DATE
+27-04-1984,,DATE
+14-06-1993,,DATE
+"10 Jun, 1975",,DATE
+"10 Okt, 2000",,DATE
+"Fredag, 31. Maj 2002",,DATE
+"Fredag, 13. Januar 1978",,DATE
+"Søndag, 08. December 1974",,DATE
+"Tirsdag, 10. August 1999",,DATE
+"Mandag, 24. Oktober 2022",,DATE
+"Torsdag, 21. Maj 2015",,DATE
+"Tirsdag, 20. Oktober 1992",,DATE
+"Torsdag, 04. December 1975",,DATE
+14/Aug/2018,,DATE
+24/Maj/1984,,DATE
+"Onsdag, 29-Jul-20",,DATE
+"Lørdag, 01-Maj-99",,DATE
+"Lørdag, 30. Juni '07",,DATE
+"Mandag, 08. August '22",,DATE
+"Torsdag, 08. September '16",,DATE
+"Mandag, 14. August '95",,DATE
+"Fredag, 25. Oktober '91",,DATE
+23-10-92,,DATE
+29-05-15,,DATE
+28-06-97,,DATE
+15-01-81,,DATE
+10-11-70,,DATE
+30-01-02,,DATE
+30-03-71,,DATE
+11-07-96,,DATE
+2003,,DATE
+2013,,DATE
+2023,,DATE
+1993,,DATE
+1981,,DATE
+2008,,DATE
+1971,,DATE
+2010,,DATE
+2007,,DATE
+1981,,DATE
+2016,,DATE
+2001,,DATE
+2022,,DATE
+2022,,DATE
+2009,,DATE
+2021,,DATE
+1991,,DATE
+1974,,DATE
+1978,,DATE
+2020,,DATE
+Lørdag,,DATE
+Fredag,,DATE
+Lørdag,,DATE
+Tirsdag,,DATE
+Onsdag,,DATE
+Onsdag,,DATE
+Mandag,,DATE
+Tirsdag,,DATE
+Mandag,,DATE
+Lørdag,,DATE
+Søndag,,DATE
+Torsdag,,DATE
+Søndag,,DATE
+Fredag,,DATE
+Søndag,,DATE
+Lørdag,,DATE
+Lørdag,,DATE
+Søndag,,DATE
+Mandag,,DATE
+Søndag,,DATE
+Januar,,DATE
+Marts,,DATE
+April,,DATE
+November,,DATE
+November,,DATE
+November,,DATE
+Februar,,DATE
+Marts,,DATE
+Maj,,DATE
+Marts,,DATE
+December,,DATE
+Juni,,DATE
+April,,DATE
+August,,DATE
+Marts,,DATE
+Maj,,DATE
+September,,DATE
+Oktober,,DATE
+Marts,,DATE
+April,,DATE
+i morgen,,DATE
+i morgen,,DATE
+i morgen,,DATE
+i morgen,,DATE
+i morgen,,DATE
+imorgen,,DATE
+imorgen,,DATE
+igår,,DATE
+igår,,DATE
+i går,,DATE
+i går,,DATE
+i går,,DATE
+i går,,DATE
+i går,,DATE
+i dag,,DATE
+i dag,,DATE
+i dag,,DATE
+i dag,,DATE
+i dag,,DATE
+idag,,DATE
+idag,,DATE
+næste uge,,DATE
+næste uge,,DATE
+næste måned,,DATE
+næste måned,,DATE
+næste år,,DATE
+næste år,,DATE
+overmorgen,,DATE
+overmorgen,,DATE
+overmorgen,,DATE
+sidste uge,,DATE
+sidste uge,,DATE
+sidste måned,,DATE
+sidste måned,,DATE
+sidste år,,DATE
+sidste år,,DATE
+en måned,,DATE
+en måned,,DATE
+en måned,,DATE
+en måned,,DATE
+en måned,,DATE
+to måneder,,DATE
+to måneder,,DATE
+9 måneder,,DATE
+9 måneder,,DATE
+elleve måneder,,DATE
+elleve måneder,,DATE
+en uge,,DATE
+en uge,,DATE
+fire uger,,DATE
+fire uger,,DATE
+fem-seks uger,,DATE
+fem-seks uger,,DATE
+18 uger,,DATE
+18 uger,,DATE
+1910'erne,,DATE
+1910'erne,,DATE
+firserne,,DATE
+firserne,,DATE
+90'erne,,DATE
+90'erne,,DATE
+1950'erne,,DATE
+1950'erne,,DATE
+et år,,DATE
+et år,,DATE
+et år,,DATE
+et år,,DATE
+et år,,DATE
+15 år,,DATE
+15 år,,DATE
+3 år,,DATE
+3 år,,DATE
+syv år,,DATE
+syv år,,DATE
+ni år,,DATE
+ni år,,DATE
+10-årig,,DATE
+10-årig,,DATE
+tolvårig,,DATE
+toårig,,DATE
+femårig,,DATE
+halvtredsårig,,DATE
+8-11-årige,,DATE
++18 år,,DATE
++16 år,,DATE
+dkk218,,MONEY
+halvfems tusinde dkk,,MONEY
+dkk193,,MONEY
+fjorten dkk,,MONEY
+dkk 89,,MONEY
+dkk95,,MONEY
+113dkk,,MONEY
+55dkk,,MONEY
+dkk 259,,MONEY
+dkk 5690,,MONEY
+295dkk,,MONEY
+108dkk,,MONEY
+5347 dkk,,MONEY
+dkk4329,,MONEY
+87dkk,,MONEY
+DKK 278,,MONEY
+161DKK,,MONEY
+DKK218,,MONEY
+DKK2090,,MONEY
+DKK 35,,MONEY
+161 DKK,,MONEY
+55 DKK,,MONEY
+DKK9359,,MONEY
+DKK313,,MONEY
+firs DKK,,MONEY
+DKK 163,,MONEY
+DKK161,,MONEY
+179 DKK,,MONEY
+DKK5347,,MONEY
+7690DKK,,MONEY
+107kroner,,MONEY
+326kroner,,MONEY
+115 kroner,,MONEY
+firs hundrede kroner,,MONEY
+9245kroner,,MONEY
+9678kroner,,MONEY
+tre kroner,,MONEY
+234 kroner,,MONEY
+326kroner,,MONEY
+31kroner,,MONEY
+4917kroner,,MONEY
+99 kroner,,MONEY
+syv kroner,,MONEY
+5347kroner,,MONEY
+108 kroner,,MONEY
+14kroner,,MONEY
+87kroner,,MONEY
+seksten kroner,,MONEY
+61kroner,,MONEY
+30kroner,,MONEY
+ni kroner,,MONEY
+sytten kroner,,MONEY
+208 kroner,,MONEY
+151 kroner,,MONEY
+109 kroner,,MONEY
+9245kroner,,MONEY
+178kroner,,MONEY
+7417kroner,,MONEY
+196kroner,,MONEY
+9359kroner,,MONEY
+en krona,,MONEY
+1 krona,,MONEY
+en krona,,MONEY
+en krona,,MONEY
+en krona,,MONEY
+en krona,,MONEY
+181kr.,,MONEY
+tre kr.,,MONEY
+241 kr.,,MONEY
+3574kr.,,MONEY
+ti tusinde kr.,,MONEY
+176kr.,,MONEY
+327 kr.,,MONEY
+9678kr.,,MONEY
+155 kr.,,MONEY
+5271 kr.,,MONEY
+5347kr.,,MONEY
+295 kr.,,MONEY
+152kr.,,MONEY
+7649 kr.,,MONEY
+30 kr.,,MONEY
+1687kr.,,MONEY
+1475kr.,,MONEY
+55 kr.,,MONEY
+278 kr.,,MONEY
+ti kr.,,MONEY
+323 kr.,,MONEY
+39kr.,,MONEY
+337kr.,,MONEY
+halvfjerds hundrede kr.,,MONEY
+7417kr.,,MONEY
+267kr.,,MONEY
+tres kr.,,MONEY
+68kr.,,MONEY
+135 kr.,,MONEY
+67 kr.,,MONEY
+259KR,,MONEY
+fire millioner KR,,MONEY
+halvtreds tusinde KR,,MONEY
+ti KR,,MONEY
+fire KR,,MONEY
+213KR,,MONEY
+176KR,,MONEY
+196 KR,,MONEY
+35 KR,,MONEY
+176KR,,MONEY
+13KR,,MONEY
+295KR,,MONEY
+107KR,,MONEY
+13 KR,,MONEY
+fjorten KR,,MONEY
+326kr,,MONEY
+halvfems hundrede kr,,MONEY
+196kr,,MONEY
+fyrre kr,,MONEY
+7417 kr,,MONEY
+9665kr,,MONEY
+5081kr,,MONEY
+6859kr,,MONEY
+224 kr,,MONEY
+4880 kr,,MONEY
+5690 kr,,MONEY
+308 kr,,MONEY
+5081kr,,MONEY
+to tusinde kr,,MONEY
+14kr,,MONEY
+109 kr,,MONEY
+3221 kr,,MONEY
+firs millioner kr,,MONEY
+25kr,,MONEY
+196kr,,MONEY
+31kr,,MONEY
+152kr,,MONEY
+161kr,,MONEY
+218 kr,,MONEY
+halvfjerds hundrede kr,,MONEY
+9665kr,,MONEY
+syv millioner kr,,MONEY
+259kr,,MONEY
+295kr,,MONEY
+femten kr,,MONEY
+5347Dkk,,MONEY
+Dkk332,,MONEY
+Dkk5347,,MONEY
+7122Dkk,,MONEY
+Dkk7360,,MONEY
+8048 Dkk,,MONEY
+67 Dkk,,MONEY
+55 Dkk,,MONEY
+Dkk113,,MONEY
+1 krone,,MONEY
+en krone,,MONEY
+en krone,,MONEY
+en krone,,MONEY
+en krone,,MONEY
+1 krone,,MONEY
+1 krone,,MONEY
+en krone,,MONEY
+en krone,,MONEY
+1 krone,,MONEY
+en krone,,MONEY
+en krone,,MONEY
+en krone,,MONEY
+en krone,,MONEY
+1 krone,,MONEY
+en dollar,,MONEY
+en dollar,,MONEY
+1 dollar,,MONEY
+firs dollars,,MONEY
+241dollars,,MONEY
+9665 dollars,,MONEY
+329USD,,MONEY
+2720 USD,,MONEY
+USD 123,,MONEY
+$4329,,MONEY
+76 $,,MONEY
+196 $,,MONEY
+1 peso,,MONEY
+1 peso,,MONEY
+en peso,,MONEY
+65pesos,,MONEY
+35 pesos,,MONEY
+146 pesos,,MONEY
+61pund,,MONEY
+ti tusinde pund,,MONEY
+5690pund,,MONEY
+firs euro,,MONEY
+7576 euro,,MONEY
+3221euro,,MONEY
+EUR222,,MONEY
+163EUR,,MONEY
+femten EUR,,MONEY
+107 kronor,,MONEY
+tre kronor,,MONEY
+seks kronor,,MONEY
+atten GBP,,MONEY
+GBP 1032,,MONEY
+GBP 267,,MONEY
+80danske kroner,,MONEY
+halvfems hundrede danske kroner,,MONEY
+295danske kroner,,MONEY
+4917 danske kroner,,MONEY
+205 danske kroner,,MONEY
+firs danske kroner,,MONEY
+329 danske kroner,,MONEY
+tre danske kroner,,MONEY
+3221danske kroner,,MONEY
+ni danske kroner,,MONEY
+259 danske kroner,,MONEY
+308 danske kroner,,MONEY
+7690danske kroner,,MONEY
+178danske kroner,,MONEY
+156danske kroner,,MONEY
+nitten amerikanske dollars,,MONEY
+tre tusinde amerikanske dollars,,MONEY
+152 amerikanske dollars,,MONEY
+4617 øre,,MONEY
+219øre,,MONEY
+halvfems øre,,MONEY
+95€,,MONEY
+337€,,MONEY
+€234,,MONEY
+£8048,,MONEY
+341 £,,MONEY
+7649 £,,MONEY
+seksten procent,,PERCENT
+94.63 %,,PERCENT
+29 %,,PERCENT
+65%,,PERCENT
+nitten procent,,PERCENT
+otte procent,,PERCENT
+34 %,,PERCENT
+17.03%,,PERCENT
+halvfems procent,,PERCENT
+26 %,,PERCENT
+16%,,PERCENT
+90 %,,PERCENT
+40 %,,PERCENT
+17.03 %,,PERCENT
+28 %,,PERCENT
+75 %,,PERCENT
+57 %,,PERCENT
+99%,,PERCENT
+fem procent,,PERCENT
+fjorten procent,,PERCENT
+94.97 %,,PERCENT
+84%,,PERCENT
+52 %,,PERCENT
+36.03%,,PERCENT
+40 %,,PERCENT
+77 %,,PERCENT
+31 %,,PERCENT
+15.02%,,PERCENT
+49.88 %,,PERCENT
+88 %,,PERCENT
+6%,,PERCENT
+74 %,,PERCENT
+65 %,,PERCENT
+94%,,PERCENT
+64 %,,PERCENT
+32 %,,PERCENT
+17 %,,PERCENT
+48.34 %,,PERCENT
+34 %,,PERCENT
+65 %,,PERCENT
+5 %,,PERCENT
+32 %,,PERCENT
+seksten procent,,PERCENT
+63%,,PERCENT
+75 %,,PERCENT
+nitten procent,,PERCENT
+tres procent,,PERCENT
+16 %,,PERCENT
+69%,,PERCENT
+2.16%,,PERCENT
+12%,,PERCENT
+94 %,,PERCENT
+75 %,,PERCENT
+54.96 %,,PERCENT
+seks procent,,PERCENT
+13%,,PERCENT
+17%,,PERCENT
+56 %,,PERCENT
+32.94 %,,PERCENT
+77 %,,PERCENT
+18 %,,PERCENT
+5%,,PERCENT
+92.78 %,,PERCENT
+tusind procent,,PERCENT
+75 %,,PERCENT
+82 %,,PERCENT
+halvtreds procent,,PERCENT
+69 %,,PERCENT
+94.63 %,,PERCENT
+8 %,,PERCENT
+53 %,,PERCENT
+13%,,PERCENT
+32 %,,PERCENT
+firs procent,,PERCENT
+13 %,,PERCENT
+71 %,,PERCENT
+89 %,,PERCENT
+26 %,,PERCENT
+57 %,,PERCENT
+53.73 %,,PERCENT
+66%,,PERCENT
+84.25 %,,PERCENT
+seks procent,,PERCENT
+tre procent,,PERCENT
+halvtreds procent,,PERCENT
+35 %,,PERCENT
+35 %,,PERCENT
+91%,,PERCENT
+89 %,,PERCENT
+36.03%,,PERCENT
+39 %,,PERCENT
+57 %,,PERCENT
+69%,,PERCENT
+98 %,,PERCENT
+90 %,,PERCENT
+65%,,PERCENT
+45%,,PERCENT
+51 %,,PERCENT
+98.25 %,,PERCENT
+48 %,,PERCENT
+71 %,,PERCENT
+87 %,,PERCENT
+16 %,,PERCENT
+9.85%,,PERCENT
+99 %,,PERCENT
+26.47 %,,PERCENT
+52%,,PERCENT
+57 %,,PERCENT
+60 %,,PERCENT
+32 %,,PERCENT
+fjorten procent,,PERCENT
+39 %,,PERCENT
+94 %,,PERCENT
+tolv procent,,PERCENT
+sytten procent,,PERCENT
+2 %,,PERCENT
+88%,,PERCENT
+sytten procent,,PERCENT
+32.94 %,,PERCENT
+nitten procent,,PERCENT
+34 %,,PERCENT
+atten procent,,PERCENT
+tretten procent,,PERCENT
+34 %,,PERCENT
+75%,,PERCENT
+64%,,PERCENT
+17 %,,PERCENT
+39 %,,PERCENT
+10 %,,PERCENT
+19 %,,PERCENT
+tusind procent,,PERCENT
+99 %,,PERCENT
+84 %,,PERCENT
+10 %,,PERCENT
+tres procent,,PERCENT
+94 %,,PERCENT
+28 %,,PERCENT
+38%,,PERCENT
+95 %,,PERCENT
+66%,,PERCENT
+ni procent,,PERCENT
+tusind procent,,PERCENT
+70 %,,PERCENT
+48.34 %,,PERCENT
+53 %,,PERCENT
+84 %,,PERCENT
+halvfjerds procent,,PERCENT
+40 %,,PERCENT
+98.67%,,PERCENT
+13 %,,PERCENT
+77 %,,PERCENT
+tretten procent,,PERCENT
+98%,,PERCENT
+4.34 %,,PERCENT
+96 %,,PERCENT
+98%,,PERCENT
+fem procent,,PERCENT
+39 %,,PERCENT
+85 %,,PERCENT
+22.71 %,,PERCENT
+94.97%,,PERCENT
+halvfems procent,,PERCENT
+1 %,,PERCENT
+82%,,PERCENT
+32%,,PERCENT
+9.85 %,,PERCENT
+33.13 %,,PERCENT
+60 %,,PERCENT
+75%,,PERCENT
+33 %,,PERCENT
+halvfems procent,,PERCENT
+97.0 %,,PERCENT
+78.49 %,,PERCENT
+6 %,,PERCENT
+5 %,,PERCENT
+91%,,PERCENT
+seks procent,,PERCENT
+33.13 %,,PERCENT
+75%,,PERCENT
+seks procent,,PERCENT
+40 %,,PERCENT
+halvfems procent,,PERCENT
+29%,,PERCENT
+25 %,,PERCENT
+16 %,,PERCENT
+6 %,,PERCENT
+69.42 %,,PERCENT
+26.3%,,PERCENT
+57 %,,PERCENT
+halvtreds procent,,PERCENT
+halvfems procent,,PERCENT
+firs procent,,PERCENT
+9.85%,,PERCENT
+48.11%,,PERCENT
+26.3 %,,PERCENT
+65 %,,PERCENT
+67 %,,PERCENT
+85%,,PERCENT
+firs procent,,PERCENT
+18 %,,PERCENT
+1 %,,PERCENT
+40%,,PERCENT
+84 %,,PERCENT
+86%,,PERCENT
+22.71 %,,PERCENT
+atten procent,,PERCENT
+firs procent,,PERCENT
+45 %,,PERCENT
+31.11%,,PERCENT
+95 %,,PERCENT
+94.63 %,,PERCENT
+71 %,,PERCENT
+94 %,,PERCENT
+atten procent,,PERCENT
+95 %,,PERCENT
+65 %,,PERCENT
+tre procent,,PERCENT
+26%,,PERCENT
+38%,,PERCENT
+tres procent,,PERCENT
+ni procent,,PERCENT
+halvtreds procent,,PERCENT
+halvfems procent,,PERCENT
+35 %,,PERCENT
+89 %,,PERCENT
+halvfems procent,,PERCENT
+29 %,,PERCENT
+ti procent,,PERCENT
+ti procent,,PERCENT
+atten procent,,PERCENT
+36 %,,PERCENT
+31 %,,PERCENT
+76%,,PERCENT
+86 %,,PERCENT
+17%,,PERCENT
+seks procent,,PERCENT
+2 %,,PERCENT
+99 %,,PERCENT
+91%,,PERCENT
+86%,,PERCENT
+5 %,,PERCENT
+et hundrede procent,,PERCENT
+89 %,,PERCENT
+77 %,,PERCENT
+10 %,,PERCENT
+16%,,PERCENT
+15.02 %,,PERCENT
+65 %,,PERCENT
+tusind procent,,PERCENT
+91 %,,PERCENT
+45 %,,PERCENT
+81.79%,,PERCENT
+ti procent,,PERCENT
+54.96 %,,PERCENT
+54.96 %,,PERCENT
+84 %,,PERCENT
+95 %,,PERCENT
+77 %,,PERCENT
+50%,,PERCENT
+4 %,,PERCENT
+193 dusin,,QUANTITY
+7690 snes,,QUANTITY
+tre tusinde tomme,,QUANTITY
+1475 sømil,,QUANTITY
+95hektar,,QUANTITY
+tyve hundrede ppm,,QUANTITY
+113 mm,,QUANTITY
+55 mm,,QUANTITY
+259 mm,,QUANTITY
+193 mm,,QUANTITY
+295 mm,,QUANTITY
+108 millimeter,,QUANTITY
+96millimeter,,QUANTITY
+310 millimeter,,QUANTITY
+87 millimeter,,QUANTITY
+278 millimeter,,QUANTITY
+161 cm,,QUANTITY
+218 cm,,QUANTITY
+7649cm,,QUANTITY
+151 cm,,QUANTITY
+163 cm,,QUANTITY
+196 centimeter,,QUANTITY
+213 centimeter,,QUANTITY
+244 centimeter,,QUANTITY
+tre centimeter,,QUANTITY
+208centimeter,,QUANTITY
+252 dm,,QUANTITY
+tolv decimeter,,QUANTITY
+3075 m,,QUANTITY
+40m,,QUANTITY
+33 m,,QUANTITY
+96 m,,QUANTITY
+120m,,QUANTITY
+107 m,,QUANTITY
+326 m,,QUANTITY
+ni hundrede m,,QUANTITY
+atten m,,QUANTITY
+78 m,,QUANTITY
+sytten meter,,QUANTITY
+2597 meter,,QUANTITY
+326 meter,,QUANTITY
+244 meter,,QUANTITY
+99 meter,,QUANTITY
+96 meter,,QUANTITY
+55 meter,,QUANTITY
+87 meter,,QUANTITY
+61 meter,,QUANTITY
+otte tusinde meter,,QUANTITY
+9539meter,,QUANTITY
+224meter,,QUANTITY
+109 meter,,QUANTITY
+78 meter,,QUANTITY
+135meter,,QUANTITY
+196meter,,QUANTITY
+2599meter,,QUANTITY
+7 meter,,QUANTITY
+115 meter,,QUANTITY
+sytten meter,,QUANTITY
+2597 dekameter,,QUANTITY
+301 hm,,QUANTITY
+176hektometer,,QUANTITY
+33 km,,QUANTITY
+155 km,,QUANTITY
+155 km,,QUANTITY
+295 km,,QUANTITY
+203 km,,QUANTITY
+217 km,,QUANTITY
+261 km,,QUANTITY
+55km,,QUANTITY
+89km,,QUANTITY
+323 km,,QUANTITY
+178 KM,,QUANTITY
+halvfems hundrede KM,,QUANTITY
+32KM,,QUANTITY
+185KM,,QUANTITY
+68 KM,,QUANTITY
+267 kilometer,,QUANTITY
+ni hundrede kilometer,,QUANTITY
+259 kilometer,,QUANTITY
+halvfems kilometer,,QUANTITY
+1475 kilometer,,QUANTITY
+252 kilometer,,QUANTITY
+196 kilometer,,QUANTITY
+35kilometer,,QUANTITY
+323 kilometer,,QUANTITY
+295 kilometer,,QUANTITY
+152 kvadratmeter,,QUANTITY
+7690 kvadratmeter,,QUANTITY
+fjorten kvadratmeter,,QUANTITY
+196 kvadratmeter,,QUANTITY
+32 kvadratmeter,,QUANTITY
+147kvm,,QUANTITY
+273kvm,,QUANTITY
+ni kvm,,QUANTITY
+176 kvm,,QUANTITY
+176 kvm,,QUANTITY
+290 m^2,,QUANTITY
+firs km^2,,QUANTITY
+to tusinde kvadratkilometer,,QUANTITY
+14 kubikmeter,,QUANTITY
+109 m^3,,QUANTITY
+halvfjerds hundrede liter,,QUANTITY
+seksten liter,,QUANTITY
+25 liter,,QUANTITY
+196liter,,QUANTITY
+152 liter,,QUANTITY
+halvfjerds hundrede liter,,QUANTITY
+161liter,,QUANTITY
+4 liter,,QUANTITY
+halvfjerds hundrede liter,,QUANTITY
+275 liter,,QUANTITY
+259L,,QUANTITY
+29 L,,QUANTITY
+96 L,,QUANTITY
+332 L,,QUANTITY
+96L,,QUANTITY
+58L,,QUANTITY
+halvfems L,,QUANTITY
+312 L,,QUANTITY
+68 L,,QUANTITY
+67 L,,QUANTITY
+tre tusinde milliliter,,QUANTITY
+55milliliter,,QUANTITY
+113 milliliter,,QUANTITY
+syv milliliter,,QUANTITY
+332milliliter,,QUANTITY
+185 ml,,QUANTITY
+334 ml,,QUANTITY
+337ml,,QUANTITY
+332 ml,,QUANTITY
+to ml,,QUANTITY
+tre mL,,QUANTITY
+halvfems hundrede mL,,QUANTITY
+241 mL,,QUANTITY
+tres mL,,QUANTITY
+295 mL,,QUANTITY
+77 centiliter,,QUANTITY
+89 centiliter,,QUANTITY
+34centiliter,,QUANTITY
+4 centiliter,,QUANTITY
+76 centiliter,,QUANTITY
+fjorten hundrede cl,,QUANTITY
+9245 cl,,QUANTITY
+196 cl,,QUANTITY
+nitten cl,,QUANTITY
+147 cl,,QUANTITY
+65CL,,QUANTITY
+95 pund,,QUANTITY
+61 kilogram,,QUANTITY
+tre tusinde kilogram,,QUANTITY
+193 kilogram,,QUANTITY
+72 kilogram,,QUANTITY
+334 kilogram,,QUANTITY
+3075 kg,,QUANTITY
+2599 kg,,QUANTITY
+78kg,,QUANTITY
+femten kg,,QUANTITY
+13 kg,,QUANTITY
+267 kg,,QUANTITY
+halvfems hundrede kg,,QUANTITY
+7360 kg,,QUANTITY
+5113 kg,,QUANTITY
+267 kg,,QUANTITY
+176 KG,,QUANTITY
+295 KG,,QUANTITY
+259 KG,,QUANTITY
+205 KG,,QUANTITY
+329 gram,,QUANTITY
+334 gram,,QUANTITY
+259 gram,,QUANTITY
+tretten millioner gram,,QUANTITY
+120 gram,,QUANTITY
+35 gram,,QUANTITY
+3075 gram,,QUANTITY
+259 gram,,QUANTITY
+tre tusinde gram,,QUANTITY
+219 gram,,QUANTITY
+5113 g,,QUANTITY
+firs millioner g,,QUANTITY
+337 g,,QUANTITY
+7360 g,,QUANTITY
+2597 g,,QUANTITY
+275 milligram,,QUANTITY
+fjorten millioner milligram,,QUANTITY
+203 milligram,,QUANTITY
+55 mg,,QUANTITY
+65mg,,QUANTITY
+halvfems hundrede mg,,QUANTITY
+259 karat,,QUANTITY
+atten joule,,QUANTITY
+261 j,,QUANTITY
+halvfjerds hundrede kilowatt-timer,,QUANTITY
+5080kWh,,QUANTITY
+nitten millioner kwh,,QUANTITY
+130 celsius,,QUANTITY
+252 fahrenheit,,QUANTITY
+tretten hundrede ton,,QUANTITY
+80tons,,QUANTITY
+313 t,,QUANTITY
+4 °c,,QUANTITY
+Marius,,PERSON
+Calvin,,PERSON
+Marc,,PERSON
+Mogens,,PERSON
+Christian,,PERSON
+Benny,,PERSON
+Joey,,PERSON
+Leif,,PERSON
+Hugo,,PERSON
+Chris,,PERSON
+Frederik,,PERSON
+Peer,,PERSON
+Eric,,PERSON
+Jon,,PERSON
+Conrad,,PERSON
+Adrian,,PERSON
+Kalle,,PERSON
+Louie,,PERSON
+Bjarke,,PERSON
+Sigurd,,PERSON
+Theodor,,PERSON
+Nicolas,,PERSON
+Nilas,,PERSON
+Michael,,PERSON
+Tobias,,PERSON
+Ivan,,PERSON
+Yousef,,PERSON
+Bertram,,PERSON
+Thøger,,PERSON
+Johan,,PERSON
+Jimmi,,PERSON
+Arthur,,PERSON
+Esben,,PERSON
+Georgios,,PERSON
+Nick,,PERSON
+Dan,,PERSON
+Asger,,PERSON
+Viggo,,PERSON
+Ebbe,,PERSON
+Terkel,,PERSON
+Marcin,,PERSON
+Bohdan,,PERSON
+Tommi,,PERSON
+Konrad,,PERSON
+Silas,,PERSON
+Mykola,,PERSON
+Kevin,,PERSON
+Janus,,PERSON
+Elias,,PERSON
+Kamal,,PERSON
+Joanna,,PERSON
+Didde,,PERSON
+Hanna,,PERSON
+Saga,,PERSON
+Tine,,PERSON
+Lin,,PERSON
+Svetlana,,PERSON
+Lisa,,PERSON
+Kirsten,,PERSON
+Ana,,PERSON
+Maj-Britt,,PERSON
+Esther,,PERSON
+Nelly,,PERSON
+Kari,,PERSON
+Kamilla,,PERSON
+Malene,,PERSON
+Matilde,,PERSON
+Maren,,PERSON
+Berith,,PERSON
+Agnethe,,PERSON
+Melina,,PERSON
+Nanna,,PERSON
+Andrea,,PERSON
+Rosa,,PERSON
+Majbritt,,PERSON
+Carmen,,PERSON
+Nina,,PERSON
+Bettina,,PERSON
+Herdis,,PERSON
+Diana,,PERSON
+Rosemarie,,PERSON
+Amanda,,PERSON
+Lilli,,PERSON
+Katrine,,PERSON
+Christel,,PERSON
+Anny,,PERSON
+Hedvig,,PERSON
+Josefine,,PERSON
+Lykke,,PERSON
+Rebekka,,PERSON
+Erna,,PERSON
+Cecilia,,PERSON
+Fatima,,PERSON
+Doris,,PERSON
+Natasha,,PERSON
+Margrethe,,PERSON
+Jytte,,PERSON
+Jill,,PERSON
+Mariann,,PERSON
+Bente,,PERSON
+Holme,,PERSON
+Pedersen,,PERSON
+Flodin,,PERSON
+Kirkegaard,,PERSON
+Thuesen,,PERSON
+Johannsen,,PERSON
+Østergaard,,PERSON
+Storm,,PERSON
+Willumsen,,PERSON
+Mørch,,PERSON
+Poulsen,,PERSON
+Holm-Hansen,,PERSON
+Dalan,,PERSON
+Lund,,PERSON
+Riis,,PERSON
+Frost,,PERSON
+Høyer,,PERSON
+Sternberg,,PERSON
+Sørensen,,PERSON
+Henriksen,,PERSON
+Nørregaard,,PERSON
+Nonboe,,PERSON
+Kragelund,,PERSON
+Hald,,PERSON
+Fabricius,,PERSON
+Ruben Sindberg,,PERSON
+Mathias Schmidt,,PERSON
+Rene Underbjerg,,PERSON
+Nils Kruse,,PERSON
+Nichlas Viborg,,PERSON
+Marcel Ladefoged,,PERSON
+Toke Møller-Larsen,,PERSON
+Kristoffer Paulsen,,PERSON
+Villum Nikolajsen,,PERSON
+Ejvind Sandstrøm,,PERSON
+Ibrahim Jacobsen,,PERSON
+Amir Hermansen,,PERSON
+Filip Rosendal,,PERSON
+Alan Mogensen,,PERSON
+Vagn Lange,,PERSON
+Dennis Eibye,,PERSON
+Kjeld Hedegaard,,PERSON
+Abdullah Frederiksen,,PERSON
+Mohammad Overgaard,,PERSON
+Jørn Rohde,,PERSON
+Erling Severinsen,,PERSON
+Orla Nissen,,PERSON
+Milas Lauritzen,,PERSON
+Michal Fisker,,PERSON
+Lennart Høj,,PERSON
+Tim Keller,,PERSON
+Peder Ottesen,,PERSON
+Yasin Olsen,,PERSON
+Yusuf Friis,,PERSON
+Karim Bartholdy,,PERSON
+Ib Michaelsen,,PERSON
+Walter Danielsen,,PERSON
+Tonny Markussen,,PERSON
+Klavs Skriver,,PERSON
+Yaroslav Karlsen,,PERSON
+Samir Nørgaard,,PERSON
+Mark Laustsen,,PERSON
+Oskar Santos,,PERSON
+Lasse Lynge,,PERSON
+Marcus Winther,,PERSON
+Kai Wagner,,PERSON
+Egon Johannesen,,PERSON
+Patrik Erichsen,,PERSON
+Valdemar Caspersen,,PERSON
+Mohamad Mahmood,,PERSON
+Bertil Thomhav,,PERSON
+Liam Thomasen,,PERSON
+Albert Carlsen,,PERSON
+Helmuth Damgaard,,PERSON
+Casper Taleb,,PERSON
+Aneta Justesen,,PERSON
+Ingrid Povlsen,,PERSON
+Elisa Skov,,PERSON
+Irene Iseni,,PERSON
+Birgit Ali,,PERSON
+Susan Johansson,,PERSON
+Frigg Truelsen,,PERSON
+Mie Ipsen,,PERSON
+Else Brink,,PERSON
+Eva Ott,,PERSON
+Benedicte Karlsson,,PERSON
+Birte Laugesen,,PERSON
+Julie Kure,,PERSON
+Christine Kongsgaard,,PERSON
+Conny Nørgård,,PERSON
+Joan Jæger,,PERSON
+Madeleine Rytter,,PERSON
+Lilly Hansen,,PERSON
+Pauline Michelsen,,PERSON
+Tanya Würtz,,PERSON
+Emma Corneliussen,,PERSON
+Kaja Koch,,PERSON
+Thea Boesgaard,,PERSON
+Kaya Steen,,PERSON
+Winnie Espersen,,PERSON
+Lea Dam,,PERSON
+Jeanett Bostrup,,PERSON
+Klara Lindholm,,PERSON
+Helena Krogsgaard,,PERSON
+Fadime Therkildsen,,PERSON
+Sienna Fogsgaard,,PERSON
+Ritta Bro,,PERSON
+Janni Yilmaz,,PERSON
+Dina Krogh,,PERSON
+Anita Dahl,,PERSON
+Anne-Sofie Ellegaard,,PERSON
+Kamma Jørgensen,,PERSON
+Annemette Mohammad,,PERSON
+Stephanie Gregersen,,PERSON
+Minna Petersen,,PERSON
+Mai-Britt Smith,,PERSON
+Kiki Jespersen,,PERSON
+Solveig Hendriksen,,PERSON
+Sia Lindberg,,PERSON
+Sophia Li,,PERSON
+Gunhild Frandsen,,PERSON
+Gro Korsgaard,,PERSON
+Simona Ibrahim,,PERSON
+Molly Mathiesen,,PERSON
+Sabine Kragh,,PERSON
+Noa Niels-Jørgen,,PERSON
+Patrick Finn,,PERSON
+Manfred Glenn,,PERSON
+Mike Niclas,,PERSON
+Kim Gerner,,PERSON
+Tue Ronni,,PERSON
+Freddy Stefan,,PERSON
+Teddy Niklas,,PERSON
+Lauge Markus,,PERSON
+Tristan Paul,,PERSON
+Otto Verner,,PERSON
+Cornelius Mohamed,,PERSON
+Thorkil Adam,,PERSON
+Margot Anja,,PERSON
+My Christa,,PERSON
+Søs Katrin,,PERSON
+Ronja Emilie,,PERSON
+Cathrine Lili,,PERSON
+Ditte Gry,,PERSON
+Julia Annika,,PERSON
+Karina Aida,,PERSON
+Kristine Victoria,,PERSON
+Alona Rikke,,PERSON
+Amelia Nataliia,,PERSON
+Veronica Esra,,PERSON
+Vilma Lotte,,PERSON
+Zakaria Johnsen Buch,,PERSON
+William Ladefoged Bech,,PERSON
+Thorbjørn Fogsgaard Svenningsen,,PERSON
+Matthias Smidt Frantzen,,PERSON
+Yurii Brodersen Hussein,,PERSON
+Leonard Gade Ishøy,,PERSON
+Paw Sindberg Mouritsen,,PERSON
+Julian Nguyen Engbjerg,,PERSON
+Hermann Pihl Martinsen,,PERSON
+Kristen Dalgaard Callesen,,PERSON
+Ahmed Jørgensen Albertsen,,PERSON
+Elo Bendtsen Koch,,PERSON
+Troels Kilic Møller-Larsen,,PERSON
+Jess Hasselstrøm Husted,,PERSON
+Birk Larsen Ahmad,,PERSON
+Jannik Bæk Drud,,PERSON
+Steffen Lindgaard Bagger,,PERSON
+Frank Thrane Damm,,PERSON
+Wilhelm Andresen Hadi,,PERSON
+Jannick Blauenfeldt Yigit,,PERSON
+Sebastian Rosendal Munch,,PERSON
+Tomasz Gram Brylle,,PERSON
+Christopher Kjærgaard Nicolaisen,,PERSON
+Bjørn Mørk Jessen,,PERSON
+Ole Tanderup Klitgaard,,PERSON
+Georg Laustsen Steen,,PERSON
+Joachim Ahmed Hoffmann,,PERSON
+Stig Schwartzbach Bach,,PERSON
+Phillip Vester Lykke,,PERSON
+Thorkild Bjerg Møller,,PERSON
+Carl-Emil Lundsgaard Halle,,PERSON
+Damian Mohammad Nagel,,PERSON
+Oleksandr Carlsen Thelin,,PERSON
+Alexander Lauridsen Lindberg,,PERSON
+Rasmus Gregersen Frederiksen,,PERSON
+Alex Truelsen Hald,,PERSON
+Peter Øster Villumsen,,PERSON
+Nikolaj Larsson Würtz,,PERSON
+Nynne Honoré Kure,,PERSON
+Kathrine Kjær Clemmensen,,PERSON
+Merle Jakobsen Krone,,PERSON
+Elise Espersen Broen,,PERSON
+Lisette Truong Christensen,,PERSON
+Sofie Bro Nørregaard,,PERSON
+Jeannette Ludvigsen Nikolajsen,,PERSON
+Inna Sandstrøm Vium,,PERSON
+Mary Hauge Brøndum,,PERSON
+Margit Brauer Greve,,PERSON
+Lonnie Christoffersen Berg,,PERSON
+Jessica Holme Petersen,,PERSON
+Connie Grave Caspersen,,PERSON
+Aya Studsgaard Thomasen,,PERSON
+Clara Frederichsen Bloch,,PERSON
+Frida Iversen Ipsen,,PERSON
+Sylwia Damsgaard Kragh,,PERSON
+Susanne Therkelsen Kelstrup,,PERSON
+Laila Wagner Bjørn,,PERSON
+Martha Frost Bak,,PERSON
+Lina Kumar Khan,,PERSON
+Ina Skovgaard Green,,PERSON
+Lucca Krog Sommer,,PERSON
+Karla Jønsson Graversen,,PERSON
+Tenna Thygesen Lindegaard,,PERSON
+Filippa Weber Helt,,PERSON
+Flora Laugesen Johannessen,,PERSON
+Helin Bondesen Hassan,,PERSON
+Gunver Wissing Magnussen,,PERSON
+Carina Johansen Holdt,,PERSON
+Lissi Rosendahl Bøgh,,PERSON
+Ragnhild Fabricius Willumsen,,PERSON
+Gitta Fuglsang Jansen,,PERSON
+Josephine Lehmann Lynge,,PERSON
+Hannah Abildgaard Ravn,,PERSON
+Karin Riis Nonboe,,PERSON
+Liva Busk Bonde,,PERSON
+Sanne Hvid Lau,,PERSON
+Asbjørn K.,,PERSON
+Andrzej O.,,PERSON
+Bruno J.,,PERSON
+Nicklas X.,,PERSON
+Danny Z.,,PERSON
+Ulrik D.,,PERSON
+Tommy S.,,PERSON
+Keld N.,,PERSON
+Hjalte W.,,PERSON
+Kenn I.,,PERSON
+Slawomir L.,,PERSON
+Kaj B.,,PERSON
+Halil A.,,PERSON
+Olena H.,,PERSON
+Naja R.,,PERSON
+Alberte V.,,PERSON
+Jane M.,,PERSON
+Helen G.,,PERSON
+Charlotte Y.,,PERSON
+Laura U.,,PERSON
+Sille T.,,PERSON
+Mia P.,,PERSON
+Petra F.,,PERSON
+Dorthe Q.,,PERSON
+Camille E.,,PERSON
+Thilde C.,,PERSON
+Nicholai T. Brink,,PERSON
+Amin Y. Philipsen,,PERSON
+Jesper Q. Vestergaard,,PERSON
+Ahmet L. Karlsen,,PERSON
+Sander Q. Wegner,,PERSON
+Karl V. Schneider,,PERSON
+Julius R. Schultz,,PERSON
+Hassan J. Kjøge,,PERSON
+Arne W. Therkildsen,,PERSON
+Palle T. Axelsen,,PERSON
+Matias K. Lorenzen,,PERSON
+Carlo V. Egebo,,PERSON
+Thor W. Wolff,,PERSON
+Oscar V. Fisker,,PERSON
+Frede H. Martinussen,,PERSON
+Magnus X. Schrøder,,PERSON
+Johnny A. Ellegaard,,PERSON
+Felix X. Skaarup,,PERSON
+Erik O. Lauritsen,,PERSON
+Theis D. Degn,,PERSON
+Magne V. Kastrup,,PERSON
+Nikki X. Mortensen,,PERSON
+Lukas Q. Saugmann,,PERSON
+Jonatan C. Benkjer,,PERSON
+Jan I. Kristoffersen,,PERSON
+Sussi W. Damgaard,,PERSON
+Sarah Y. Halse,,PERSON
+Rebecca S. Bie,,PERSON
+Katja B. Ünal,,PERSON
+Silke R. Stokholm,,PERSON
+Linda G. Henriksen,,PERSON
+Bianca C. Søgaard,,PERSON
+Inge H. Jæger,,PERSON
+Nora P. Ibrahim,,PERSON
+Inge-Lise B. Mathiesen,,PERSON
+Elinor M. Bruun,,PERSON
+Felicia K. Bentzen,,PERSON
+Asta U. Thordal,,PERSON
+Janne D. Henningsen,,PERSON
+Anne-Mette Y. Bentsen,,PERSON
+Lissie Q. Klausen,,PERSON
+Medina R. Nygaard,,PERSON
+Helga N. Warburg,,PERSON
+Anne-Marie N. Høj,,PERSON
+Myrna W. Bergmann,,PERSON
+Olga X. Mahmood,,PERSON
+Augusta N. Hoelgaard,,PERSON
+Emily V. Albrechtsen,,PERSON
+Louise Z. Rasmussen,,PERSON
+Rigmor H. Thomassen,,PERSON
+Anker Engelund,,PERSON
+Thit Jensen,,PERSON
+Naser Khader,,PERSON
+Mærsk Mc-Kinney Møller,,PERSON
+K.K. Steincke,,PERSON
+Storm P.,,PERSON
+Simon Spies,,PERSON
+Asta Nielsen,,PERSON
+Tom Kristensen,,PERSON
+Lise Nørgaard,,PERSON
+"Gunnar ""Nu"" Hansen",,PERSON
+J.C. Christensen,,PERSON
+Johannes V. Jensen,,PERSON
+Harald Lander,,PERSON
+Nina Bang,,PERSON
+Suzanna Brøgger,,PERSON
+Henrik Cavling,,PERSON
+Bodil Ipsen,,PERSON
+Piet Hein,,PERSON
+Michael Laudrup,,PERSON
+Børge Outze,,PERSON
+Benjamin Lasnier,,PERSON
+Martin Jensen,,PERSON
+Josephine Skriver,,PERSON
+Caroline Wozniacki,,PERSON
+Nina Agdal,,PERSON
+Mø,,PERSON
+Mick Øgendahl,,PERSON
+Medina,,PERSON
+Linse Kessler,,PERSON
+Mikkel Kessler,,PERSON
+Anders Matthesen,,PERSON
+Pernille Vermund,,PERSON
+Alex Vanopslagh,,PERSON
+Pia Olsen Dyhr,,PERSON
+Mette Frederiksen,,PERSON
+Lars Løkke Rasmussen,,PERSON
+Søren Pape Poulsen,,PERSON
+Pelle Dragsted,,PERSON
+Franciska Rosenkilde,,PERSON
+Troels Lund Poulsen,,PERSON
+@helenachristensen,,PERSON
+@kevinmagnussen,,PERSON
+@andershemmingsendk,,PERSON
+@josefinehj,,PERSON
+@tobiasmoeller213,,PERSON
+@mathildegoehler,,PERSON
+@carowozniacki,,PERSON
+@braithwaiteofficial,,PERSON
+@chriseriksen8,,PERSON
+@hamderkurt,,PERSON
+@mia1023218,,PERSON
+Michelle Obama,,PERSON
+Obama,,PERSON
+Barack Obama,,PERSON
+Bill Gates,,PERSON
+Jim Carrey,,PERSON
+Kim Kardashian,,PERSON
+Morgan Freeman,,PERSON
+Johnny Depp,,PERSON
+Leonardo DiCaprio,,PERSON
+Taylor Swift,,PERSON
+Will Smith,,PERSON
+Trump,,PERSON
+Donald Trump,,PERSON
+Albert Einstein,,PERSON
+Charles Darwin,,PERSON
+George Washington,,PERSON
+Joseph Stalin,,PERSON
+Plato,,PERSON
+Columbus,,PERSON
+Galileo Galilei,,PERSON
+H.C Andersen,,PERSON
+H.C. Andersen,,PERSON
+Hans Christian Andersen,,PERSON
+Susanne Bier,,PERSON
+Anders Fogh Rasmussen,,PERSON
+Pippi Langstrømpe,,PERSON
+Harry Potter,,PERSON
+Sherlock Holmes,,PERSON
+Tarzan,,PERSON
+Anders and,,PERSON
+Anakin Skywalker,,PERSON
+Jonathan Løvehjerte,,PERSON
+Peter Pan,,PERSON
+Homer Simpson,,PERSON
+Søren Brun,,PERSON
+Yoda,,PERSON
+Darth Vader,,PERSON
+Pyrus,,PERSON
+Dolph,,PERSON
+James Bond,,PERSON
+Volkswagen Golf,,MULTIPLE
+VW Golf,,MULTIPLE
+Volkswagen Touran,,MULTIPLE
+Tesla Model S,,MULTIPLE
+Ford Mustang,,MULTIPLE
+Audi A6,,MULTIPLE
+VW Passat,,MULTIPLE
+Haribo Click Mix,,MULTIPLE
+Samsung Galaxy Z Flip,,MULTIPLE
+Lenovo Yoga,,MULTIPLE
+ASUS Vivobook,,MULTIPLE
+Haribo Vampyrer,,MULTIPLE
+Katjes Salte Fisk,,MULTIPLE
+Google Pixel 8,,MULTIPLE
+Nike Air Max 1,,MULTIPLE
+Logitech G PRO,,MULTIPLE
+Sonos One SL,,MULTIPLE
+Sonos Move,,MULTIPLE
+Sage Barista Pro,,MULTIPLE
+Dyson V15 Detect,,MULTIPLE
+Dyson Cyclone V10,,MULTIPLE
+LG 42LX1Q6,,MULTIPLE
+KitchenAid Artisan,,MULTIPLE
+adidas Junior Superstar,,MULTIPLE
+Birkenstock Arizona,,MULTIPLE
+Bose QuietComfort 45,,MULTIPLE
+Garmin Vivofit 4,,MULTIPLE
+Fjällräven Kånken Mini,,MULTIPLE
+OnePlus Nord 3,,MULTIPLE
+NIKE Dunk High,,MULTIPLE
+Marshall Major IV,,MULTIPLE
+Carhatt Heston Vest,,MULTIPLE
+Ford Fiesta,,MULTIPLE
+Amazon Echo,,MULTIPLE
+TEMPUR PRO® SMARTCOOL™,matress,MULTIPLE
+Holbergs Erasmus Montanus,,MULTIPLE
+St. St. Blicher Brudstykker af en Landsbydegns dagbog,,MULTIPLE
+Søren Kirkegaards Enten-Eller,,MULTIPLE
+Pontoppidan Lykke-Per,,MULTIPLE
+Helle Helle Hvis det er,,MULTIPLE
+Hanne-Vibeke Holst Undskyldningen,,MULTIPLE
+Solvej Balle Om udregning af rumfang,,MULTIPLE
+Sigurd Langberg Naar Bønder elsker,,MULTIPLE
+Line Kruse Noget i luften,,MULTIPLE
+Dirch Passer Ved Kongelunden,,MULTIPLE
+Gerda Lie Kaas Vildheks ,,MULTIPLE
+Reine Brynolfsson Sidste dans,,MULTIPLE
+Poul Reichhardt Syd for Tana River,,MULTIPLE
+Alex Ahrendtsen (DF),,MULTIPLE
+Mikkel Bjørn (DF),,MULTIPLE
+Katrine Daugaard (LA),,MULTIPLE
+Dan Jørgensen (A),,MULTIPLE
+Dan Jørgensen (S),,MULTIPLE
+Mai Mercado (K),,MULTIPLE
+Lars Løkke Rasmussen (M),,MULTIPLE
+Mette Frederiksen (S),,MULTIPLE
+Drake LAUGH NOW CRY LATER,,MULTIPLE
+The Weekend's Blinding Lights,,MULTIPLE
+Bieber Mood (Remix),,MULTIPLE
+DJ Snakes Lean On,,MULTIPLE
+Selena Gomez Good for You,,MULTIPLE
+Kanye West FourFiveSeconds,,MULTIPLE
+Gilli C'est la vie,,MULTIPLE
+Rasmus Seebachs Uanset,,MULTIPLE
+Lukas Graham Søndagsbarn,,MULTIPLE
+Hugo Helmig Wild,,MULTIPLE
+Rasmus Seebach 2017,song,MULTIPLE
+Jens Unmack Vejen Hjem Fra Rocknroll,,MULTIPLE
+Kaj og Andrea,,MULTIPLE
