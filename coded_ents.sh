@@ -17,10 +17,10 @@ SCRIPTS=(
 
 echo "Running all scripts within $SCRIPTS_DIR"
 
-# Loop through and execute each script
+# execute all scripts 
 for script in "${SCRIPTS[@]}"; do
     python "$SCRIPTS_DIR/$script"
 done
 
-# Deactivate the virtual environment
+# deactivate env
 deactivate
