@@ -15,7 +15,7 @@ def load_data(data_path):
     
     # load data for entities that are manual (not coded)
     for ent_type in manual_entity_types:
-        df = pd.read_excel(data_path / "CLEAN_LISTS.xlsx", sheet_name=ent_type)
+        df = pd.read_excel(data_path / "MANUAL_LISTS.xlsx", sheet_name=ent_type)
         df["TYPE"] = ent_type
         df_all = pd.concat([df_all, df], ignore_index=True)
     
@@ -26,7 +26,7 @@ def load_data(data_path):
         df_all = pd.concat([df_all, df], ignore_index=True)
 
     # load multiples
-    multiple = pd.read_excel(data_path / "CLEAN_LISTS.xlsx", sheet_name="MULTIPLE")
+    multiple = pd.read_excel(data_path / "MANUAL_LISTS.xlsx", sheet_name="MULTIPLE")
     multiple["TYPE"] = "MULTIPLE"
     
     # add multiples to df_all but only the entity col 
@@ -169,10 +169,13 @@ def main():
     # multiply rows by weight
     df = expand_data(df)
 
+    # save df 
+    df.to_csv(data_path / "final_ents" / "NER_ENTS_OVERVIEW.csv", index=False)
+
     # create examples
     examples = create_examples(df, multiple)
 
-    write_to_csv(examples, data_path)
+    write_to_csv(examples, data_path / "final_ents")
 
 if __name__ == "__main__":
     main()
