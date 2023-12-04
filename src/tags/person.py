@@ -81,8 +81,8 @@ def sample_person_tags(person_df:pd.DataFrame, n_names_total:int=200, high:int=2
     info_before = f"Length of pools BEFORE sampling:\nCommon names: {len(common_names)}, Rare names: {len(rare_names)}"
 
     # sample names from both pools 
-    common_names = common_names.sample(int(round(n_names_total*ratio[0], 0)), replace=False)
-    rare_names = rare_names.sample(int(round(n_names_total*ratio[1], 0)), replace=False)
+    common_names = common_names.sample(int(round(n_names_total*ratio[0], 0)), replace=False, random_state=1209)
+    rare_names = rare_names.sample(int(round(n_names_total*ratio[1], 0)), replace=False, random_state=1209)
 
     # info 
     info_after = f"Length of pools AFTER sampling:\nCommon names: {len(common_names)}, Rare names: {len(rare_names)}"
@@ -372,20 +372,18 @@ def main():
 
     # load famous names
     data_path = path.parents[2] / "data"
-    famous_names = pd.read_excel(data_path / "MANUAL_LISTS.xlsx", sheet_name="PERSON")
+    famous_df= pd.read_excel(data_path / "MANUAL_LISTS.xlsx", sheet_name="PERSON")
 
-    # combine the two lists
-    all_names.extend(famous_names["entity"].tolist())
-
-    # make all names into a dataframe
+    # make all regular names into a dataframe, add weights and context col (to match other lists)
     df = pd.DataFrame(all_names, columns=["entity"])
-
-    # add weights and context col (to match other lists)
     df["weight"] = 1
     df["context"] = None
 
+    # concat regular and famous names
+    final_df = pd.concat([df, famous_df], ignore_index=True)
+
     # save to file
-    df.to_csv(data_path / "PERSON.csv", index=False)
+    final_df.to_csv(data_path / "PERSON.csv", index=False)
 
 
 if __name__ == '__main__':
