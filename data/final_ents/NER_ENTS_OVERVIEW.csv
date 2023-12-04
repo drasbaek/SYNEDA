@@ -30,6 +30,7 @@ Koreakrigen,,EVENT
 Napoleonskrigene,,EVENT
 Napoleonskrigene,,EVENT
 1. Slesviske krig,,EVENT
+1. Slesviske krig,,EVENT
 2. Slesviske krig,,EVENT
 2. Slesviske krig,,EVENT
 Trediveårskrigen,,EVENT
@@ -252,7 +253,6 @@ Rosenborg Slot,,FACILITY
 Magasin du Nord,,FACILITY
 Magasin du Nord,,FACILITY
 Pasteurs Tårn,,FACILITY
-Pasteurs Tårn,,FACILITY
 Herlev Hospital,,FACILITY
 Herlev Hospital,,FACILITY
 Bohrs Tårn,,FACILITY
@@ -386,7 +386,6 @@ Keopspyramiden,,FACILITY
 Mount Rushmore,,FACILITY
 Mount Rushmore,,FACILITY
 Bagan-templet,,FACILITY
-Bagan-templet,,FACILITY
 Stongehenge,,FACILITY
 Stongehenge,,FACILITY
 E1,highway,FACILITY
@@ -490,7 +489,7 @@ Sveriges,,GPE
 Sverige,,GPE
 Finland,,GPE
 Finland,,GPE
-Finland,,GPE
+Finlands,,GPE
 Finland,,GPE
 Finland,,GPE
 Nederlandene,,GPE
@@ -572,7 +571,7 @@ Prag,,GPE
 Prags,,GPE
 Amsterdam,,GPE
 Amsterdam,,GPE
-Amsterdams,,GPE
+Amsterdam,,GPE
 Dublins,,GPE
 Oslo,,GPE
 Oslo,,GPE
@@ -612,7 +611,7 @@ Indiens,,GPE
 Indien,,GPE
 Pakistan,,GPE
 Pakistan,,GPE
-Irans,,GPE
+Iran,,GPE
 Sydafrika,,GPE
 Sydafrika,,GPE
 USA,,GPE
@@ -639,12 +638,12 @@ Columbia,,GPE
 Etiopien,,GPE
 Etiopien,,GPE
 Bolivia,,GPE
-Bolivias,,GPE
-Egyptens,,GPE
+Bolivia,,GPE
+Egypten,,GPE
 Egypten,,GPE
 Venezula,,GPE
 Kenya,,GPE
-Vietnam,,GPE
+Vietnams,,GPE
 Cuba,,GPE
 Cubas,,GPE
 Jordan,,GPE
@@ -670,7 +669,7 @@ Nepal,,GPE
 Nepal,,GPE
 Bangladesh,,GPE
 Bangladeshs,,GPE
-Tunesiens,,GPE
+Tunesien,,GPE
 Nicaragua,,GPE
 Nicaragua,,GPE
 Nordkoreas,,GPE
@@ -718,7 +717,7 @@ Linköping,,GPE
 Thorshavn,,GPE
 Thorshavn,,GPE
 Tórshavn,,GPE
-Tórshavn,,GPE
+Tórshavns,,GPE
 Hamborg,,GPE
 Hamborg,,GPE
 Hamburg,,GPE
@@ -775,7 +774,7 @@ Odense,,GPE
 Odense,,GPE
 Odense,,GPE
 Odense,,GPE
-Odenses,,GPE
+Odense,,GPE
 Odense,,GPE
 Odenses,,GPE
 Odense,,GPE
@@ -810,7 +809,7 @@ Kolding,,GPE
 Kolding,,GPE
 Koldings,,GPE
 Kolding,,GPE
-Koldings,,GPE
+Kolding,,GPE
 Horsens,,GPE
 Horsens,,GPE
 Horsens,,GPE
@@ -826,7 +825,7 @@ Roskilde,,GPE
 Roskilde,,GPE
 Roskilde,,GPE
 Roskildes,,GPE
-Vardes,,GPE
+Varde,,GPE
 Skjern,,GPE
 Aabenraa,,GPE
 Aabenraa,,GPE
@@ -859,12 +858,12 @@ Egå,,GPE
 Esbjerg,,GPE
 Esbjergs,,GPE
 Espergærde,,GPE
-Espergærdes,,GPE
+Espergærde,,GPE
 Faaborgs,,GPE
 Fanø,,GPE
-Fanø,,GPE
+Fanøs,,GPE
 Farsøs,,GPE
-Farsø,,GPE
+Farsøs,,GPE
 Frederiksbergs,,GPE
 Frederiksberg,,GPE
 Frederikshavn,,GPE
@@ -923,7 +922,7 @@ Knebel,,GPE
 Klampenborgs,,GPE
 Kirke Såby,,GPE
 Kirke Såby,,GPE
-Kirke Hyllinges,,GPE
+Kirke Hyllinge,,GPE
 Kirke Hyllinges,,GPE
 Lemvig,,GPE
 Lemvig,,GPE
@@ -949,33 +948,32 @@ Padborg,,GPE
 Præstøs,,GPE
 Præstøs,,GPE
 Ribe,,GPE
-Ribes,,GPE
+Ribe,,GPE
 Risskov,,GPE
 Risskov,,GPE
 Roskilde,,GPE
 Rudkøbings,,GPE
 Rudkøbing,,GPE
-Rønde,,GPE
+Røndes,,GPE
 Rønde,,GPE
 Rødovre,,GPE
 Rødekro,,GPE
 Rødekro,,GPE
-Rys,,GPE
+Ry,,GPE
 Ringe,,GPE
 Ringes,,GPE
-Ringkøbing,,GPE
-Ringkøbing,,GPE
+Ringkøbings,,GPE
+Ringkøbings,,GPE
 Sabro,,GPE
 Sakskøbing,,GPE
 Silkeborg,,GPE
 Samsø,,GPE
 Samsøs,,GPE
 Sindal,,GPE
-Sindal,,GPE
 Skagen,,GPE
 Skals,,GPE
 Skanderborg,,GPE
-Skives,,GPE
+Skive,,GPE
 Skovlunde,,GPE
 Slagelse,,GPE
 Slagelse,,GPE
@@ -983,38 +981,38 @@ Solbjerg,,GPE
 Sorø,,GPE
 Sorø,,GPE
 Sunds,,GPE
-Sønderborg,,GPE
+Sønderborgs,,GPE
 Struer,,GPE
 Store Heddinge,,GPE
 Store Heddinge,,GPE
-Solrøds,,GPE
-Sorø,,GPE
+Solrød,,GPE
+Sorøs,,GPE
 Suldrup,,GPE
-Suldrups,,GPE
+Suldrup,,GPE
 Sydals,,GPE
-Taastrup,,GPE
+Taastrups,,GPE
 Taastrup,,GPE
 Tarm,,GPE
 Tilst,,GPE
 Tilst,,GPE
 Thyborøn,,GPE
 Tønder,,GPE
-Tørrings,,GPE
 Tørring,,GPE
+Tørrings,,GPE
 Toftlund,,GPE
 Thisteds,,GPE
+Tappernøjes,,GPE
 Tappernøje,,GPE
-Tappernøje,,GPE
-Ulfborg,,GPE
-Valbys,,GPE
-Vallensbæk,,GPE
-Vanløses,,GPE
+Ulfborgs,,GPE
+Valby,,GPE
+Vallensbæks,,GPE
 Vanløse,,GPE
-Virum,,GPE
+Vanløse,,GPE
+Virums,,GPE
+Viby,,GPE
 Vibys,,GPE
-Vibys,,GPE
-Ølstykke,,GPE
-Ølstykke,,GPE
+Ølstykkes,,GPE
+Ølstykkes,,GPE
 Ørsted ,,GPE
 kinesisk,,LANGUAGE
 kinesisk,,LANGUAGE
@@ -1200,7 +1198,6 @@ lov om skifte af dødsboer,,LAW
 Innovationsloven,,LAW
 Innovationsloven,,LAW
 §§ 6-9,,LAW
-§§ 6-9,,LAW
 § 5 i økologiloven,,LAW
 "retsplejelovens § 834, stk. 1, nr. 2 ",,LAW
 "retsplejelovens § 834, stk. 1, nr. 2 ",,LAW
@@ -1215,7 +1212,6 @@ ejendomsvurderingsloven,,LAW
 LOV nr 1430,,LAW
 LOV nr 1430,,LAW
 Årsregnskabsloven,,LAW
-§ 143 i selskabsloven,,LAW
 § 143 i selskabsloven,,LAW
 Havneloven,,LAW
 Havneloven,,LAW
@@ -1319,7 +1315,6 @@ Esrum Sø,,LOCATION
 Esrum Sø,,LOCATION
 Stadil Fjord,,LOCATION
 Vejle Fjord,,LOCATION
-Klosterheden,,LOCATION
 Klosterheden,,LOCATION
 Rold Skov,,LOCATION
 Gribskov,,LOCATION
@@ -1952,47 +1947,47 @@ hundredende,,ORDINAL
 25.,,ORDINAL
 Bagsværd Lakrids,,ORGANIZATION
 Salling Group,,ORGANIZATION
-Salling Groups,,ORGANIZATION
-Føtex,,ORGANIZATION
-Nettos,,ORGANIZATION
+Salling Group,,ORGANIZATION
+Føtexs,,ORGANIZATION
+Netto,,ORGANIZATION
 Netto,,ORGANIZATION
 Rema 1000,,ORGANIZATION
 Superbrugsen,,ORGANIZATION
 Dagli' Brugsen,,ORGANIZATION
-Carlsbergs,,ORGANIZATION
-ISS,international service system,ORGANIZATION
+Carlsberg,,ORGANIZATION
+ISSs,international service system,ORGANIZATION
 ISS,international service system,ORGANIZATION
 Arla,,ORGANIZATION
-Arlas,,ORGANIZATION
+Arla,,ORGANIZATION
 Arla Foods,,ORGANIZATION
 Vestas,,ORGANIZATION
 Vestas Wind Systems,,ORGANIZATION
 Vestas Wind Systems,,ORGANIZATION
-USTC,,ORGANIZATION
+USTCs,,ORGANIZATION
 Ørsted,,ORGANIZATION
-Ørsteds,,ORGANIZATION
-DONG energy,,ORGANIZATION
+Ørsted,,ORGANIZATION
+DONG energys,,ORGANIZATION
 Novo,medical company,ORGANIZATION
 Novo Nordisk,,ORGANIZATION
-DSVs,,ORGANIZATION
-Maersks,,ORGANIZATION
-Mærsk,,ORGANIZATION
+DSV,,ORGANIZATION
+Maersk,,ORGANIZATION
+Mærsks,,ORGANIZATION
 Mærsk,,ORGANIZATION
 e-Boks Nordic A/S,,ORGANIZATION
 Lego A/S,,ORGANIZATION
 Lego A/S,,ORGANIZATION
 Coop Danmark A/S,,ORGANIZATION
 Coop,,ORGANIZATION
-Siemens Gamesa Renewable Energy A/Ss,,ORGANIZATION
+Siemens Gamesa Renewable Energy A/S,,ORGANIZATION
 Danish Crown,,ORGANIZATION
-Danish Crown,,ORGANIZATION
-Pandoras,,ORGANIZATION
+Danish Crowns,,ORGANIZATION
+Pandora,,ORGANIZATION
 Bestseller,,ORGANIZATION
 Bestseller,,ORGANIZATION
-Velux,,ORGANIZATION
+Veluxs,,ORGANIZATION
 Lundbeck,,ORGANIZATION
-Dagrofa Logistik,,ORGANIZATION
 Dagrofa Logistiks,,ORGANIZATION
+Dagrofa Logistik,,ORGANIZATION
 Circle K Danmark A/Ss,,ORGANIZATION
 Circle K Danmark A/S,,ORGANIZATION
 DSB,trains,ORGANIZATION
@@ -2000,26 +1995,26 @@ BYGMA,,ORGANIZATION
 OK,energy company,ORGANIZATION
 Nets,payment system,ORGANIZATION
 Nets,payment system,ORGANIZATION
+Starks,,ORGANIZATION
 Stark,,ORGANIZATION
-Stark,,ORGANIZATION
-Danish Agros,,ORGANIZATION
+Danish Agro,,ORGANIZATION
 Danish Agros,,ORGANIZATION
 Elgiganten A/Ss,,ORGANIZATION
 Elgiganten A/S,,ORGANIZATION
 Andel Energi,,ORGANIZATION
-Andel Energis,,ORGANIZATION
+Andel Energi,,ORGANIZATION
 Tulip Food Company,,ORGANIZATION
 Tulip Food Company,,ORGANIZATION
 Mercedes-Benz,,ORGANIZATION
 DLA Agro AmbA,,ORGANIZATION
-DLA Agro AmbA,,ORGANIZATION
+DLA Agro AmbAs,,ORGANIZATION
 Power A/S,electronics company,ORGANIZATION
 Power A/S,electronics company,ORGANIZATION
-Post Danmarks,,ORGANIZATION
-Postnord,,ORGANIZATION
+Post Danmark,,ORGANIZATION
+Postnords,,ORGANIZATION
 Postnord,,ORGANIZATION
 Ikea,,ORGANIZATION
-Uno-Xs,,ORGANIZATION
+Uno-X,,ORGANIZATION
 Matas,,ORGANIZATION
 Matas,,ORGANIZATION
 Dupont Nutrition Biosciences ApSs,,ORGANIZATION
@@ -2032,31 +2027,30 @@ Zealand - Sjællands Erhvervsakademi,,ORGANIZATION
 Zealand - Sjællands Erhvervsakademi,,ORGANIZATION
 Arkitektskolen Aarhus,,ORGANIZATION
 Arkitektskolen Aarhus,,ORGANIZATION
-Designskolens,,ORGANIZATION
 Designskolen,,ORGANIZATION
-Designskolen Koldings,,ORGANIZATION
-Fredericia Maskinmesterskoles,,ORGANIZATION
+Designskolens,,ORGANIZATION
+Designskolen Kolding,,ORGANIZATION
 Fredericia Maskinmesterskole,,ORGANIZATION
+Fredericia Maskinmesterskoles,,ORGANIZATION
 MARTEC,,ORGANIZATION
 MARTECs,,ORGANIZATION
-SIMAC - Svendborg International Maritime Academy,,ORGANIZATION
-SIMAC - Svendborg International Maritime Academy,,ORGANIZATION
+SIMAC - Svendborg International Maritime Academys,,ORGANIZATION
+SIMAC - Svendborg International Maritime Academys,,ORGANIZATION
 Århus Maskinmesterskole,,ORGANIZATION
-Danmarks Medie- og Journalisthøjskole,,ORGANIZATION
+Danmarks Medie- og Journalisthøjskoles,,ORGANIZATION
 Danmarks Medie- og Journalisthøjskole,,ORGANIZATION
 DMJX,journalism school,ORGANIZATION
 University College SYD,,ORGANIZATION
 University College SYD,,ORGANIZATION
-VIA University College,,ORGANIZATION
+VIA University Colleges,,ORGANIZATION
 VIA University College,,ORGANIZATION
 VIA,university,ORGANIZATION
 VIA,university,ORGANIZATION
 Aarhus Universitet,,ORGANIZATION
 Aarhus Universitet,,ORGANIZATION
-AU,university,ORGANIZATION
+AUs,university,ORGANIZATION
 Aarhus Uni,,ORGANIZATION
-Aarhus Uni,,ORGANIZATION
-Aalborg Universitet,,ORGANIZATION
+Aalborg Universitets,,ORGANIZATION
 DTU,university,ORGANIZATION
 DTU,university,ORGANIZATION
 Danmarks Tekniske Universitet,,ORGANIZATION
@@ -2066,13 +2060,13 @@ Copenhagen Business School,,ORGANIZATION
 Copenhagen Business School,,ORGANIZATION
 Roskilde Universitet,,ORGANIZATION
 Roskilde Universitet,,ORGANIZATION
-RUC,university,ORGANIZATION
+RUCs,university,ORGANIZATION
 RUC,university,ORGANIZATION
 Syddansk,,ORGANIZATION
 Syddansk Universitet,,ORGANIZATION
-KUs,university,ORGANIZATION
 KU,university,ORGANIZATION
-Københavns Universitets,,ORGANIZATION
+KUs,university,ORGANIZATION
+Københavns Universitet,,ORGANIZATION
 Berlingske Media,,ORGANIZATION
 Berlingske Media,,ORGANIZATION
 Berlingske,,ORGANIZATION
@@ -2081,9 +2075,9 @@ KiMs,,ORGANIZATION
 KiMs,,ORGANIZATION
 JP/Politikens Hus,,ORGANIZATION
 JP/Politikens Hus,,ORGANIZATION
-JPs,media,ORGANIZATION
 JP,media,ORGANIZATION
-Jyllands-Posten,,ORGANIZATION
+JP,media,ORGANIZATION
+Jyllands-Postens,,ORGANIZATION
 Jyllands-Posten,,ORGANIZATION
 Politiken,,ORGANIZATION
 Information,,ORGANIZATION
@@ -2091,29 +2085,29 @@ Information,,ORGANIZATION
 Zetland,,ORGANIZATION
 Zetland,,ORGANIZATION
 B.T.,,ORGANIZATION
-B.T.,,ORGANIZATION
+B.T.s,,ORGANIZATION
 Ekstra Bladet,,ORGANIZATION
 Ekstra Bladet,,ORGANIZATION
 Presselogen,,ORGANIZATION
-Jysk Fynske Medier,,ORGANIZATION
-Nordjyske Mediers,,ORGANIZATION
+Jysk Fynske Mediers,,ORGANIZATION
 Nordjyske Medier,,ORGANIZATION
-Stiftstidende,,ORGANIZATION
+Nordjyske Medier,,ORGANIZATION
 Stiftstidendes,,ORGANIZATION
+Stiftstidende,,ORGANIZATION
 Fyens Stiftstidende,,ORGANIZATION
-Fyens Stiftstidende,,ORGANIZATION
+Fyens Stiftstidendes,,ORGANIZATION
 Infomedia,,ORGANIZATION
+Scanpixs,,ORGANIZATION
 Scanpix,,ORGANIZATION
-Scanpix,,ORGANIZATION
-Podimos,,ORGANIZATION
-Podimos,,ORGANIZATION
+Podimo,,ORGANIZATION
+Podimo,,ORGANIZATION
 DR,media,ORGANIZATION
 DRs,media,ORGANIZATION
-Danmarks Radios,,ORGANIZATION
+Danmarks Radio,,ORGANIZATION
 TV2,,ORGANIZATION
-Viaplays,,ORGANIZATION
+Viaplay,,ORGANIZATION
 youSee,,ORGANIZATION
-youSee,,ORGANIZATION
+youSees,,ORGANIZATION
 Disney,,ORGANIZATION
 C MORE,,ORGANIZATION
 C MOREs,,ORGANIZATION
@@ -2122,18 +2116,18 @@ HBO,,ORGANIZATION
 Amazon,,ORGANIZATION
 Amazon Prime,,ORGANIZATION
 Amazon Prime,,ORGANIZATION
-Netflixs,,ORGANIZATION
+Netflix,,ORGANIZATION
 Netflix,,ORGANIZATION
 hayus,,ORGANIZATION
-hayus,,ORGANIZATION
-Eurosports,,ORGANIZATION
+hayu,,ORGANIZATION
+Eurosport,,ORGANIZATION
 Danske Spil,,ORGANIZATION
+Sund & Bælt Holding A/Ss,,ORGANIZATION
 Sund & Bælt Holding A/S,,ORGANIZATION
-Sund & Bælt Holding A/S,,ORGANIZATION
-TV2|DANMARKs,,ORGANIZATION
-TV2|DANMARKs,,ORGANIZATION
-PostNord AB,,ORGANIZATION
-PostNord AB,,ORGANIZATION
+TV2|DANMARK,,ORGANIZATION
+TV2|DANMARK,,ORGANIZATION
+PostNord ABs,,ORGANIZATION
+PostNord ABs,,ORGANIZATION
 SAS AB,,ORGANIZATION
 SAS AB,,ORGANIZATION
 SAS,airline,ORGANIZATION
@@ -2142,10 +2136,10 @@ Scandinavian Airlines,,ORGANIZATION
 Scandinavian Airlines,,ORGANIZATION
 Energinet,,ORGANIZATION
 Naviair,,ORGANIZATION
-Naviair,,ORGANIZATION
+Naviairs,,ORGANIZATION
 Apple,company,ORGANIZATION
 Apple,company,ORGANIZATION
-Microsoft,,ORGANIZATION
+Microsofts,,ORGANIZATION
 Microsoft,,ORGANIZATION
 Saudi Aramco,,ORGANIZATION
 Saudi Aramco,,ORGANIZATION
@@ -2153,7 +2147,7 @@ Alphabet,,ORGANIZATION
 Google,,ORGANIZATION
 Google,,ORGANIZATION
 NVIDIA,,ORGANIZATION
-NVIDIAs,,ORGANIZATION
+NVIDIA,,ORGANIZATION
 Meta,company,ORGANIZATION
 Facebook,,ORGANIZATION
 Facebook,,ORGANIZATION
@@ -2163,7 +2157,7 @@ FB,facebook,ORGANIZATION
 Snapchat,,ORGANIZATION
 Snapchat,,ORGANIZATION
 Insta,instagram,ORGANIZATION
-Instas,instagram,ORGANIZATION
+Insta,instagram,ORGANIZATION
 IG,instagram,ORGANIZATION
 IG,instagram,ORGANIZATION
 Instagram,,ORGANIZATION
@@ -2171,43 +2165,43 @@ Instagram,,ORGANIZATION
 Twitter,,ORGANIZATION
 Twitter,,ORGANIZATION
 Berkshire Hathaway,,ORGANIZATION
-Berkshire Hathaways,,ORGANIZATION
+Berkshire Hathaway,,ORGANIZATION
 Visa,,ORGANIZATION
 TESLAs,,ORGANIZATION
-TESLA,,ORGANIZATION
+TESLAs,,ORGANIZATION
 TikTok,,ORGANIZATION
 TikTok,,ORGANIZATION
 National Banken,,ORGANIZATION
 PRIME,beverages,ORGANIZATION
 PRIME,beverages,ORGANIZATION
-Egedal kommunes,,ORGANIZATION
+Egedal kommune,,ORGANIZATION
 Ishøj kommune,,ORGANIZATION
-Ishøj kommune,,ORGANIZATION
-Glostrup kommune,,ORGANIZATION
-Favrskov kommunes,,ORGANIZATION
+Ishøj kommunes,,ORGANIZATION
+Glostrup kommunes,,ORGANIZATION
+Favrskov kommune,,ORGANIZATION
 Viborg kommune,,ORGANIZATION
 Viborg kommune,,ORGANIZATION
-Rebild kommune,,ORGANIZATION
+Rebild kommunes,,ORGANIZATION
 Silkeborg kommune,,ORGANIZATION
 Silkeborg kommune,,ORGANIZATION
 Køge kommune,,ORGANIZATION
 Køge kommune,,ORGANIZATION
 Odsherred kommune,,ORGANIZATION
 byretten,,ORGANIZATION
-landsrettens,,ORGANIZATION
+landsretten,,ORGANIZATION
+højesteret,,ORGANIZATION
 højesterets,,ORGANIZATION
-højesterets,,ORGANIZATION
-byretterne,,ORGANIZATION
-landsretterne,,ORGANIZATION
+byretternes,,ORGANIZATION
+landsretternes,,ORGANIZATION
 Danmarks Domstole,,ORGANIZATION
 Danmarks Domstole,,ORGANIZATION
-politiet,,ORGANIZATION
+politiets,,ORGANIZATION
 forsvaret,,ORGANIZATION
 forsvaret,,ORGANIZATION
 folketinget,,ORGANIZATION
 FC. Københavns,,ORGANIZATION
 FCK,football team,ORGANIZATION
-Brøndby,football team,ORGANIZATION
+Brøndbys,football team,ORGANIZATION
 BIF,football team,ORGANIZATION
 BIF,football team,ORGANIZATION
 Silkeborg,football team,ORGANIZATION
@@ -2216,18 +2210,18 @@ Nordsjælland,football team,ORGANIZATION
 Midtjylland,football team,ORGANIZATION
 AGF,football team,ORGANIZATION
 AGF,football team,ORGANIZATION
-OB,football team,ORGANIZATION
+OBs,football team,ORGANIZATION
 OB,football team,ORGANIZATION
 Randers,football team,ORGANIZATION
 Viborg,football team,ORGANIZATION
-Viborgs,football team,ORGANIZATION
-Manchester United,,ORGANIZATION
+Viborg,football team,ORGANIZATION
+Manchester Uniteds,,ORGANIZATION
 United,football team,ORGANIZATION
 United,football team,ORGANIZATION
-Liverpools,football team,ORGANIZATION
-Chelseas,,ORGANIZATION
+Liverpool,football team,ORGANIZATION
+Chelsea,,ORGANIZATION
 Barcelona,football team,ORGANIZATION
-Barcelonas,football team,ORGANIZATION
+Barcelona,football team,ORGANIZATION
 FC Barcelona,,ORGANIZATION
 FC Barcelonas,,ORGANIZATION
 Real Madrid,,ORGANIZATION
@@ -2237,19 +2231,19 @@ Fredericia HK,handball team,ORGANIZATION
 Mors-Thy Håndbold,,ORGANIZATION
 Bjerringbro-Silkeborg,handball team,ORGANIZATION
 Bjerringbro-Silkeborg,handball team,ORGANIZATION
-GOG,handball team,ORGANIZATION
+GOGs,handball team,ORGANIZATION
 Skjern,handball team,ORGANIZATION
 Skjern,handball team,ORGANIZATION
-SønderjyskEs,handball team,ORGANIZATION
+SønderjyskE,handball team,ORGANIZATION
 SønderjyskE,handball team,ORGANIZATION
 TTH Holsterbro,handball team,ORGANIZATION
 TTH Holsterbro,handball team,ORGANIZATION
 KIF Kolding,handball team,ORGANIZATION
-herrelandsholdets,,ORGANIZATION
+herrelandsholdet,,ORGANIZATION
 kvindelandsholdet,,ORGANIZATION
-kvindelandsholdet,,ORGANIZATION
+kvindelandsholdets,,ORGANIZATION
 Superligaen,,ORGANIZATION
-Fortuna Hjørrings,,ORGANIZATION
+Fortuna Hjørring,,ORGANIZATION
 Bakken Bears,,ORGANIZATION
 Svendborg Rabbits,,ORGANIZATION
 Herning Blue Fox,,ORGANIZATION
@@ -2272,39 +2266,39 @@ Celtics,basketball team,ORGANIZATION
 New York Knicks,,ORGANIZATION
 Houston Rockets,,ORGANIZATION
 Houston Rockets,,ORGANIZATION
-EU,,ORGANIZATION
+EUs,,ORGANIZATION
 Europæiske Union,,ORGANIZATION
 Europæiske Union,,ORGANIZATION
-Europa-Parliamentets,,ORGANIZATION
+Europa-Parliamentet,,ORGANIZATION
 Europa-Parliamentet,,ORGANIZATION
 Europa-Kommisionen,,ORGANIZATION
-Europa-Kommisionens,,ORGANIZATION
+Europa-Kommisionen,,ORGANIZATION
 FN,united nations,ORGANIZATION
 FN,united nations,ORGANIZATION
 Forenede Nationer,,ORGANIZATION
-NATOs,,ORGANIZATION
+NATO,,ORGANIZATION
 NATO-alliancen,,ORGANIZATION
-NATO-alliancen,,ORGANIZATION
+NATO-alliancens,,ORGANIZATION
 Klima- og Energiministeriet,,ORGANIZATION
-Landbrugsministeriets,,ORGANIZATION
 Landbrugsministeriet,,ORGANIZATION
-Skatteministeriet,,ORGANIZATION
+Landbrugsministeriet,,ORGANIZATION
+Skatteministeriets,,ORGANIZATION
 Skatteministeriet,,ORGANIZATION
 Justitsministeriet,,ORGANIZATION
-Justitsministeriets,,ORGANIZATION
+Justitsministeriet,,ORGANIZATION
 Finansministeriet,,ORGANIZATION
 Ministeriet for Digitalisering,,ORGANIZATION
-SKATs,,ORGANIZATION
+SKAT,,ORGANIZATION
 OISTERs,,ORGANIZATION
 Fibia,,ORGANIZATION
-Fibias,,ORGANIZATION
+Fibia,,ORGANIZATION
 Telia,,ORGANIZATION
 Telias,,ORGANIZATION
 Telenor,,ORGANIZATION
 "Institut for Engelsk, Germansk og Romansk",,ORGANIZATION
 Saxo-Instituttet,,ORGANIZATION
-Saxo-Instituttets,,ORGANIZATION
-Institut for Fødevarevidenskabs,,ORGANIZATION
+Saxo-Instituttet,,ORGANIZATION
+Institut for Fødevarevidenskab,,ORGANIZATION
 Niels Bohr Institutet,,ORGANIZATION
 Niels Bohr Institutet,,ORGANIZATION
 Institut for Statskundskab,,ORGANIZATION
@@ -2312,35 +2306,36 @@ Institut for Veterinær- og Husdyrvidenskab,,ORGANIZATION
 Billedbladet,,ORGANIZATION
 Billedbladet,,ORGANIZATION
 Se og Hør,,ORGANIZATION
-Se og Hør,,ORGANIZATION
-DBAs,den blå avis,ORGANIZATION
+Se og Hørs,,ORGANIZATION
+DBA,den blå avis,ORGANIZATION
 Den Blå Avis,,ORGANIZATION
 Den Blå Avis,,ORGANIZATION
 PepsiCo,,ORGANIZATION
 PepsiCo,,ORGANIZATION
 Coca-Colas,,ORGANIZATION
-SONY,,ORGANIZATION
-Huaweis,,ORGANIZATION
+Coca-Cola,,ORGANIZATION
+SONYs,,ORGANIZATION
 Huawei,,ORGANIZATION
+Huaweis,,ORGANIZATION
 Disney,,ORGANIZATION
 Disney,,ORGANIZATION
 Shell,,ORGANIZATION
-Shells,,ORGANIZATION
+Shell,,ORGANIZATION
 NIKE,,ORGANIZATION
-NIKEs,,ORGANIZATION
+NIKE,,ORGANIZATION
 adidas,,ORGANIZATION
 adidas,,ORGANIZATION
+Spotifys,,ORGANIZATION
 Spotify,,ORGANIZATION
-Spotify,,ORGANIZATION
-SpaceX,,ORGANIZATION
-Nintendos,,ORGANIZATION
-Nintendos,,ORGANIZATION
+SpaceXs,,ORGANIZATION
+Nintendo,,ORGANIZATION
+Nintendo,,ORGANIZATION
 NASA,,ORGANIZATION
 NASA,,ORGANIZATION
 FBI,,ORGANIZATION
 CIA,,ORGANIZATION
-CIA,,ORGANIZATION
-PET,politiets efterretningstjeneste,ORGANIZATION
+CIAs,,ORGANIZATION
+PETs,politiets efterretningstjeneste,ORGANIZATION
 Buzzfeed,,ORGANIZATION
 Buzzfeed,,ORGANIZATION
 New York Times,,ORGANIZATION
@@ -2356,21 +2351,21 @@ The Guardian,,ORGANIZATION
 Louisiana,museum,ORGANIZATION
 AROS,museum,ORGANIZATION
 AROS,museum,ORGANIZATION
-Kremlins,,ORGANIZATION
+Kremlin,,ORGANIZATION
 Det Hvide Hus,,ORGANIZATION
-@twittter,,ORGANIZATION
-@NASA,,ORGANIZATION
-@NASA,,ORGANIZATION
-@cnnbrk,,ORGANIZATION
-@cnnbrk,,ORGANIZATION
-@CNN,,ORGANIZATION
-@nytimes,,ORGANIZATION
-@nytimes,,ORGANIZATION
-@tv2nyhederne,,ORGANIZATION
-@superligaen,,ORGANIZATION
-@NBA,,ORGANIZATION
-@premierleague,,ORGANIZATION
-Center for Cybersikkerhed,,ORGANIZATION
+@twittter,twitter handle,ORGANIZATION
+@NASA,twitter handle,ORGANIZATION
+@NASA,twitter handle,ORGANIZATION
+@cnnbrk,twitter handle,ORGANIZATION
+@cnnbrk,twitter handle,ORGANIZATION
+@CNN,twitter handle,ORGANIZATION
+@nytimes,twitter handle,ORGANIZATION
+@nytimes,twitter handle,ORGANIZATION
+@tv2nyhederne,twitter handle,ORGANIZATION
+@superligaens,twitter handle,ORGANIZATION
+@NBA,twitter handle,ORGANIZATION
+@premierleague,twitter handle,ORGANIZATION
+Center for Cybersikkerhed,twitter handle,ORGANIZATION
 KiMs Chips,,PRODUCT
 kims chips,,PRODUCT
 Big Mac,,PRODUCT
@@ -2675,7 +2670,6 @@ kl. 10.00,,TIME
 06.00-15.00,,TIME
 04:30-10.00,,TIME
 04:30-10.00,,TIME
-18:15-19.15,,TIME
 18:15-19.15,,TIME
 10.00 - 11.00,,TIME
 10.00 - 11.00,,TIME
@@ -3026,9 +3020,9 @@ seks,,CARDINAL
 syv,,CARDINAL
 syv,,CARDINAL
 syv,,CARDINAL
-otto,,CARDINAL
-otto,,CARDINAL
-otto,,CARDINAL
+otte,,CARDINAL
+otte,,CARDINAL
+otte,,CARDINAL
 ni,,CARDINAL
 ni,,CARDINAL
 ni,,CARDINAL
@@ -3183,7 +3177,6 @@ halvdelen,,CARDINAL
 19. Juni 1986,,DATE
 Juli 26 1987,,DATE
 Oktober 27 2014,,DATE
-Oktober 27 2014,,DATE
 2001-07-04,,DATE
 2013-02-03,,DATE
 2013-02-03,,DATE
@@ -3220,6 +3213,7 @@ Oktober 27 2014,,DATE
 "Torsdag, 04. December 1975",,DATE
 "Torsdag, 04. December 1975",,DATE
 14/Aug/2018,,DATE
+14/Aug/2018,,DATE
 24/Maj/1984,,DATE
 "Onsdag, 29-Jul-20",,DATE
 "Lørdag, 01-Maj-99",,DATE
@@ -3243,9 +3237,7 @@ Oktober 27 2014,,DATE
 30-03-71,,DATE
 11-07-96,,DATE
 2003,,DATE
-2003,,DATE
 2013,,DATE
-2023,,DATE
 2023,,DATE
 1993,,DATE
 1981,,DATE
@@ -3273,14 +3265,15 @@ Oktober 27 2014,,DATE
 1974,,DATE
 1978,,DATE
 2020,,DATE
+2020,,DATE
 Lørdag,,DATE
 Fredag,,DATE
 Fredag,,DATE
 Lørdag,,DATE
 Tirsdag,,DATE
-Tirsdag,,DATE
 Onsdag,,DATE
 Onsdag,,DATE
+Mandag,,DATE
 Mandag,,DATE
 Tirsdag,,DATE
 Mandag,,DATE
@@ -3297,14 +3290,12 @@ Lørdag,,DATE
 Lørdag,,DATE
 Lørdag,,DATE
 Søndag,,DATE
-Søndag,,DATE
 Mandag,,DATE
 Søndag,,DATE
 Januar,,DATE
 Januar,,DATE
 Marts,,DATE
 April,,DATE
-November,,DATE
 November,,DATE
 November,,DATE
 November,,DATE
@@ -3342,9 +3333,14 @@ i morgen,,DATE
 imorgen,,DATE
 imorgen,,DATE
 imorgen,,DATE
+imorgen,,DATE
 igår,,DATE
 igår,,DATE
 igår,,DATE
+i går,,DATE
+i går,,DATE
+i går,,DATE
+i går,,DATE
 i går,,DATE
 i går,,DATE
 i går,,DATE
@@ -3364,12 +3360,10 @@ idag,,DATE
 idag,,DATE
 næste uge,,DATE
 næste uge,,DATE
-næste uge,,DATE
 næste måned,,DATE
 næste måned,,DATE
 næste måned,,DATE
 næste måned,,DATE
-næste år,,DATE
 næste år,,DATE
 næste år,,DATE
 overmorgen,,DATE
@@ -3394,7 +3388,8 @@ en måned,,DATE
 en måned,,DATE
 en måned,,DATE
 en måned,,DATE
-to måneder,,DATE
+en måned,,DATE
+en måned,,DATE
 to måneder,,DATE
 to måneder,,DATE
 to måneder,,DATE
@@ -3405,10 +3400,12 @@ to måneder,,DATE
 elleve måneder,,DATE
 elleve måneder,,DATE
 elleve måneder,,DATE
+elleve måneder,,DATE
 en uge,,DATE
 en uge,,DATE
 en uge,,DATE
 en uge,,DATE
+fire uger,,DATE
 fire uger,,DATE
 fire uger,,DATE
 fem-seks uger,,DATE
@@ -3426,11 +3423,10 @@ firserne,,DATE
 90'erne,,DATE
 90'erne,,DATE
 90'erne,,DATE
+90'erne,,DATE
 1950'erne,,DATE
 1950'erne,,DATE
 1950'erne,,DATE
-et år,,DATE
-et år,,DATE
 et år,,DATE
 et år,,DATE
 et år,,DATE
@@ -3442,7 +3438,6 @@ et år,,DATE
 15 år,,DATE
 3 år,,DATE
 3 år,,DATE
-syv år,,DATE
 syv år,,DATE
 syv år,,DATE
 syv år,,DATE
@@ -3459,15 +3454,16 @@ femårig,,DATE
 halvtredsårig,,DATE
 halvtredsårig,,DATE
 8-11-årige,,DATE
-8-11-årige,,DATE
 +18 år,,DATE
 +18 år,,DATE
 +16 år,,DATE
 +16 år,,DATE
 dkk218,,MONEY
 halvfems tusinde dkk,,MONEY
+halvfems tusinde dkk,,MONEY
 dkk193,,MONEY
 dkk193,,MONEY
+fjorten dkk,,MONEY
 fjorten dkk,,MONEY
 dkk 89,,MONEY
 dkk95,,MONEY
@@ -3482,7 +3478,6 @@ dkk 5690,,MONEY
 295dkk,,MONEY
 295dkk,,MONEY
 108dkk,,MONEY
-108dkk,,MONEY
 5347 dkk,,MONEY
 5347 dkk,,MONEY
 dkk4329,,MONEY
@@ -3492,6 +3487,7 @@ dkk4329,,MONEY
 DKK 278,,MONEY
 DKK 278,,MONEY
 161DKK,,MONEY
+161DKK,,MONEY
 DKK218,,MONEY
 DKK2090,,MONEY
 DKK2090,,MONEY
@@ -3499,7 +3495,6 @@ DKK 35,,MONEY
 161 DKK,,MONEY
 55 DKK,,MONEY
 55 DKK,,MONEY
-DKK9359,,MONEY
 DKK9359,,MONEY
 DKK313,,MONEY
 DKK313,,MONEY
@@ -3511,6 +3506,7 @@ DKK161,,MONEY
 179 DKK,,MONEY
 DKK5347,,MONEY
 7690DKK,,MONEY
+7690DKK,,MONEY
 107kroner,,MONEY
 326kroner,,MONEY
 326kroner,,MONEY
@@ -3518,10 +3514,10 @@ DKK5347,,MONEY
 115 kroner,,MONEY
 firs hundrede kroner,,MONEY
 9245kroner,,MONEY
-9245kroner,,MONEY
 9678kroner,,MONEY
 9678kroner,,MONEY
 tre kroner,,MONEY
+234 kroner,,MONEY
 234 kroner,,MONEY
 326kroner,,MONEY
 31kroner,,MONEY
@@ -3535,6 +3531,8 @@ syv kroner,,MONEY
 5347kroner,,MONEY
 108 kroner,,MONEY
 14kroner,,MONEY
+14kroner,,MONEY
+87kroner,,MONEY
 87kroner,,MONEY
 seksten kroner,,MONEY
 61kroner,,MONEY
@@ -3543,10 +3541,10 @@ seksten kroner,,MONEY
 ni kroner,,MONEY
 sytten kroner,,MONEY
 208 kroner,,MONEY
+208 kroner,,MONEY
 151 kroner,,MONEY
 151 kroner,,MONEY
 109 kroner,,MONEY
-9245kroner,,MONEY
 9245kroner,,MONEY
 178kroner,,MONEY
 7417kroner,,MONEY
@@ -3556,7 +3554,6 @@ sytten kroner,,MONEY
 en krona,,MONEY
 1 krona,,MONEY
 1 krona,,MONEY
-en krona,,MONEY
 en krona,,MONEY
 en krona,,MONEY
 en krona,,MONEY
@@ -3572,7 +3569,9 @@ ti tusinde kr.,,MONEY
 327 kr.,,MONEY
 327 kr.,,MONEY
 9678kr.,,MONEY
+9678kr.,,MONEY
 155 kr.,,MONEY
+5271 kr.,,MONEY
 5271 kr.,,MONEY
 5347kr.,,MONEY
 295 kr.,,MONEY
@@ -3585,7 +3584,7 @@ ti tusinde kr.,,MONEY
 1687kr.,,MONEY
 1475kr.,,MONEY
 55 kr.,,MONEY
-278 kr.,,MONEY
+55 kr.,,MONEY
 278 kr.,,MONEY
 ti kr.,,MONEY
 323 kr.,,MONEY
@@ -3597,13 +3596,11 @@ halvfjerds hundrede kr.,,MONEY
 7417kr.,,MONEY
 7417kr.,,MONEY
 267kr.,,MONEY
-267kr.,,MONEY
 tres kr.,,MONEY
 68kr.,,MONEY
 135 kr.,,MONEY
 67 kr.,,MONEY
 67 kr.,,MONEY
-259KR,,MONEY
 259KR,,MONEY
 fire millioner KR,,MONEY
 halvtreds tusinde KR,,MONEY
@@ -3613,7 +3610,7 @@ ti KR,,MONEY
 fire KR,,MONEY
 fire KR,,MONEY
 213KR,,MONEY
-213KR,,MONEY
+176KR,,MONEY
 176KR,,MONEY
 196 KR,,MONEY
 196 KR,,MONEY
@@ -3622,7 +3619,6 @@ fire KR,,MONEY
 13KR,,MONEY
 13KR,,MONEY
 295KR,,MONEY
-107KR,,MONEY
 107KR,,MONEY
 13 KR,,MONEY
 13 KR,,MONEY
@@ -3635,6 +3631,7 @@ fyrre kr,,MONEY
 7417 kr,,MONEY
 7417 kr,,MONEY
 9665kr,,MONEY
+5081kr,,MONEY
 5081kr,,MONEY
 6859kr,,MONEY
 224 kr,,MONEY
@@ -3657,11 +3654,11 @@ firs millioner kr,,MONEY
 196kr,,MONEY
 31kr,,MONEY
 152kr,,MONEY
+152kr,,MONEY
 161kr,,MONEY
 161kr,,MONEY
 218 kr,,MONEY
 halvfjerds hundrede kr,,MONEY
-9665kr,,MONEY
 9665kr,,MONEY
 syv millioner kr,,MONEY
 259kr,,MONEY
@@ -3673,6 +3670,7 @@ Dkk332,,MONEY
 Dkk5347,,MONEY
 Dkk5347,,MONEY
 7122Dkk,,MONEY
+7122Dkk,,MONEY
 Dkk7360,,MONEY
 Dkk7360,,MONEY
 8048 Dkk,,MONEY
@@ -3680,9 +3678,7 @@ Dkk7360,,MONEY
 67 Dkk,,MONEY
 55 Dkk,,MONEY
 Dkk113,,MONEY
-Dkk113,,MONEY
 1 krone,,MONEY
-en krone,,MONEY
 en krone,,MONEY
 en krone,,MONEY
 en krone,,MONEY
@@ -3702,8 +3698,8 @@ en krone,,MONEY
 en krone,,MONEY
 en krone,,MONEY
 en krone,,MONEY
-en krone,,MONEY
 1 krone,,MONEY
+en dollar,,MONEY
 en dollar,,MONEY
 en dollar,,MONEY
 1 dollar,,MONEY
@@ -3713,10 +3709,10 @@ firs dollars,,MONEY
 241dollars,,MONEY
 241dollars,,MONEY
 9665 dollars,,MONEY
+9665 dollars,,MONEY
 329USD,,MONEY
 329USD,,MONEY
 2720 USD,,MONEY
-USD 123,,MONEY
 USD 123,,MONEY
 $4329,,MONEY
 $4329,,MONEY
@@ -3731,18 +3727,17 @@ en peso,,MONEY
 65pesos,,MONEY
 65pesos,,MONEY
 35 pesos,,MONEY
+35 pesos,,MONEY
 146 pesos,,MONEY
 146 pesos,,MONEY
 61pund,,MONEY
-61pund,,MONEY
-ti tusinde pund,,MONEY
 ti tusinde pund,,MONEY
 5690pund,,MONEY
 5690pund,,MONEY
 firs euro,,MONEY
 firs euro,,MONEY
 7576 euro,,MONEY
-3221euro,,MONEY
+7576 euro,,MONEY
 3221euro,,MONEY
 EUR222,,MONEY
 EUR222,,MONEY
@@ -3758,10 +3753,8 @@ seks kronor,,MONEY
 atten GBP,,MONEY
 atten GBP,,MONEY
 GBP 1032,,MONEY
-GBP 1032,,MONEY
 GBP 267,,MONEY
 80danske kroner,,MONEY
-halvfems hundrede danske kroner,,MONEY
 halvfems hundrede danske kroner,,MONEY
 295danske kroner,,MONEY
 295danske kroner,,MONEY
@@ -3769,10 +3762,11 @@ halvfems hundrede danske kroner,,MONEY
 4917 danske kroner,,MONEY
 205 danske kroner,,MONEY
 firs danske kroner,,MONEY
+firs danske kroner,,MONEY
 329 danske kroner,,MONEY
 329 danske kroner,,MONEY
 tre danske kroner,,MONEY
-tre danske kroner,,MONEY
+3221danske kroner,,MONEY
 3221danske kroner,,MONEY
 ni danske kroner,,MONEY
 ni danske kroner,,MONEY
@@ -3781,13 +3775,14 @@ ni danske kroner,,MONEY
 308 danske kroner,,MONEY
 308 danske kroner,,MONEY
 7690danske kroner,,MONEY
+7690danske kroner,,MONEY
 178danske kroner,,MONEY
 178danske kroner,,MONEY
 156danske kroner,,MONEY
 nitten amerikanske dollars,,MONEY
 nitten amerikanske dollars,,MONEY
 tre tusinde amerikanske dollars,,MONEY
-152 amerikanske dollars,,MONEY
+tre tusinde amerikanske dollars,,MONEY
 152 amerikanske dollars,,MONEY
 4617 øre,,MONEY
 219øre,,MONEY
@@ -3797,8 +3792,6 @@ halvfems øre,,MONEY
 95€,,MONEY
 337€,,MONEY
 €234,,MONEY
-€234,,MONEY
-£8048,,MONEY
 £8048,,MONEY
 341 £,,MONEY
 341 £,,MONEY
@@ -3815,15 +3808,15 @@ nitten procent,,PERCENT
 otte procent,,PERCENT
 otte procent,,PERCENT
 34 %,,PERCENT
-34 %,,PERCENT
 17.03%,,PERCENT
 17.03%,,PERCENT
 halvfems procent,,PERCENT
+halvfems procent,,PERCENT
+26 %,,PERCENT
 26 %,,PERCENT
 16%,,PERCENT
 16%,,PERCENT
 90 %,,PERCENT
-40 %,,PERCENT
 40 %,,PERCENT
 17.03 %,,PERCENT
 17.03 %,,PERCENT
@@ -3832,6 +3825,7 @@ halvfems procent,,PERCENT
 75 %,,PERCENT
 75 %,,PERCENT
 57 %,,PERCENT
+57 %,,PERCENT
 99%,,PERCENT
 99%,,PERCENT
 fem procent,,PERCENT
@@ -3839,17 +3833,17 @@ fem procent,,PERCENT
 fjorten procent,,PERCENT
 94.97 %,,PERCENT
 84%,,PERCENT
-52 %,,PERCENT
+84%,,PERCENT
 52 %,,PERCENT
 36.03%,,PERCENT
 40 %,,PERCENT
+77 %,,PERCENT
 77 %,,PERCENT
 31 %,,PERCENT
 15.02%,,PERCENT
 49.88 %,,PERCENT
 88 %,,PERCENT
 88 %,,PERCENT
-6%,,PERCENT
 6%,,PERCENT
 74 %,,PERCENT
 65 %,,PERCENT
@@ -3866,12 +3860,9 @@ fjorten procent,,PERCENT
 65 %,,PERCENT
 65 %,,PERCENT
 5 %,,PERCENT
-5 %,,PERCENT
 32 %,,PERCENT
 seksten procent,,PERCENT
 63%,,PERCENT
-63%,,PERCENT
-75 %,,PERCENT
 75 %,,PERCENT
 nitten procent,,PERCENT
 tres procent,,PERCENT
@@ -3883,16 +3874,18 @@ tres procent,,PERCENT
 75 %,,PERCENT
 75 %,,PERCENT
 54.96 %,,PERCENT
-seks procent,,PERCENT
+54.96 %,,PERCENT
 seks procent,,PERCENT
 13%,,PERCENT
 13%,,PERCENT
+17%,,PERCENT
 17%,,PERCENT
 56 %,,PERCENT
 56 %,,PERCENT
 32.94 %,,PERCENT
 32.94 %,,PERCENT
 77 %,,PERCENT
+18 %,,PERCENT
 18 %,,PERCENT
 5%,,PERCENT
 5%,,PERCENT
@@ -3901,11 +3894,9 @@ seks procent,,PERCENT
 tusind procent,,PERCENT
 75 %,,PERCENT
 82 %,,PERCENT
-82 %,,PERCENT
 halvtreds procent,,PERCENT
 halvtreds procent,,PERCENT
 69 %,,PERCENT
-94.63 %,,PERCENT
 94.63 %,,PERCENT
 8 %,,PERCENT
 8 %,,PERCENT
@@ -3913,12 +3904,11 @@ halvtreds procent,,PERCENT
 13%,,PERCENT
 13%,,PERCENT
 32 %,,PERCENT
-32 %,,PERCENT
 firs procent,,PERCENT
 firs procent,,PERCENT
 13 %,,PERCENT
+13 %,,PERCENT
 71 %,,PERCENT
-89 %,,PERCENT
 89 %,,PERCENT
 26 %,,PERCENT
 26 %,,PERCENT
@@ -3929,7 +3919,6 @@ firs procent,,PERCENT
 66%,,PERCENT
 84.25 %,,PERCENT
 seks procent,,PERCENT
-seks procent,,PERCENT
 tre procent,,PERCENT
 tre procent,,PERCENT
 halvtreds procent,,PERCENT
@@ -3937,7 +3926,7 @@ halvtreds procent,,PERCENT
 35 %,,PERCENT
 35 %,,PERCENT
 35 %,,PERCENT
-35 %,,PERCENT
+91%,,PERCENT
 91%,,PERCENT
 89 %,,PERCENT
 36.03%,,PERCENT
@@ -3948,17 +3937,16 @@ halvtreds procent,,PERCENT
 69%,,PERCENT
 69%,,PERCENT
 98 %,,PERCENT
-98 %,,PERCENT
 90 %,,PERCENT
 65%,,PERCENT
 65%,,PERCENT
+45%,,PERCENT
 45%,,PERCENT
 51 %,,PERCENT
 51 %,,PERCENT
 98.25 %,,PERCENT
 48 %,,PERCENT
 48 %,,PERCENT
-71 %,,PERCENT
 71 %,,PERCENT
 87 %,,PERCENT
 87 %,,PERCENT
@@ -3976,6 +3964,7 @@ halvtreds procent,,PERCENT
 fjorten procent,,PERCENT
 fjorten procent,,PERCENT
 39 %,,PERCENT
+39 %,,PERCENT
 94 %,,PERCENT
 94 %,,PERCENT
 tolv procent,,PERCENT
@@ -3990,6 +3979,7 @@ sytten procent,,PERCENT
 32.94 %,,PERCENT
 nitten procent,,PERCENT
 34 %,,PERCENT
+34 %,,PERCENT
 atten procent,,PERCENT
 atten procent,,PERCENT
 tretten procent,,PERCENT
@@ -3999,16 +3989,15 @@ tretten procent,,PERCENT
 75%,,PERCENT
 64%,,PERCENT
 17 %,,PERCENT
-17 %,,PERCENT
 39 %,,PERCENT
 10 %,,PERCENT
-19 %,,PERCENT
 19 %,,PERCENT
 tusind procent,,PERCENT
 99 %,,PERCENT
 99 %,,PERCENT
 84 %,,PERCENT
 84 %,,PERCENT
+10 %,,PERCENT
 10 %,,PERCENT
 tres procent,,PERCENT
 tres procent,,PERCENT
@@ -4018,6 +4007,8 @@ tres procent,,PERCENT
 38%,,PERCENT
 95 %,,PERCENT
 66%,,PERCENT
+66%,,PERCENT
+ni procent,,PERCENT
 ni procent,,PERCENT
 tusind procent,,PERCENT
 tusind procent,,PERCENT
@@ -4039,17 +4030,20 @@ tretten procent,,PERCENT
 4.34 %,,PERCENT
 4.34 %,,PERCENT
 96 %,,PERCENT
+96 %,,PERCENT
 98%,,PERCENT
 fem procent,,PERCENT
+fem procent,,PERCENT
+39 %,,PERCENT
 39 %,,PERCENT
 85 %,,PERCENT
 85 %,,PERCENT
 22.71 %,,PERCENT
+22.71 %,,PERCENT
 94.97%,,PERCENT
 halvfems procent,,PERCENT
+halvfems procent,,PERCENT
 1 %,,PERCENT
-1 %,,PERCENT
-82%,,PERCENT
 82%,,PERCENT
 32%,,PERCENT
 32%,,PERCENT
@@ -4057,7 +4051,6 @@ halvfems procent,,PERCENT
 9.85 %,,PERCENT
 33.13 %,,PERCENT
 33.13 %,,PERCENT
-60 %,,PERCENT
 60 %,,PERCENT
 75%,,PERCENT
 75%,,PERCENT
@@ -4065,24 +4058,27 @@ halvfems procent,,PERCENT
 halvfems procent,,PERCENT
 halvfems procent,,PERCENT
 97.0 %,,PERCENT
+97.0 %,,PERCENT
+78.49 %,,PERCENT
 78.49 %,,PERCENT
 6 %,,PERCENT
+6 %,,PERCENT
 5 %,,PERCENT
-91%,,PERCENT
 91%,,PERCENT
 seks procent,,PERCENT
 seks procent,,PERCENT
 33.13 %,,PERCENT
+33.13 %,,PERCENT
 75%,,PERCENT
 seks procent,,PERCENT
+seks procent,,PERCENT
 40 %,,PERCENT
+halvfems procent,,PERCENT
 halvfems procent,,PERCENT
 29%,,PERCENT
 29%,,PERCENT
 25 %,,PERCENT
 16 %,,PERCENT
-16 %,,PERCENT
-6 %,,PERCENT
 6 %,,PERCENT
 69.42 %,,PERCENT
 26.3%,,PERCENT
@@ -4100,29 +4096,28 @@ firs procent,,PERCENT
 26.3 %,,PERCENT
 65 %,,PERCENT
 67 %,,PERCENT
+67 %,,PERCENT
 85%,,PERCENT
 firs procent,,PERCENT
-firs procent,,PERCENT
 18 %,,PERCENT
 18 %,,PERCENT
 1 %,,PERCENT
-1 %,,PERCENT
-40%,,PERCENT
 40%,,PERCENT
 84 %,,PERCENT
 84 %,,PERCENT
 86%,,PERCENT
 22.71 %,,PERCENT
-atten procent,,PERCENT
+22.71 %,,PERCENT
 atten procent,,PERCENT
 firs procent,,PERCENT
 firs procent,,PERCENT
 45 %,,PERCENT
 45 %,,PERCENT
 31.11%,,PERCENT
+31.11%,,PERCENT
 95 %,,PERCENT
 94.63 %,,PERCENT
-94.63 %,,PERCENT
+71 %,,PERCENT
 71 %,,PERCENT
 94 %,,PERCENT
 atten procent,,PERCENT
@@ -4132,41 +4127,40 @@ atten procent,,PERCENT
 65 %,,PERCENT
 tre procent,,PERCENT
 26%,,PERCENT
-26%,,PERCENT
-38%,,PERCENT
 38%,,PERCENT
 tres procent,,PERCENT
 tres procent,,PERCENT
 ni procent,,PERCENT
-ni procent,,PERCENT
+halvtreds procent,,PERCENT
 halvtreds procent,,PERCENT
 halvfems procent,,PERCENT
 35 %,,PERCENT
+35 %,,PERCENT
 89 %,,PERCENT
 halvfems procent,,PERCENT
+halvfems procent,,PERCENT
+29 %,,PERCENT
 29 %,,PERCENT
 ti procent,,PERCENT
 ti procent,,PERCENT
 atten procent,,PERCENT
-atten procent,,PERCENT
 36 %,,PERCENT
 31 %,,PERCENT
 76%,,PERCENT
-86 %,,PERCENT
 86 %,,PERCENT
 17%,,PERCENT
 seks procent,,PERCENT
 seks procent,,PERCENT
 2 %,,PERCENT
 99 %,,PERCENT
+99 %,,PERCENT
+91%,,PERCENT
 91%,,PERCENT
 86%,,PERCENT
-86%,,PERCENT
+5 %,,PERCENT
 5 %,,PERCENT
 et hundrede procent,,PERCENT
 89 %,,PERCENT
-89 %,,PERCENT
-77 %,,PERCENT
 77 %,,PERCENT
 10 %,,PERCENT
 16%,,PERCENT
@@ -4178,7 +4172,6 @@ tusind procent,,PERCENT
 91 %,,PERCENT
 45 %,,PERCENT
 81.79%,,PERCENT
-81.79%,,PERCENT
 ti procent,,PERCENT
 ti procent,,PERCENT
 54.96 %,,PERCENT
@@ -4188,10 +4181,10 @@ ti procent,,PERCENT
 95 %,,PERCENT
 77 %,,PERCENT
 50%,,PERCENT
+50%,,PERCENT
 4 %,,PERCENT
 193 dusin,,QUANTITY
 193 dusin,,QUANTITY
-7690 snes,,QUANTITY
 7690 snes,,QUANTITY
 tre tusinde tomme,,QUANTITY
 tre tusinde tomme,,QUANTITY
@@ -4209,11 +4202,11 @@ tyve hundrede ppm,,QUANTITY
 295 mm,,QUANTITY
 295 mm,,QUANTITY
 108 millimeter,,QUANTITY
-108 millimeter,,QUANTITY
 96millimeter,,QUANTITY
 96millimeter,,QUANTITY
 310 millimeter,,QUANTITY
 310 millimeter,,QUANTITY
+87 millimeter,,QUANTITY
 87 millimeter,,QUANTITY
 278 millimeter,,QUANTITY
 278 millimeter,,QUANTITY
@@ -4225,45 +4218,46 @@ tyve hundrede ppm,,QUANTITY
 151 cm,,QUANTITY
 151 cm,,QUANTITY
 163 cm,,QUANTITY
-163 cm,,QUANTITY
+196 centimeter,,QUANTITY
 196 centimeter,,QUANTITY
 213 centimeter,,QUANTITY
 244 centimeter,,QUANTITY
+tre centimeter,,QUANTITY
 tre centimeter,,QUANTITY
 208centimeter,,QUANTITY
 208centimeter,,QUANTITY
 252 dm,,QUANTITY
 252 dm,,QUANTITY
 tolv decimeter,,QUANTITY
-tolv decimeter,,QUANTITY
-3075 m,,QUANTITY
 3075 m,,QUANTITY
 40m,,QUANTITY
+40m,,QUANTITY
 33 m,,QUANTITY
-33 m,,QUANTITY
+96 m,,QUANTITY
 96 m,,QUANTITY
 120m,,QUANTITY
 120m,,QUANTITY
 107 m,,QUANTITY
 326 m,,QUANTITY
 ni hundrede m,,QUANTITY
-ni hundrede m,,QUANTITY
 atten m,,QUANTITY
 atten m,,QUANTITY
 78 m,,QUANTITY
 sytten meter,,QUANTITY
 2597 meter,,QUANTITY
-2597 meter,,QUANTITY
 326 meter,,QUANTITY
+244 meter,,QUANTITY
 244 meter,,QUANTITY
 99 meter,,QUANTITY
 96 meter,,QUANTITY
 55 meter,,QUANTITY
 87 meter,,QUANTITY
+87 meter,,QUANTITY
 61 meter,,QUANTITY
 61 meter,,QUANTITY
 otte tusinde meter,,QUANTITY
 9539meter,,QUANTITY
+224meter,,QUANTITY
 224meter,,QUANTITY
 109 meter,,QUANTITY
 109 meter,,QUANTITY
@@ -4271,9 +4265,9 @@ otte tusinde meter,,QUANTITY
 135meter,,QUANTITY
 135meter,,QUANTITY
 196meter,,QUANTITY
-196meter,,QUANTITY
 2599meter,,QUANTITY
 7 meter,,QUANTITY
+115 meter,,QUANTITY
 115 meter,,QUANTITY
 sytten meter,,QUANTITY
 2597 dekameter,,QUANTITY
@@ -4289,8 +4283,10 @@ sytten meter,,QUANTITY
 155 km,,QUANTITY
 295 km,,QUANTITY
 203 km,,QUANTITY
+203 km,,QUANTITY
 217 km,,QUANTITY
 261 km,,QUANTITY
+55km,,QUANTITY
 55km,,QUANTITY
 89km,,QUANTITY
 89km,,QUANTITY
@@ -4302,7 +4298,10 @@ halvfems hundrede KM,,QUANTITY
 32KM,,QUANTITY
 185KM,,QUANTITY
 68 KM,,QUANTITY
+68 KM,,QUANTITY
 267 kilometer,,QUANTITY
+267 kilometer,,QUANTITY
+ni hundrede kilometer,,QUANTITY
 ni hundrede kilometer,,QUANTITY
 259 kilometer,,QUANTITY
 259 kilometer,,QUANTITY
@@ -4314,16 +4313,15 @@ halvfems kilometer,,QUANTITY
 252 kilometer,,QUANTITY
 196 kilometer,,QUANTITY
 35kilometer,,QUANTITY
-35kilometer,,QUANTITY
 323 kilometer,,QUANTITY
 323 kilometer,,QUANTITY
 295 kilometer,,QUANTITY
 295 kilometer,,QUANTITY
 152 kvadratmeter,,QUANTITY
+152 kvadratmeter,,QUANTITY
 7690 kvadratmeter,,QUANTITY
 7690 kvadratmeter,,QUANTITY
 fjorten kvadratmeter,,QUANTITY
-196 kvadratmeter,,QUANTITY
 196 kvadratmeter,,QUANTITY
 32 kvadratmeter,,QUANTITY
 32 kvadratmeter,,QUANTITY
@@ -4336,8 +4334,10 @@ ni kvm,,QUANTITY
 176 kvm,,QUANTITY
 176 kvm,,QUANTITY
 290 m^2,,QUANTITY
+290 m^2,,QUANTITY
 firs km^2,,QUANTITY
 firs km^2,,QUANTITY
+to tusinde kvadratkilometer,,QUANTITY
 to tusinde kvadratkilometer,,QUANTITY
 14 kubikmeter,,QUANTITY
 14 kubikmeter,,QUANTITY
@@ -4354,10 +4354,9 @@ halvfjerds hundrede liter,,QUANTITY
 161liter,,QUANTITY
 161liter,,QUANTITY
 4 liter,,QUANTITY
-4 liter,,QUANTITY
 halvfjerds hundrede liter,,QUANTITY
 275 liter,,QUANTITY
-275 liter,,QUANTITY
+259L,,QUANTITY
 259L,,QUANTITY
 29 L,,QUANTITY
 29 L,,QUANTITY
@@ -4374,13 +4373,17 @@ halvfems L,,QUANTITY
 68 L,,QUANTITY
 68 L,,QUANTITY
 67 L,,QUANTITY
+67 L,,QUANTITY
+tre tusinde milliliter,,QUANTITY
 tre tusinde milliliter,,QUANTITY
 55milliliter,,QUANTITY
 55milliliter,,QUANTITY
 113 milliliter,,QUANTITY
+113 milliliter,,QUANTITY
 syv milliliter,,QUANTITY
 syv milliliter,,QUANTITY
 332milliliter,,QUANTITY
+185 ml,,QUANTITY
 185 ml,,QUANTITY
 334 ml,,QUANTITY
 337ml,,QUANTITY
@@ -4388,10 +4391,11 @@ syv milliliter,,QUANTITY
 332 ml,,QUANTITY
 to ml,,QUANTITY
 tre mL,,QUANTITY
+tre mL,,QUANTITY
 halvfems hundrede mL,,QUANTITY
 241 mL,,QUANTITY
 tres mL,,QUANTITY
-295 mL,,QUANTITY
+tres mL,,QUANTITY
 295 mL,,QUANTITY
 77 centiliter,,QUANTITY
 89 centiliter,,QUANTITY
@@ -4404,10 +4408,11 @@ fjorten hundrede cl,,QUANTITY
 fjorten hundrede cl,,QUANTITY
 9245 cl,,QUANTITY
 196 cl,,QUANTITY
-196 cl,,QUANTITY
+nitten cl,,QUANTITY
 nitten cl,,QUANTITY
 147 cl,,QUANTITY
 147 cl,,QUANTITY
+65CL,,QUANTITY
 65CL,,QUANTITY
 95 pund,,QUANTITY
 61 kilogram,,QUANTITY
@@ -4418,20 +4423,23 @@ tre tusinde kilogram,,QUANTITY
 193 kilogram,,QUANTITY
 72 kilogram,,QUANTITY
 334 kilogram,,QUANTITY
+334 kilogram,,QUANTITY
 3075 kg,,QUANTITY
 2599 kg,,QUANTITY
 2599 kg,,QUANTITY
 78kg,,QUANTITY
-78kg,,QUANTITY
+femten kg,,QUANTITY
 femten kg,,QUANTITY
 13 kg,,QUANTITY
+13 kg,,QUANTITY
 267 kg,,QUANTITY
+halvfems hundrede kg,,QUANTITY
 halvfems hundrede kg,,QUANTITY
 7360 kg,,QUANTITY
 7360 kg,,QUANTITY
 5113 kg,,QUANTITY
-5113 kg,,QUANTITY
 267 kg,,QUANTITY
+176 KG,,QUANTITY
 176 KG,,QUANTITY
 295 KG,,QUANTITY
 259 KG,,QUANTITY
@@ -4440,7 +4448,7 @@ halvfems hundrede kg,,QUANTITY
 329 gram,,QUANTITY
 334 gram,,QUANTITY
 259 gram,,QUANTITY
-tretten millioner gram,,QUANTITY
+259 gram,,QUANTITY
 tretten millioner gram,,QUANTITY
 120 gram,,QUANTITY
 120 gram,,QUANTITY
@@ -4448,20 +4456,20 @@ tretten millioner gram,,QUANTITY
 35 gram,,QUANTITY
 3075 gram,,QUANTITY
 259 gram,,QUANTITY
-259 gram,,QUANTITY
 tre tusinde gram,,QUANTITY
 219 gram,,QUANTITY
 219 gram,,QUANTITY
 5113 g,,QUANTITY
-5113 g,,QUANTITY
 firs millioner g,,QUANTITY
 firs millioner g,,QUANTITY
 337 g,,QUANTITY
+337 g,,QUANTITY
 7360 g,,QUANTITY
-7360 g,,QUANTITY
+2597 g,,QUANTITY
 2597 g,,QUANTITY
 275 milligram,,QUANTITY
 fjorten millioner milligram,,QUANTITY
+203 milligram,,QUANTITY
 203 milligram,,QUANTITY
 55 mg,,QUANTITY
 65mg,,QUANTITY
@@ -4469,766 +4477,769 @@ fjorten millioner milligram,,QUANTITY
 halvfems hundrede mg,,QUANTITY
 halvfems hundrede mg,,QUANTITY
 259 karat,,QUANTITY
+259 karat,,QUANTITY
 atten joule,,QUANTITY
 atten joule,,QUANTITY
-261 j,,QUANTITY
 261 j,,QUANTITY
 halvfjerds hundrede kilowatt-timer,,QUANTITY
 halvfjerds hundrede kilowatt-timer,,QUANTITY
 5080kWh,,QUANTITY
+5080kWh,,QUANTITY
 nitten millioner kwh,,QUANTITY
 130 celsius,,QUANTITY
 252 fahrenheit,,QUANTITY
+252 fahrenheit,,QUANTITY
 tretten hundrede ton,,QUANTITY
-80tons,,QUANTITY
 80tons,,QUANTITY
 313 t,,QUANTITY
 313 t,,QUANTITY
 4 °c,,QUANTITY
-Marius,,PERSON
-Calvin,,PERSON
-Marc,,PERSON
-Marcs,,PERSON
-Mogens,,PERSON
-Mogens,,PERSON
-Christians,,PERSON
-Benny,,PERSON
-Joey,,PERSON
-Joeys,,PERSON
-Leif,,PERSON
-Hugo,,PERSON
-Chris,,PERSON
-Frederik,,PERSON
-Frederik,,PERSON
-Peer,,PERSON
-Erics,,PERSON
-Eric,,PERSON
-Jon,,PERSON
-Jon,,PERSON
-Conrad,,PERSON
-Adrian,,PERSON
-Adrian,,PERSON
-Kalle,,PERSON
-Kalle,,PERSON
-Louie,,PERSON
-Bjarke,,PERSON
-Bjarke,,PERSON
-Sigurds,,PERSON
-Theodor,,PERSON
-Theodor,,PERSON
-Nicolas,,PERSON
-Nicolas,,PERSON
-Nilas,,PERSON
-Nilas,,PERSON
-Michaels,,PERSON
-Michael,,PERSON
-Tobias,,PERSON
-Tobias,,PERSON
-Ivan,,PERSON
-Yousef,,PERSON
-Yousefs,,PERSON
-Bertram,,PERSON
-Thøger,,PERSON
+4 °c,,QUANTITY
+Oles,,PERSON
+Ole,,PERSON
+Tue,,PERSON
+Allans,,PERSON
+Yusuf,,PERSON
+Phillip,,PERSON
+Milans,,PERSON
+Milans,,PERSON
+Ferhat,,PERSON
+Ferhat,,PERSON
+Vilhelm,,PERSON
+Jannik,,PERSON
+Hans-Henrik,,PERSON
+Hans-Henrik,,PERSON
+Valdemar,,PERSON
+Peter,,PERSON
+Nicklas,,PERSON
+Nicklas,,PERSON
+Tarek,,PERSON
+Bruno,,PERSON
+Marcus,,PERSON
+Frede,,PERSON
+Frede,,PERSON
+Sebastian,,PERSON
+Freddy,,PERSON
+Asbjørns,,PERSON
+Samuel,,PERSON
+Antonio,,PERSON
+Antonio,,PERSON
+Albert,,PERSON
+Albert,,PERSON
+Ulrik,,PERSON
+Ruben,,PERSON
+Ruben,,PERSON
+Olafs,,PERSON
+Deniz,,PERSON
+Deniz,,PERSON
+Mathias,,PERSON
+Mario,,PERSON
+Egon,,PERSON
+Egon,,PERSON
 Johan,,PERSON
-Johans,,PERSON
-Jimmi,,PERSON
+Johan,,PERSON
+Omar,,PERSON
+Omars,,PERSON
+Jørn,,PERSON
+Jørn,,PERSON
+Adams,,PERSON
+Adam,,PERSON
+Yassin,,PERSON
+Kai,,PERSON
+Kais,,PERSON
+Huxis,,PERSON
+Vagns,,PERSON
+Sigurd,,PERSON
+Sigurd,,PERSON
+Philip,,PERSON
+Thorkild,,PERSON
+Thorkilds,,PERSON
 Arthurs,,PERSON
-Arthur,,PERSON
-Esben,,PERSON
-Georgios,,PERSON
-Nick,,PERSON
-Dans,,PERSON
-Asger,,PERSON
-Viggos,,PERSON
-Ebbe,,PERSON
-Ebbes,,PERSON
-Terkels,,PERSON
-Marcins,,PERSON
-Marcin,,PERSON
-Bohdans,,PERSON
-Bohdans,,PERSON
-Tommi,,PERSON
-Tommi,,PERSON
-Konrads,,PERSON
+Villiam,,PERSON
+Jonatan,,PERSON
+Josef,,PERSON
+Vasyl,,PERSON
+Vasyl,,PERSON
+Magnus,,PERSON
 Silas,,PERSON
-Mykola,,PERSON
-Mykolas,,PERSON
-Kevin,,PERSON
-Janus,,PERSON
-Elias,,PERSON
-Elias,,PERSON
-Kamal,,PERSON
-Joanna,,PERSON
-Joanna,,PERSON
-Didde,,PERSON
-Didde,,PERSON
-Hanna,,PERSON
-Hanna,,PERSON
-Saga,,PERSON
-Tine,,PERSON
-Tine,,PERSON
-Lin,,PERSON
-Lin,,PERSON
-Svetlana,,PERSON
-Svetlana,,PERSON
+Hjalte,,PERSON
+Erik,,PERSON
+Erik,,PERSON
+Natasjas,,PERSON
+Natasjas,,PERSON
+Sonja,,PERSON
+Sonja,,PERSON
+Jonna,,PERSON
+Jasmins,,PERSON
+Jannie,,PERSON
+Jannie,,PERSON
+Kirstines,,PERSON
+Natalie,,PERSON
+Lara,,PERSON
+Agnes,,PERSON
+Aya,,PERSON
+Aya,,PERSON
+Sanas,,PERSON
+Sana,,PERSON
+Kammas,,PERSON
+Anita,,PERSON
+Mie,,PERSON
+Monika,,PERSON
+Anne-Marie,,PERSON
+Anne-Marie,,PERSON
+Cathrine,,PERSON
+Ghita,,PERSON
+Sandra,,PERSON
+Sandras,,PERSON
+Annelises,,PERSON
+Tara,,PERSON
+Taras,,PERSON
+Lisas,,PERSON
 Lisa,,PERSON
-Kirsten,,PERSON
-Ana,,PERSON
-Anas,,PERSON
-Maj-Britt,,PERSON
-Esther,,PERSON
-Nelly,,PERSON
-Nelly,,PERSON
-Kari,,PERSON
-Kamillas,,PERSON
-Malene,,PERSON
-Malenes,,PERSON
-Matilde,,PERSON
-Maren,,PERSON
-Maren,,PERSON
-Berith,,PERSON
-Berith,,PERSON
-Agnethes,,PERSON
-Agnethes,,PERSON
-Melina,,PERSON
-Melinas,,PERSON
-Nanna,,PERSON
-Nanna,,PERSON
-Andrea,,PERSON
-Rosa,,PERSON
-Majbritt,,PERSON
-Majbritt,,PERSON
-Carmen,,PERSON
-Nina,,PERSON
-Nina,,PERSON
-Bettina,,PERSON
-Bettina,,PERSON
-Herdis,,PERSON
-Herdis,,PERSON
-Diana,,PERSON
-Rosemaries,,PERSON
-Rosemaries,,PERSON
-Amanda,,PERSON
-Amanda,,PERSON
-Lilli,,PERSON
-Lilli,,PERSON
-Katrines,,PERSON
-Christel,,PERSON
-Christel,,PERSON
-Anny,,PERSON
-Anny,,PERSON
-Hedvig,,PERSON
-Hedvigs,,PERSON
-Josefine,,PERSON
-Josefine,,PERSON
 Lykke,,PERSON
-Rebekka,,PERSON
-Ernas,,PERSON
-Cecilia,,PERSON
-Fatima,,PERSON
-Fatima,,PERSON
-Doris,,PERSON
-Doris,,PERSON
-Natasha,,PERSON
-Margrethe,,PERSON
-Margrethe,,PERSON
-Jytte,,PERSON
-Jill,,PERSON
-Jill,,PERSON
-Mariann,,PERSON
-Bente,,PERSON
-Bente,,PERSON
-Holme,,PERSON
-Holme,,PERSON
-Pedersen,,PERSON
-Flodin,,PERSON
-Kirkegaard,,PERSON
-Kirkegaard,,PERSON
-Thuesen,,PERSON
-Johannsen,,PERSON
-Johannsen,,PERSON
-Østergaard,,PERSON
-Storm,,PERSON
-Willumsens,,PERSON
-Willumsen,,PERSON
-Mørchs,,PERSON
-Poulsen,,PERSON
-Poulsen,,PERSON
-Holm-Hansen,,PERSON
-Holm-Hansen,,PERSON
-Dalans,,PERSON
-Dalan,,PERSON
-Lund,,PERSON
-Riis,,PERSON
-Frosts,,PERSON
-Frost,,PERSON
-Høyer,,PERSON
-Høyer,,PERSON
-Sternberg,,PERSON
-Sørensen,,PERSON
-Henriksen,,PERSON
-Nørregaards,,PERSON
-Nonboes,,PERSON
-Nonboe,,PERSON
-Kragelund,,PERSON
-Kragelund,,PERSON
-Hald,,PERSON
-Hald,,PERSON
-Fabricius,,PERSON
-Ruben Sindbergs,,PERSON
-Ruben Sindberg,,PERSON
-Mathias Schmidt,,PERSON
-Rene Underbjerg,,PERSON
-Nils Kruses,,PERSON
-Nichlas Viborg,,PERSON
-Marcel Ladefogeds,,PERSON
-Toke Møller-Larsen,,PERSON
-Kristoffer Paulsens,,PERSON
-Kristoffer Paulsen,,PERSON
-Villum Nikolajsens,,PERSON
-Villum Nikolajsen,,PERSON
-Ejvind Sandstrøm,,PERSON
-Ibrahim Jacobsen,,PERSON
-Amir Hermansen,,PERSON
-Filip Rosendal,,PERSON
-Filip Rosendal,,PERSON
-Alan Mogensen,,PERSON
-Vagn Lange,,PERSON
-Dennis Eibyes,,PERSON
-Kjeld Hedegaard,,PERSON
-Abdullah Frederiksen,,PERSON
-Abdullah Frederiksen,,PERSON
-Mohammad Overgaard,,PERSON
-Mohammad Overgaard,,PERSON
-Jørn Rohde,,PERSON
-Jørn Rohde,,PERSON
-Erling Severinsen,,PERSON
-Erling Severinsen,,PERSON
-Orla Nissen,,PERSON
-Milas Lauritzen,,PERSON
-Milas Lauritzen,,PERSON
-Michal Fisker,,PERSON
-Lennart Høj,,PERSON
-Tim Kellers,,PERSON
-Tim Keller,,PERSON
-Peder Ottesen,,PERSON
-Peder Ottesen,,PERSON
-Yasin Olsen,,PERSON
-Yusuf Friis,,PERSON
-Yusuf Friis,,PERSON
-Karim Bartholdy,,PERSON
-Ib Michaelsen,,PERSON
-Ib Michaelsen,,PERSON
-Walter Danielsen,,PERSON
-Tonny Markussen,,PERSON
-Tonny Markussen,,PERSON
-Klavs Skriver,,PERSON
-Yaroslav Karlsen,,PERSON
-Yaroslav Karlsen,,PERSON
-Samir Nørgaards,,PERSON
-Mark Laustsen,,PERSON
-Mark Laustsens,,PERSON
-Oskar Santos,,PERSON
-Lasse Lynges,,PERSON
-Lasse Lynges,,PERSON
-Marcus Winther,,PERSON
-Kai Wagner,,PERSON
-Egon Johannesen,,PERSON
-Patrik Erichsen,,PERSON
-Valdemar Caspersens,,PERSON
-Mohamad Mahmood,,PERSON
-Bertil Thomhav,,PERSON
-Liam Thomasen,,PERSON
-Albert Carlsen,,PERSON
-Albert Carlsen,,PERSON
-Helmuth Damgaards,,PERSON
-Casper Talebs,,PERSON
-Casper Taleb,,PERSON
-Aneta Justesen,,PERSON
-Ingrid Povlsen,,PERSON
-Elisa Skov,,PERSON
-Irene Iseni,,PERSON
-Birgit Ali,,PERSON
-Birgit Alis,,PERSON
-Susan Johansson,,PERSON
-Susan Johansson,,PERSON
-Frigg Truelsen,,PERSON
-Mie Ipsen,,PERSON
-Mie Ipsen,,PERSON
-Else Brink,,PERSON
-Else Brink,,PERSON
-Eva Ott,,PERSON
-Eva Ott,,PERSON
-Benedicte Karlsson,,PERSON
-Benedicte Karlsson,,PERSON
-Birte Laugesen,,PERSON
-Julie Kure,,PERSON
-Christine Kongsgaards,,PERSON
-Christine Kongsgaard,,PERSON
-Conny Nørgårds,,PERSON
-Joan Jæger,,PERSON
-Joan Jæger,,PERSON
-Madeleine Rytter,,PERSON
-Madeleine Rytters,,PERSON
-Lilly Hansen,,PERSON
-Pauline Michelsen,,PERSON
-Pauline Michelsens,,PERSON
-Tanya Würtz,,PERSON
-Tanya Würtzs,,PERSON
-Emma Corneliussen,,PERSON
-Emma Corneliussen,,PERSON
-Kaja Koch,,PERSON
-Kaja Koch,,PERSON
-Thea Boesgaard,,PERSON
-Thea Boesgaard,,PERSON
-Kaya Steen,,PERSON
-Winnie Espersen,,PERSON
-Lea Dam,,PERSON
-Jeanett Bostrups,,PERSON
-Klara Lindholm,,PERSON
-Klara Lindholm,,PERSON
-Helena Krogsgaard,,PERSON
-Helena Krogsgaards,,PERSON
-Fadime Therkildsen,,PERSON
-Fadime Therkildsen,,PERSON
-Sienna Fogsgaard,,PERSON
-Ritta Bro,,PERSON
-Janni Yilmaz,,PERSON
-Dina Kroghs,,PERSON
-Dina Krogh,,PERSON
-Anita Dahl,,PERSON
-Anita Dahl,,PERSON
-Anne-Sofie Ellegaard,,PERSON
-Kamma Jørgensen,,PERSON
-Annemette Mohammad,,PERSON
-Stephanie Gregersen,,PERSON
-Minna Petersen,,PERSON
-Minna Petersen,,PERSON
-Mai-Britt Smith,,PERSON
-Mai-Britt Smith,,PERSON
-Kiki Jespersen,,PERSON
-Kiki Jespersen,,PERSON
-Solveig Hendriksen,,PERSON
-Sia Lindbergs,,PERSON
-Sia Lindberg,,PERSON
-Sophia Lis,,PERSON
-Gunhild Frandsen,,PERSON
-Gunhild Frandsen,,PERSON
-Gro Korsgaard,,PERSON
-Simona Ibrahim,,PERSON
-Molly Mathiesens,,PERSON
-Molly Mathiesen,,PERSON
-Sabine Kragh,,PERSON
-Noa Niels-Jørgen,,PERSON
-Noa Niels-Jørgen,,PERSON
-Patrick Finn,,PERSON
-Manfred Glenn,,PERSON
-Mike Niclas,,PERSON
-Kim Gerner,,PERSON
-Kim Gerners,,PERSON
-Tue Ronni,,PERSON
-Tue Ronnis,,PERSON
-Freddy Stefan,,PERSON
-Freddy Stefan,,PERSON
-Teddy Niklas,,PERSON
-Teddy Niklas,,PERSON
-Lauge Markus,,PERSON
-Tristan Paul,,PERSON
-Otto Verner,,PERSON
-Cornelius Mohamed,,PERSON
-Cornelius Mohameds,,PERSON
-Thorkil Adam,,PERSON
-Thorkil Adam,,PERSON
-Margot Anja,,PERSON
-Margot Anja,,PERSON
-My Christas,,PERSON
-Søs Katrin,,PERSON
-Søs Katrin,,PERSON
-Ronja Emilie,,PERSON
-Cathrine Lili,,PERSON
-Ditte Grys,,PERSON
-Ditte Gry,,PERSON
-Julia Annika,,PERSON
-Karina Aidas,,PERSON
-Karina Aida,,PERSON
-Kristine Victorias,,PERSON
-Kristine Victoria,,PERSON
-Alona Rikke,,PERSON
-Amelia Nataliia,,PERSON
-Amelia Nataliia,,PERSON
-Veronica Esra,,PERSON
-Vilma Lottes,,PERSON
-Zakaria Johnsen Buch,,PERSON
-Zakaria Johnsen Buch,,PERSON
-William Ladefoged Bechs,,PERSON
-Thorbjørn Fogsgaard Svenningsen,,PERSON
-Thorbjørn Fogsgaard Svenningsens,,PERSON
-Matthias Smidt Frantzens,,PERSON
-Yurii Brodersen Hussein,,PERSON
-Yurii Brodersen Husseins,,PERSON
-Leonard Gade Ishøys,,PERSON
-Leonard Gade Ishøy,,PERSON
-Paw Sindberg Mouritsen,,PERSON
-Paw Sindberg Mouritsens,,PERSON
-Julian Nguyen Engbjergs,,PERSON
-Julian Nguyen Engbjergs,,PERSON
-Hermann Pihl Martinsen,,PERSON
-Hermann Pihl Martinsens,,PERSON
-Kristen Dalgaard Callesen,,PERSON
-Ahmed Jørgensen Albertsen,,PERSON
-Ahmed Jørgensen Albertsen,,PERSON
-Elo Bendtsen Koch,,PERSON
-Troels Kilic Møller-Larsen,,PERSON
-Jess Hasselstrøm Husted,,PERSON
-Jess Hasselstrøm Husted,,PERSON
-Birk Larsen Ahmads,,PERSON
-Birk Larsen Ahmad,,PERSON
-Jannik Bæk Drud,,PERSON
-Jannik Bæk Drud,,PERSON
-Steffen Lindgaard Bagger,,PERSON
-Frank Thrane Damm,,PERSON
-Wilhelm Andresen Hadi,,PERSON
-Jannick Blauenfeldt Yigit,,PERSON
-Sebastian Rosendal Munchs,,PERSON
-Tomasz Gram Brylle,,PERSON
-Christopher Kjærgaard Nicolaisen,,PERSON
-Bjørn Mørk Jessen,,PERSON
-Ole Tanderup Klitgaard,,PERSON
-Ole Tanderup Klitgaards,,PERSON
-Georg Laustsen Steens,,PERSON
-Joachim Ahmed Hoffmann,,PERSON
-Joachim Ahmed Hoffmann,,PERSON
-Stig Schwartzbach Bachs,,PERSON
-Stig Schwartzbach Bach,,PERSON
-Phillip Vester Lykke,,PERSON
-Thorkild Bjerg Møller,,PERSON
-Thorkild Bjerg Møller,,PERSON
-Carl-Emil Lundsgaard Halle,,PERSON
-Carl-Emil Lundsgaard Halle,,PERSON
-Damian Mohammad Nagel,,PERSON
-Damian Mohammad Nagel,,PERSON
-Oleksandr Carlsen Thelin,,PERSON
-Oleksandr Carlsen Thelin,,PERSON
-Alexander Lauridsen Lindberg,,PERSON
-Alexander Lauridsen Lindberg,,PERSON
-Rasmus Gregersen Frederiksen,,PERSON
-Rasmus Gregersen Frederiksen,,PERSON
-Alex Truelsen Hald,,PERSON
-Alex Truelsen Halds,,PERSON
-Peter Øster Villumsens,,PERSON
-Nikolaj Larsson Würtz,,PERSON
-Nikolaj Larsson Würtz,,PERSON
-Nynne Honoré Kure,,PERSON
-Kathrine Kjær Clemmensen,,PERSON
-Merle Jakobsen Krone,,PERSON
-Merle Jakobsen Krone,,PERSON
-Elise Espersen Broen,,PERSON
-Elise Espersen Broens,,PERSON
-Lisette Truong Christensen,,PERSON
-Lisette Truong Christensen,,PERSON
-Sofie Bro Nørregaard,,PERSON
-Jeannette Ludvigsen Nikolajsen,,PERSON
-Jeannette Ludvigsen Nikolajsen,,PERSON
-Inna Sandstrøm Vium,,PERSON
-Inna Sandstrøm Vium,,PERSON
-Mary Hauge Brøndums,,PERSON
-Mary Hauge Brøndums,,PERSON
-Margit Brauer Greve,,PERSON
-Margit Brauer Greve,,PERSON
-Lonnie Christoffersen Berg,,PERSON
-Lonnie Christoffersen Bergs,,PERSON
-Jessica Holme Petersens,,PERSON
-Jessica Holme Petersen,,PERSON
-Connie Grave Caspersen,,PERSON
-Aya Studsgaard Thomasen,,PERSON
-Clara Frederichsen Blochs,,PERSON
-Frida Iversen Ipsen,,PERSON
-Frida Iversen Ipsen,,PERSON
-Sylwia Damsgaard Kragh,,PERSON
-Sylwia Damsgaard Kragh,,PERSON
-Susanne Therkelsen Kelstrup,,PERSON
-Laila Wagner Bjørn,,PERSON
-Laila Wagner Bjørn,,PERSON
-Martha Frost Bak,,PERSON
-Lina Kumar Khan,,PERSON
-Lina Kumar Khan,,PERSON
-Ina Skovgaard Greens,,PERSON
-Ina Skovgaard Green,,PERSON
-Lucca Krog Sommer,,PERSON
-Karla Jønsson Graversen,,PERSON
-Karla Jønsson Graversen,,PERSON
-Tenna Thygesen Lindegaard,,PERSON
-Tenna Thygesen Lindegaard,,PERSON
-Filippa Weber Helts,,PERSON
-Filippa Weber Helt,,PERSON
-Flora Laugesen Johannessen,,PERSON
-Helin Bondesen Hassan,,PERSON
-Helin Bondesen Hassan,,PERSON
-Gunver Wissing Magnussens,,PERSON
-Gunver Wissing Magnussen,,PERSON
-Carina Johansen Holdt,,PERSON
-Lissi Rosendahl Bøgh,,PERSON
-Lissi Rosendahl Bøgh,,PERSON
-Ragnhild Fabricius Willumsens,,PERSON
-Ragnhild Fabricius Willumsen,,PERSON
-Gitta Fuglsang Jansens,,PERSON
-Gitta Fuglsang Jansen,,PERSON
-Josephine Lehmann Lynge,,PERSON
-Josephine Lehmann Lynge,,PERSON
-Hannah Abildgaard Ravn,,PERSON
-Karin Riis Nonboes,,PERSON
-Karin Riis Nonboe,,PERSON
-Liva Busk Bonde,,PERSON
-Liva Busk Bondes,,PERSON
-Sanne Hvid Lau,,PERSON
-Sanne Hvid Lau,,PERSON
-Asbjørn K.,,PERSON
-Asbjørn K.s,,PERSON
-Andrzej O.,,PERSON
-Bruno J.,,PERSON
-Nicklas X.,,PERSON
-Nicklas X.,,PERSON
-Danny Z.,,PERSON
-Ulrik D.s,,PERSON
-Tommy S.,,PERSON
-Keld N.s,,PERSON
-Keld N.,,PERSON
-Hjalte W.,,PERSON
-Hjalte W.,,PERSON
-Kenn I.,,PERSON
-Kenn I.,,PERSON
-Slawomir L.,,PERSON
-Kaj B.,,PERSON
-Kaj B.s,,PERSON
-Halil A.s,,PERSON
-Halil A.s,,PERSON
-Olena H.,,PERSON
-Olena H.s,,PERSON
-Naja R.,,PERSON
-Alberte V.,,PERSON
-Jane M.,,PERSON
-Jane M.,,PERSON
-Helen G.,,PERSON
-Charlotte Y.,,PERSON
-Laura U.,,PERSON
-Sille T.,,PERSON
-Sille T.,,PERSON
-Mia P.,,PERSON
-Mia P.,,PERSON
-Petra F.s,,PERSON
-Dorthe Q.,,PERSON
-Camille E.,,PERSON
-Camille E.s,,PERSON
-Thilde C.,,PERSON
-Thilde C.,,PERSON
-Nicholai T. Brink,,PERSON
-Nicholai T. Brink,,PERSON
-Amin Y. Philipsen,,PERSON
-Amin Y. Philipsen,,PERSON
-Jesper Q. Vestergaard,,PERSON
-Ahmet L. Karlsen,,PERSON
-Ahmet L. Karlsen,,PERSON
-Sander Q. Wegner,,PERSON
-Sander Q. Wegner,,PERSON
-Karl V. Schneider,,PERSON
-Karl V. Schneider,,PERSON
-Julius R. Schultz,,PERSON
-Julius R. Schultzs,,PERSON
-Hassan J. Kjøge,,PERSON
-Hassan J. Kjøges,,PERSON
-Arne W. Therkildsen,,PERSON
-Arne W. Therkildsen,,PERSON
-Palle T. Axelsen,,PERSON
-Palle T. Axelsen,,PERSON
-Matias K. Lorenzens,,PERSON
-Matias K. Lorenzen,,PERSON
-Carlo V. Egebo,,PERSON
-Thor W. Wolff,,PERSON
-Oscar V. Fiskers,,PERSON
-Frede H. Martinussen,,PERSON
-Frede H. Martinussen,,PERSON
-Magnus X. Schrøder,,PERSON
-Magnus X. Schrøder,,PERSON
-Johnny A. Ellegaard,,PERSON
-Felix X. Skaarup,,PERSON
-Felix X. Skaarup,,PERSON
-Erik O. Lauritsens,,PERSON
-Theis D. Degn,,PERSON
-Theis D. Degns,,PERSON
-Magne V. Kastrup,,PERSON
-Magne V. Kastrup,,PERSON
-Nikki X. Mortensen,,PERSON
-Lukas Q. Saugmann,,PERSON
-Jonatan C. Benkjers,,PERSON
-Jan I. Kristoffersen,,PERSON
-Jan I. Kristoffersen,,PERSON
-Sussi W. Damgaard,,PERSON
-Sarah Y. Halse,,PERSON
-Rebecca S. Bies,,PERSON
-Rebecca S. Bies,,PERSON
-Katja B. Ünal,,PERSON
-Silke R. Stokholms,,PERSON
-Linda G. Henriksen,,PERSON
-Bianca C. Søgaard,,PERSON
-Inge H. Jæger,,PERSON
-Nora P. Ibrahim,,PERSON
-Nora P. Ibrahim,,PERSON
-Inge-Lise B. Mathiesen,,PERSON
-Elinor M. Bruun,,PERSON
-Elinor M. Bruun,,PERSON
-Felicia K. Bentzens,,PERSON
-Asta U. Thordals,,PERSON
-Asta U. Thordal,,PERSON
-Janne D. Henningsen,,PERSON
-Janne D. Henningsen,,PERSON
-Anne-Mette Y. Bentsen,,PERSON
-Anne-Mette Y. Bentsen,,PERSON
-Lissie Q. Klausen,,PERSON
-Medina R. Nygaard,,PERSON
-Medina R. Nygaard,,PERSON
-Helga N. Warburg,,PERSON
-Helga N. Warburg,,PERSON
-Anne-Marie N. Høj,,PERSON
-Myrna W. Bergmann,,PERSON
-Olga X. Mahmood,,PERSON
-Augusta N. Hoelgaard,,PERSON
-Emily V. Albrechtsen,,PERSON
-Louise Z. Rasmussen,,PERSON
-Rigmor H. Thomassens,,PERSON
-Anker Engelund,,PERSON
+Naja,,PERSON
+Naja,,PERSON
+Kis,,PERSON
+Kis,,PERSON
+Lissi,,PERSON
+Alonas,,PERSON
+Alona,,PERSON
+Ellie,,PERSON
+Ellie,,PERSON
+Alexandra,,PERSON
+Alexandra,,PERSON
+Mary,,PERSON
+Christines,,PERSON
+Christine,,PERSON
+Friggs,,PERSON
+Malina,,PERSON
+Inger,,PERSON
+Naya,,PERSON
+Naya,,PERSON
+Regitze,,PERSON
+Regitzes,,PERSON
+Liza,,PERSON
+Monica,,PERSON
+Monica,,PERSON
+Vivi,,PERSON
+Mira,,PERSON
+Mira,,PERSON
+Mollys,,PERSON
+Søs,,PERSON
+Søs,,PERSON
+Natascha,,PERSON
+Merete,,PERSON
+Merete,,PERSON
+Annikas,,PERSON
+Sine,,PERSON
+Sine,,PERSON
+Nadia,,PERSON
+Mitzi,,PERSON
+Mitzi,,PERSON
+Karoline,,PERSON
+Anja,,PERSON
+Anja,,PERSON
+Qvist,,PERSON
+Celik,,PERSON
+Celik,,PERSON
+Pihl,,PERSON
+Pihl,,PERSON
+Nicolaisen,,PERSON
+Hyllested,,PERSON
+Krogh,,PERSON
+Krogh,,PERSON
+Mohamed,,PERSON
+Rosenkilde,,PERSON
+Rosenkilde,,PERSON
+Steen,,PERSON
+Steen,,PERSON
+Krogsgaard,,PERSON
+Krogsgaard,,PERSON
+Heinsen,,PERSON
+Berthelsen,,PERSON
+Berthelsen,,PERSON
+Kilic,,PERSON
+Kilic,,PERSON
+Glahn,,PERSON
+Glahns,,PERSON
+Lystrups,,PERSON
+Li,,PERSON
+Li,,PERSON
+Ahmed,,PERSON
+Nørregaard,,PERSON
+Popa,,PERSON
+Weber,,PERSON
+Weber,,PERSON
+Bondes,,PERSON
+Rasmussen,,PERSON
+Rasmussen,,PERSON
+Agersnaps,,PERSON
+Adrian,,PERSON
+Adrian,,PERSON
+Johnsens,,PERSON
+Johnsen,,PERSON
+Kell Borg,,PERSON
+Kell Borg,,PERSON
+Keld Beck,,PERSON
+Keld Beck,,PERSON
+Torben Dall,,PERSON
+Markus Erichsen,,PERSON
+Knud-Erik Svenningsens,,PERSON
+Radoslaw Nissen,,PERSON
+Radoslaw Nissens,,PERSON
+Ibrahim Svane,,PERSON
+Ibrahim Svane,,PERSON
+Cornelius Graversen,,PERSON
+Cornelius Graversen,,PERSON
+Isa Clemmensen,,PERSON
+Sander Mørch,,PERSON
+Jess Holmgaard,,PERSON
+Kristoffer Bjørns,,PERSON
+Abdirahman Rask,,PERSON
+Hans-Christian Thorup,,PERSON
+Hans-Christian Thorup,,PERSON
+Orla Green,,PERSON
+Bastian Hansens,,PERSON
+Marinus Hartmann,,PERSON
+Marinus Hartmanns,,PERSON
+Magne Sommer,,PERSON
+Magne Sommer,,PERSON
+Leif Ebbesens,,PERSON
+Felix Boisens,,PERSON
+Felix Boisen,,PERSON
+Tobias Due,,PERSON
+Tobias Dues,,PERSON
+Benny Grams,,PERSON
+Benny Gram,,PERSON
+Jannick Horvath,,PERSON
+Jannick Horvath,,PERSON
+Lennart Hemmingsen,,PERSON
+Alvin Odgaard,,PERSON
+Julian Truelsen,,PERSON
+Tommy Bendixen,,PERSON
+Tommy Bendixen,,PERSON
+Kjeld Astrup,,PERSON
+Jonas Michaelsen,,PERSON
+Janus Brink,,PERSON
+Janus Brink,,PERSON
+Jonathan Nilsson,,PERSON
+Frank Olsen,,PERSON
+Peer Fuglsang,,PERSON
+Amir Carstensen,,PERSON
+Arne Eriksen,,PERSON
+Arne Eriksen,,PERSON
+Asger Sørensens,,PERSON
+Lukas Gaardbo,,PERSON
+Lukas Gaardbo,,PERSON
+Chris Wagners,,PERSON
+Martin Asmussen,,PERSON
+Martin Asmussens,,PERSON
+Heine Thygesen,,PERSON
+Willy Møllers,,PERSON
+Kamal Vilhelmsen,,PERSON
+Kamal Vilhelmsen,,PERSON
+Aage Høyers,,PERSON
+Mohamed Degn,,PERSON
+Kalle Vendelboe,,PERSON
+Atlas Kirks,,PERSON
+Atlas Kirk,,PERSON
+Marian Lorenzen,,PERSON
+Jesper Klitgaard,,PERSON
+Jesper Klitgaard,,PERSON
+Mikail Simonsen,,PERSON
+Mikail Simonsens,,PERSON
+Oleksandr Khans,,PERSON
+Valentyna Daugaard,,PERSON
+Yvonne Damsgaards,,PERSON
+Yvonne Damsgaard,,PERSON
+Betina Singh,,PERSON
+Lone Brogaard,,PERSON
+Elsebeth Birk,,PERSON
+Irene Krarup,,PERSON
+Therese Ladefogeds,,PERSON
+Emilia Gärtners,,PERSON
+June Grøn,,PERSON
+June Grøn,,PERSON
+Inge-Lise Duponts,,PERSON
+Inge-Lise Dupont,,PERSON
+Kate Nørbjerg,,PERSON
+Matilda Kronborg,,PERSON
+Freja Vang,,PERSON
+Ida Bentzen,,PERSON
+Ida Bentzen,,PERSON
+Tanja Stougaard,,PERSON
+Sabrina Abbasi,,PERSON
+Mejse Jakobsen,,PERSON
+Mejse Jakobsen,,PERSON
+Michelle Yilmaz,,PERSON
+Michelle Yilmaz,,PERSON
+Lilian Hussain,,PERSON
+Lilian Hussain,,PERSON
+Mariam Kjølhede,,PERSON
+Mariam Kjølhede,,PERSON
+Alba Kolmos,,PERSON
+Nadja Laugesen,,PERSON
+Claire Hassans,,PERSON
+Ilse Kjærgaard,,PERSON
+Augusta Albertsen,,PERSON
+Augusta Albertsen,,PERSON
+Conni Voss,,PERSON
+Vilma Schaltz,,PERSON
+Vilma Schaltz,,PERSON
+Judith Westergaard,,PERSON
+Judith Westergaard,,PERSON
+Conny Falks,,PERSON
+Conny Falks,,PERSON
+May-Britt Clausen,,PERSON
+Rebecca Ravns,,PERSON
+Rebecca Ravn,,PERSON
+Smilla Andresen,,PERSON
+Smilla Andresen,,PERSON
+Lissy Boesen,,PERSON
+Sille Merrilds,,PERSON
+Alina Holmelund,,PERSON
+Alina Holmelund,,PERSON
+Madeline Frost,,PERSON
+Eva Thomassens,,PERSON
+Eva Thomassens,,PERSON
+Benedikte Svarrer,,PERSON
+Benedikte Svarrer,,PERSON
+Ebba Ankjær,,PERSON
+Ebba Ankjærs,,PERSON
+Ann-Louise Fabricius,,PERSON
+Ulrikke True,,PERSON
+Silke Christophersen,,PERSON
+Silke Christophersen,,PERSON
+Kirsten Torp,,PERSON
+Kirsten Torp,,PERSON
+Giulia Carlsen,,PERSON
+Giulia Carlsens,,PERSON
+Melissa Block,,PERSON
+Lilja Abbas,,PERSON
+Viola Hald,,PERSON
+Sofia Joensens,,PERSON
+Gry Skov,,PERSON
+Gry Skov,,PERSON
+Tetiana Kærgaard,,PERSON
+Tetiana Kærgaard,,PERSON
+Marius Jimmi,,PERSON
+Marius Jimmi,,PERSON
+Jens-Erik Walter,,PERSON
+Tom Bjarne,,PERSON
+Tom Bjarne,,PERSON
+Hubert Christopher,,PERSON
+Mohammad Milo,,PERSON
+Mohammad Milos,,PERSON
+Ion Niklas,,PERSON
+Emil Orhan,,PERSON
+Adel Jørgen,,PERSON
+Adel Jørgen,,PERSON
+Ilyas Theodor,,PERSON
+Ilyas Theodor,,PERSON
+Stefan Georg,,PERSON
+Stefan Georg,,PERSON
+Christian Milad,,PERSON
+Michal Ivan,,PERSON
+Kevin Nicholai,,PERSON
+Birte Amanda,,PERSON
+Annegrete Lea,,PERSON
+Catrine Trines,,PERSON
+Catrine Trine,,PERSON
+Lena Renate,,PERSON
+Lena Renate,,PERSON
+Fatima Lillians,,PERSON
+Bente Emma,,PERSON
+Mariane Natalia,,PERSON
+Beatrice Yasmin,,PERSON
+Beatrice Yasmin,,PERSON
+Henriette Kristina,,PERSON
+Jeannette Hatices,,PERSON
+Jeannette Hatice,,PERSON
+Safa Frederikkes,,PERSON
+Safa Frederikke,,PERSON
+Inge Lilje,,PERSON
+Inge Lilje,,PERSON
+Cecillie Sidses,,PERSON
+Henrik Laumann Skovgaard,,PERSON
+Ludvig Jansen Brogaard,,PERSON
+Ludvig Jansen Brogaard,,PERSON
+Paw Bluhme Kjærsgaard,,PERSON
+Paw Bluhme Kjærsgaard,,PERSON
+Mark Ebbesen Schmidt,,PERSON
+Mark Ebbesen Schmidt,,PERSON
+Ahmed Jønson Dalgaard,,PERSON
+Ahmed Jønson Dalgaard,,PERSON
+Hugo Tran Ottesen,,PERSON
+Theis Mathiasen Albertsen,,PERSON
+Theis Mathiasen Albertsen,,PERSON
+Birk Machon Popa,,PERSON
+Johnny Brixen Voss,,PERSON
+Filip Kluge Bendtsen,,PERSON
+Filip Kluge Bendtsen,,PERSON
+Oliver Berger Thuesens,,PERSON
+Mike Brandt Johnsen,,PERSON
+Mike Brandt Johnsen,,PERSON
+Jimmy Bødker Sanders,,PERSON
+Ionut Buhl Urup,,PERSON
+Ionut Buhl Urup,,PERSON
+Carlo Johannessen Espersen,,PERSON
+Tim Holst Enevoldsen,,PERSON
+Tim Holst Enevoldsen,,PERSON
+Frederik Knudsen Rosenberg,,PERSON
+Erling Vester Skotte,,PERSON
+Erling Vester Skotte,,PERSON
+Ricky Bjerg Fiskers,,PERSON
+Alex Brouer Skous,,PERSON
+Alex Brouer Skous,,PERSON
+Carl Bjørn Jakobsen,,PERSON
+Dion Himmelstrup Steffensen,,PERSON
+Ronald Adrian Ovesen,,PERSON
+Ronald Adrian Ovesen,,PERSON
+Danny Kønig Juncker,,PERSON
+Danny Kønig Juncker,,PERSON
+Viggo Leth Olsson,,PERSON
+Viggo Leth Olsson,,PERSON
+Esben Taagaard Rohde,,PERSON
+Joachim Bendixen Boysen,,PERSON
+Joachim Bendixen Boysen,,PERSON
+Mogens Ladefoged Bruhn,,PERSON
+Michael Frandsen Chrestensen,,PERSON
+Jaroslaw Møller Kirkeby,,PERSON
+Matias Borg Greve,,PERSON
+Nick Duus Asmussens,,PERSON
+Tomasz Osmanovic Kvist,,PERSON
+Hasse Ahrendt Filtenborg,,PERSON
+Hasse Ahrendt Filtenborgs,,PERSON
+Liam Mathiesen Hviid,,PERSON
+Liam Mathiesen Hviid,,PERSON
+Steffen Sommer Özkan,,PERSON
+Steffen Sommer Özkan,,PERSON
+Mason Block Højgaards,,PERSON
+Mason Block Højgaards,,PERSON
+Dan Corell Meldgaard,,PERSON
+Amalia Bech Rosendahl,,PERSON
+Amalia Bech Rosendahl,,PERSON
+Luna Jønsson James,,PERSON
+Luna Jønsson James,,PERSON
+Ruth Kjær Vilhelmsens,,PERSON
+Ruth Kjær Vilhelmsen,,PERSON
+Iris Kryger Søgaard,,PERSON
+Iris Kryger Søgaard,,PERSON
+Simona Ahmed Thomasen,,PERSON
+Simona Ahmed Thomasen,,PERSON
+Dorrit Madsen Munk,,PERSON
+Dorrit Madsen Munk,,PERSON
+Lise Lundsgaard Pilgaards,,PERSON
+Lise Lundsgaard Pilgaard,,PERSON
+Marta Beck Heinsen,,PERSON
+Caroline Nørbjerg Wiggers,,PERSON
+Caroline Nørbjerg Wiggers,,PERSON
+Alberte Torp Qvist,,PERSON
+Lin Lundberg Povlsen,,PERSON
+Mille Wolff Johansen,,PERSON
+Mille Wolff Johansen,,PERSON
+Anni Khan Lindners,,PERSON
+Halima Poulsen Jespersen,,PERSON
+Janni Smith Vendelboe,,PERSON
+Maya Sveistrup Kærgaards,,PERSON
+Maya Sveistrup Kærgaards,,PERSON
+Helle Lehmann Hedegaard,,PERSON
+Helle Lehmann Hedegaard,,PERSON
+Maja Skov Von Qualen,,PERSON
+Maja Skov Von Qualen,,PERSON
+Elisabeth Bjerre Frederiksens,,PERSON
+Elisabeth Bjerre Frederiksens,,PERSON
+Kira Hussein Kilic,,PERSON
+Elise Henriksen De Blanck,,PERSON
+Elise Henriksen De Blanck,,PERSON
+Asta Larsson Krogs,,PERSON
+Asta Larsson Krog,,PERSON
+Veronica Ahmad Schultz,,PERSON
+Veronica Ahmad Schultzs,,PERSON
+Anne-Sofie Hjorth Villumsens,,PERSON
+Sif Due Yilmaz,,PERSON
+Sif Due Yilmaz,,PERSON
+Dora Rahbek Berggren,,PERSON
+Hannah Ibsen Liboriussen,,PERSON
+Berit Seemann Fogh,,PERSON
+Berit Seemann Foghs,,PERSON
+Toni Lynge Nedergaard,,PERSON
+Toni Lynge Nedergaard,,PERSON
+Christiane Martinussen Basaran,,PERSON
+Christiane Martinussen Basarans,,PERSON
+Kathe Klitgaard Rytters,,PERSON
+Kathe Klitgaard Rytter,,PERSON
+Anne Weber Lindholms,,PERSON
+Ingeborg Hamdan Kruse,,PERSON
+Ingeborg Hamdan Kruse,,PERSON
+Olga Karlsen Bager,,PERSON
+Olga Karlsen Bager,,PERSON
+Sanne Axelsen Jannerup,,PERSON
+Sanne Axelsen Jannerup,,PERSON
+Dorthe Stoustrup Johansson,,PERSON
+Lisbeth Bojer Krogh,,PERSON
+Lisbeth Bojer Krogh,,PERSON
+Emmeli Bak Markussen,,PERSON
+Emmeli Bak Markussen,,PERSON
+Milas E.,,PERSON
+Dennis R.,,PERSON
+Dennis R.,,PERSON
+Marc P.,,PERSON
+Adrian W.,,PERSON
+Louie I.,,PERSON
+Verner S.,,PERSON
+Elliott F.,,PERSON
+Bohdan M.,,PERSON
+Bohdan M.,,PERSON
+Tonny H.,,PERSON
+Tonny H.,,PERSON
+Mert G.,,PERSON
+Mert G.,,PERSON
+Toke J.,,PERSON
+Rene Z.s,,PERSON
+Rene Z.,,PERSON
+Leonardo B.s,,PERSON
+Leonardo B.,,PERSON
+Lilli L.s,,PERSON
+Johanne V.s,,PERSON
+Cecilie Y.,,PERSON
+Inga N.,,PERSON
+Inga N.s,,PERSON
+Simone T.,,PERSON
+Tina X.,,PERSON
+Tina X.,,PERSON
+Estrid D.s,,PERSON
+Doris K.,,PERSON
+Doris K.,,PERSON
+Allis C.,,PERSON
+Allis C.,,PERSON
+Ana U.,,PERSON
+Ana U.,,PERSON
+Lajla A.s,,PERSON
+Lajla A.s,,PERSON
+Birgitte Q.,,PERSON
+Birgitte Q.,,PERSON
+Sarah O.,,PERSON
+Sarah O.,,PERSON
+Nils S. Lystrup,,PERSON
+Marley B. Brix,,PERSON
+Julius E. Severin,,PERSON
+Julius E. Severins,,PERSON
+Karl G. Mikkelsen,,PERSON
+Karl G. Mikkelsens,,PERSON
+Abdel X. Droob,,PERSON
+Abdel X. Droobs,,PERSON
+Ronni C. Christoffersen,,PERSON
+Johann Q. Elstrøm,,PERSON
+Kaj J. Svendsen,,PERSON
+Kaj J. Svendsen,,PERSON
+Casper C. Holm,,PERSON
+Casper C. Holm,,PERSON
+Azad K. Keller,,PERSON
+Azad K. Kellers,,PERSON
+Thyge K. Dinesens,,PERSON
+Thyge K. Dinesen,,PERSON
+Elvin R. Drejer,,PERSON
+Nicky V. Olsens,,PERSON
+Nicky V. Olsen,,PERSON
+Nichlas E. Nicolaisen,,PERSON
+Nichlas E. Nicolaisens,,PERSON
+Alan A. Ibrahim,,PERSON
+Alan A. Ibrahim,,PERSON
+Kaspar M. Clausen,,PERSON
+Lau Q. Kjeldsens,,PERSON
+Tarik H. Lassens,,PERSON
+Tarik H. Lassen,,PERSON
+Mohamad Y. Simonsen,,PERSON
+Mohamad Y. Simonsen,,PERSON
+Muhammed T. Alici,,PERSON
+Muhammed T. Alici,,PERSON
+Paul S. Schaltz,,PERSON
+Konrad O. Hashemis,,PERSON
+Flemming E. Bengtsson,,PERSON
+Otto Q. Fabricius,,PERSON
+Otto Q. Fabricius,,PERSON
+Jon C. Agersnap,,PERSON
+Jon C. Agersnap,,PERSON
+Elna H. Eskildsens,,PERSON
+Herdis U. Risager,,PERSON
+Herdis U. Risager,,PERSON
+Amalie M. Schou,,PERSON
+Ronja E. Kirk,,PERSON
+Ronja E. Kirk,,PERSON
+Janne G. Rasmussens,,PERSON
+Janne G. Rasmussens,,PERSON
+Winnie P. Balle,,PERSON
+Winnie P. Balle,,PERSON
+Sidsel O. Jeppesens,,PERSON
+Elin X. Kjølhede,,PERSON
+Elin X. Kjølhede,,PERSON
+Jeanett T. Astrup,,PERSON
+Jeanett T. Astrup,,PERSON
+Maiken A. Buch,,PERSON
+Fie Q. Buus,,PERSON
+Sally V. Skriver,,PERSON
+Ana-Maria D. Carstensen,,PERSON
+Mikala P. Schrøder,,PERSON
+Gerd E. Kramers,,PERSON
+Ina K. Bjerregaards,,PERSON
+Mathilde X. Glahns,,PERSON
+Liselotte Z. Truelsen,,PERSON
+Liselotte Z. Truelsen,,PERSON
+Mai W. Dygs,,PERSON
+Agnete O. Ankjærs,,PERSON
+Agnete O. Ankjærs,,PERSON
+Karin H. Husted,,PERSON
+Lulu V. Birk,,PERSON
+Gudrun I. Borup,,PERSON
+Gudrun I. Borup,,PERSON
+Laura B. Johannsens,,PERSON
+Laura B. Johannsen,,PERSON
+Dalia I. Martinsen,,PERSON
+Anker Engelunds,,PERSON
 Anker Engelund,,PERSON
 Thit Jensen,,PERSON
-Thit Jensens,,PERSON
+Thit Jensen,,PERSON
 Naser Khader,,PERSON
-Mærsk Mc-Kinney Møller,,PERSON
-Mærsk Mc-Kinney Møller,,PERSON
+Mærsk Mc-Kinney Møllers,,PERSON
 K.K. Steincke,,PERSON
+Storm P.,,PERSON
 Storm P.,,PERSON
 Simon Spies,,PERSON
 Asta Nielsen,,PERSON
-Asta Nielsens,,PERSON
 Tom Kristensens,,PERSON
+Tom Kristensen,,PERSON
 Lise Nørgaard,,PERSON
 "Gunnar ""Nu"" Hansen",,PERSON
-J.C. Christensens,,PERSON
+J.C. Christensen,,PERSON
+J.C. Christensen,,PERSON
 Johannes V. Jensen,,PERSON
-Johannes V. Jensens,,PERSON
+Johannes V. Jensen,,PERSON
 Harald Lander,,PERSON
-Nina Bangs,,PERSON
 Nina Bang,,PERSON
 Suzanna Brøgger,,PERSON
+Suzanna Brøgger,,PERSON
+Henrik Cavling,,PERSON
 Henrik Cavling,,PERSON
 Bodil Ipsen,,PERSON
 Piet Hein,,PERSON
+Piet Hein,,PERSON
+Michael Laudrup,,PERSON
 Michael Laudrup,,PERSON
 Børge Outze,,PERSON
-Benjamin Lasnier,,PERSON
+Benjamin Lasniers,,PERSON
 Benjamin Lasnier,,PERSON
 Martin Jensen,,PERSON
 Josephine Skriver,,PERSON
-Josephine Skriver,,PERSON
+Josephine Skrivers,,PERSON
 Caroline Wozniacki,,PERSON
-Nina Agdals,,PERSON
-MØ,,PERSON
+Nina Agdal,,PERSON
 MØ,,PERSON
 Mick Øgendahl,,PERSON
-Medina,,PERSON
 Medinas,,PERSON
-Linse Kessler,,PERSON
-Linse Kessler,,PERSON
+Linse Kesslers,,PERSON
 Mikkel Kessler,,PERSON
 Mikkel Kessler,,PERSON
 Anders Matthesen,,PERSON
-Anders Matthesen,,PERSON
 Pernille Vermund,,PERSON
-Pernille Vermund,,PERSON
-Alex Vanopslagh,,PERSON
-Pia Olsen Dyhrs,,PERSON
+Alex Vanopslaghs,,PERSON
+Pia Olsen Dyhr,,PERSON
+Mette Frederiksens,,PERSON
 Mette Frederiksen,,PERSON
 Lars Løkke Rasmussen,,PERSON
-Lars Løkke Rasmussen,,PERSON
+Søren Pape Poulsen,,PERSON
 Søren Pape Poulsen,,PERSON
 Pelle Dragsted,,PERSON
+Pelle Dragsted,,PERSON
+Franciska Rosenkilde,,PERSON
 Franciska Rosenkilde,,PERSON
 Troels Lund Poulsen,,PERSON
 Troels Lund Poulsen,,PERSON
+@helenachristensen,,PERSON
 @helenachristensen,,PERSON
 @kevinmagnussen,,PERSON
 @andershemmingsendk,,PERSON
 @andershemmingsendk,,PERSON
 @josefinehj,,PERSON
-@josefinehj,,PERSON
 @tobiasmoeller213,,PERSON
-@mathildegoehler,,PERSON
+@tobiasmoeller213,,PERSON
+@mathildegoehlers,,PERSON
 @carowozniacki,,PERSON
 @braithwaiteofficial,,PERSON
 @braithwaiteofficial,,PERSON
-@chriseriksen8,,PERSON
+@chriseriksen8s,,PERSON
 @chriseriksen8,,PERSON
 @hamderkurt,,PERSON
 @mia1023218,,PERSON
-@mia1023218,,PERSON
-Michelle Obama,,PERSON
+Michelle Obamas,,PERSON
 Obama,,PERSON
+Obamas,,PERSON
 Barack Obama,,PERSON
 Bill Gates,,PERSON
 Jim Carrey,,PERSON
-Jim Carreys,,PERSON
 Kim Kardashian,,PERSON
 Kim Kardashian,,PERSON
 Morgan Freeman,,PERSON
-Johnny Depps,,PERSON
-Johnny Depps,,PERSON
-Leonardo DiCaprios,,PERSON
+Johnny Depp,,PERSON
+Leonardo DiCaprio,,PERSON
+Leonardo DiCaprio,,PERSON
+Taylor Swift,,PERSON
 Taylor Swift,,PERSON
 Will Smith,,PERSON
 Trump,,PERSON
-Donald Trumps,,PERSON
 Donald Trump,,PERSON
 Albert Einstein,,PERSON
-Charles Darwins,,PERSON
 Charles Darwin,,PERSON
-George Washington,,PERSON
+Charles Darwin,,PERSON
 George Washington,,PERSON
 Joseph Stalin,,PERSON
 Joseph Stalin,,PERSON
 Plato,,PERSON
 Columbus,,PERSON
-Columbus,,PERSON
 Galileo Galilei,,PERSON
 H.C Andersens,,PERSON
-H.C Andersen,,PERSON
+H.C. Andersens,,PERSON
 H.C. Andersen,,PERSON
-H.C. Andersen,,PERSON
-Hans Christian Andersen,,PERSON
 Hans Christian Andersen,,PERSON
 Susanne Bier,,PERSON
 Susanne Bier,,PERSON
 Anders Fogh Rasmussen,,PERSON
-Anders Fogh Rasmussens,,PERSON
+Anders Fogh Rasmussen,,PERSON
 Pippi Langstrømpe,,PERSON
+Pippi Langstrømpes,,PERSON
 Harry Potter,,PERSON
 Sherlock Holmes,,PERSON
 Sherlock Holmes,,PERSON
 Tarzan,,PERSON
-Tarzan,,PERSON
 Anders and,,PERSON
-Anders and,,PERSON
-Anakin Skywalker,,PERSON
 Anakin Skywalkers,,PERSON
+Jonathan Løvehjertes,,PERSON
 Jonathan Løvehjerte,,PERSON
 Peter Pan,,PERSON
 Homer Simpson,,PERSON
 Søren Brun,,PERSON
-Søren Brun,,PERSON
 Yoda,,PERSON
 Darth Vader,,PERSON
+Darth Vaders,,PERSON
 Pyrus,,PERSON
 Pyrus,,PERSON
 Dolph,,PERSON
+Dolph,,PERSON
 James Bond,,PERSON
+James Bonds,,PERSON
+Hr. Skæg,,PERSON
+John Dillermand,,PERSON
+Pinocchio,,PERSON
+Sebastian Kleins,,PERSON
+Sebastian Klein,,PERSON
+Tinka,,PERSON
+Pyrus,,PERSON
+Tintin,,PERSON
+Garfield,,PERSON
+Gurli Gris,,PERSON
 Volkswagen Golf,,MULTIPLE
 VW Golf,,MULTIPLE
+Volkswagen Touran,,MULTIPLE
 Volkswagen Touran,,MULTIPLE
 Tesla Model S,,MULTIPLE
 Ford Mustang,,MULTIPLE
@@ -5240,6 +5251,7 @@ Samsung Galaxy Z Flip,,MULTIPLE
 Lenovo Yoga,,MULTIPLE
 Lenovo Yoga,,MULTIPLE
 ASUS Vivobook,,MULTIPLE
+Haribo Vampyrer,,MULTIPLE
 Haribo Vampyrer,,MULTIPLE
 Katjes Salte Fisk,,MULTIPLE
 Katjes Salte Fisk,,MULTIPLE
@@ -5262,18 +5274,16 @@ KitchenAid Artisan,,MULTIPLE
 KitchenAid Artisan,,MULTIPLE
 adidas Junior Superstar,,MULTIPLE
 Birkenstock Arizona,,MULTIPLE
-Birkenstock Arizona,,MULTIPLE
 Bose QuietComfort 45,,MULTIPLE
 Bose QuietComfort 45,,MULTIPLE
 Garmin Vivofit 4,,MULTIPLE
 Garmin Vivofit 4,,MULTIPLE
 Fjällräven Kånken Mini,,MULTIPLE
-OnePlus Nord 3,,MULTIPLE
+Fjällräven Kånken Mini,,MULTIPLE
 OnePlus Nord 3,,MULTIPLE
 NIKE Dunk High,,MULTIPLE
 Marshall Major IV,,MULTIPLE
 Marshall Major IV,,MULTIPLE
-Carhatt Heston Vest,,MULTIPLE
 Carhatt Heston Vest,,MULTIPLE
 Ford Fiesta,,MULTIPLE
 Amazon Echo,,MULTIPLE
@@ -5283,10 +5293,12 @@ Holbergs Erasmus Montanus,,MULTIPLE
 St. St. Blicher Brudstykker af en Landsbydegns dagbog,,MULTIPLE
 St. St. Blicher Brudstykker af en Landsbydegns dagbog,,MULTIPLE
 Søren Kirkegaards Enten-Eller,,MULTIPLE
+Søren Kirkegaards Enten-Eller,,MULTIPLE
 Pontoppidan Lykke-Per,,MULTIPLE
 Pontoppidan Lykke-Per,,MULTIPLE
 Helle Helle Hvis det er,,MULTIPLE
 Helle Helle Hvis det er,,MULTIPLE
+Hanne-Vibeke Holst Undskyldningen,,MULTIPLE
 Hanne-Vibeke Holst Undskyldningen,,MULTIPLE
 Solvej Balle Om udregning af rumfang,,MULTIPLE
 Sigurd Langberg Naar Bønder elsker,,MULTIPLE
@@ -5312,10 +5324,10 @@ Drake LAUGH NOW CRY LATER,,MULTIPLE
 The Weekend's Blinding Lights,,MULTIPLE
 Bieber Mood (Remix),,MULTIPLE
 DJ Snakes Lean On,,MULTIPLE
+DJ Snakes Lean On,,MULTIPLE
 Selena Gomez Good for You,,MULTIPLE
 Kanye West FourFiveSeconds,,MULTIPLE
 Kanye West FourFiveSeconds,,MULTIPLE
-Gilli C'est la vie,,MULTIPLE
 Gilli C'est la vie,,MULTIPLE
 Rasmus Seebachs Uanset,,MULTIPLE
 Rasmus Seebachs Uanset,,MULTIPLE
@@ -5326,5 +5338,6 @@ Rasmus Seebach 2017,song,MULTIPLE
 Rasmus Seebach 2017,song,MULTIPLE
 Jens Unmack Vejen Hjem Fra Rocknroll,,MULTIPLE
 Jens Unmack Vejen Hjem Fra Rocknroll,,MULTIPLE
+Kaj og Andrea,,MULTIPLE
 Kaj og Andrea,,MULTIPLE
 Osman og Jeppe,,MULTIPLE
