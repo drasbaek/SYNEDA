@@ -167,6 +167,8 @@ def create_examples(df_all, multiple):
     df_all = shuffle_df(df_all)
 
     print("Creating examples ...")
+
+    # check if df_all is empty
     while len(df_all) != 0:
         # sample number of entities
         n_entities = sample_number()
@@ -209,6 +211,17 @@ def write_to_csv(examples, data_path):
     df.to_csv(data_path / "NER_EXAMPLES.csv", index=True, sep=';') # different seperator to avoid issues with double quotes
 
     print("Done writing to csv file.")
+
+def write_to_txt(examples, data_path):
+    '''
+    Write examples to txt file.
+    '''
+    # write to txt file - each example is a row
+    with open(data_path / "NER_EXAMPLES.txt", "w") as f:
+        for example in examples:
+            f.write(f"{example}\n")
+
+    print("Done writing to txt file.")
     
 def main():
     # set seed
@@ -236,7 +249,11 @@ def main():
     # create examples
     examples = create_examples(df, multiple)
 
+    # write to csv
     write_to_csv(examples, data_path / "final_ents")
+
+    # write to txt
+    write_to_txt(examples, data_path / "final_ents")
 
 if __name__ == "__main__":
     main()
