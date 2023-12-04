@@ -200,17 +200,16 @@ def create_examples(df_all, multiple):
 
     return examples
 
-def write_to_csv(examples, data_path):
+def write_to_excel(examples, data_path):
     '''
-    Write examples to csv file.
+    Write examples to escel file.
     '''
     # write to csv file - each example is a row
     df = pd.DataFrame({"entities": examples})
-    print(df)
 
-    df.to_csv(data_path / "NER_EXAMPLES.csv", index=True, sep=';') # different seperator to avoid issues with double quotes
+    df.to_excel(data_path / "NER_EXAMPLES.xlsx", index=True) 
 
-    print("Done writing to csv file.")
+    print("Done writing to excel file.")
 
 def write_to_txt(examples, data_path):
     '''
@@ -250,7 +249,7 @@ def main():
     examples = create_examples(df, multiple)
 
     # write to csv
-    write_to_csv(examples, data_path / "final_ents")
+    write_to_excel(examples, data_path / "final_ents")
 
     # write to txt
     write_to_txt(examples, data_path / "final_ents")
