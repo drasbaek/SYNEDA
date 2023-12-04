@@ -34,6 +34,21 @@ def load_data(data_path):
 
     return df_all, multiple
 
+def update_weights(df_all):
+    '''
+    Double weights at a 50% probability for those weights that are 1.
+    '''
+    # get indices of rows with weight = 1
+    indices = df_all[df_all["weight"] == 1].index
+
+    # sample indices
+    indices = np.random.choice(indices, size=int(len(indices)/2), replace=False)
+
+    # update weights
+    df_all.loc[indices, "weight"] = 2
+
+    return df_all
+
 def expand_data(df_all):
     """
     Expands data by multiplying rows by the weight of each entity.
@@ -165,6 +180,9 @@ def main():
 
     # load data
     df, multiple = load_data(data_path)
+
+    # update weights
+    df = update_weights(df)
 
     # multiply rows by weight
     df = expand_data(df)
