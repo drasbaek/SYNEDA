@@ -4,6 +4,17 @@ import numpy as np
 import random
 
 def load_data(data_path):
+    '''
+    Load data for all entities.
+
+    Args
+        data_path: path to data folder with coded and manual entities
+
+    Returns
+        df_all: df with all entities
+        multiple: df with all multiples (special dataframe containing more information about multiples)
+    '''
+
     # complete entities
     coded_entity_types = ["DATE", "MONEY", "PERCENT", "QUANTITY", "PERSON"]
 
@@ -37,6 +48,12 @@ def load_data(data_path):
 def update_weights(df_all):
     '''
     Double weights at a 50% probability for those weights that are 1.
+
+    Args
+        df_all: df with all entities
+
+    Returns
+        df_all: df with all entities but some of them have updated weights
     '''
     # get indices of rows with weight = 1
     indices = df_all[df_all["weight"] == 1].index
@@ -50,16 +67,40 @@ def update_weights(df_all):
     return df_all
 
 def expand_data(df_all):
-    """
+    '''
     Expands data by multiplying rows by the weight of each entity.
-    """
-    
+    '''
     # multiply rows by weight
     df_all = df_all.loc[df_all.index.repeat(df_all["weight"])].reset_index(drop=True)
 
     # drop weights
     df_all = df_all.drop(columns=["weight"])
 
+    return df_all
+
+def generate_posessives(df_all, threshold=0.2):
+    '''
+    Alter some entities to have possessives for types where appropriate.
+
+    Args
+        df_all: df with all entities
+        threshold: threshold for how many entities to alter
+
+    Returns
+        df_all: df with all entities but some of them altered to be posessives
+    '''
+    # define categories that can take on posessives
+    posessive_types = ["PERSON", "ORGANIZATION", "GPE"]
+
+    # get indices of rows with posessive types that do not end in "s"
+    indices = df_all[(df_all["TYPE"].isin(posessive_types)) & (~df_all["entity"].str.endswith("s"))].index
+
+    # sample indices
+    indices = np.random.choice(indices, size=int(len(indices)*threshold), replace=False)
+
+    # update entities
+    df_all.loc[indices, "entity"] = df_all.loc[indices, "entity"] + "s"
+    
     return df_all
 
 def sample_number():
@@ -70,19 +111,18 @@ def sample_number():
     # Use np.random.choice to sample based on the specified probabilities
     return np.random.choice(numbers, p=probabilities)
 
-
 def shuffle_df(df):
     '''
     Shuffle a df, but ensure that two of the same "MULTIPLE" type are not next to each other.
     '''
     while True:
-        # Shuffle df
+        # shuffle df
         df = df.sample(frac=1).reset_index(drop=True)
 
-        # Get indices of MULTIPLE
+        # get indices of MULTIPLE
         multiple_indices = df[df["TYPE"] == "MULTIPLE"].index
 
-        # Check if any of the MULTIPLE indices are next to each other
+        # check if any of the MULTIPLE indices are next to each other
         if all(multiple_indices[i+1] - multiple_indices[i] != 1 for i in range(len(multiple_indices)-1)):
             return df
         else:
@@ -186,6 +226,9 @@ def main():
 
     # multiply rows by weight
     df = expand_data(df)
+
+    # generate posessives
+    df = generate_posessives(df)
 
     # save df 
     df.to_csv(data_path / "final_ents" / "NER_ENTS_OVERVIEW.csv", index=False)
