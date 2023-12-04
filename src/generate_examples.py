@@ -166,7 +166,7 @@ def write_to_csv(examples, data_path):
     df = pd.DataFrame({"entities": examples})
     print(df)
 
-    df.to_csv(data_path / "NER_EXAMPLES.csv", index=True)
+    df.to_csv(data_path / "NER_EXAMPLES.csv", index=True, sep=';') # different seperator to avoid issues with double quotes
 
     print("Done writing to csv file.")
     
