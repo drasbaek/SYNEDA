@@ -1,25 +1,20 @@
 '''
-Make true labels for data
+Prepare dataset with true labels 
 '''
 import pathlib
 import pandas as pd
 import spacy
 import re
+from spacy.tokens import DocBin
 
-def convert_to_doc(df):
+def convert_to_doc(df, textcol="sentences"):
     '''
-    Converts the sentences column to a spacy doc object.
-
-    Parameters
-        df (pandas.DataFrame): dataframe with sentences column
-
-    Returns
-        df (pandas.DataFrame): dataframe with sentences column changed to spacy doc object
+    Convert text from text column into spacy doc objects. Save to 'doc' column.
     '''
     print("Loading blank spaCy model...")
     nlp = spacy.blank("da")
 
-    df['doc'] = df['sentences'].apply(lambda x: nlp(x))
+    df['doc'] = df[textcol].apply(lambda x: nlp(x))
 
     return df
 
@@ -27,7 +22,6 @@ def create_sents(df):
     '''
     Create sents column for dataframe with a spacy doc column
     '''
-
     sents = []
 
     for i in range(len(df)):
@@ -79,12 +73,6 @@ def remove_context(df):
 def create_entity_dict(df):
     '''
     Changes the formatting of entity lists from strings to a list of dictionaries.
-
-    Parameters
-       df (pandas.DataFrame): dataframe with entities column
-    
-    Returns
-        df (pandas.DataFrame): dataframe with entities column changed to list of dictionaries
     '''
     
     # make into a list of dictionaries for each entity pair.
@@ -92,16 +80,10 @@ def create_entity_dict(df):
 
     return df
 
-
-
 def create_ents(df):
     '''
     Create ents column for a dataframe with a spacy doc column. It goes through a lot of checks with various regex patterns in order to ensure that ents are correct
-
-    Parameters
-    
     '''
-
     # create list of all ents 
     all_ents = []
 
@@ -166,15 +148,11 @@ def create_ents(df):
     df['ents'] = all_ents
     
     return df
-            
-def main(): 
-    # define paths
-    path = pathlib.Path(__file__)
-    data_path = path.parents[1] / "data"
 
-    # load data
-    df = pd.read_excel(data_path / "DATASET.xlsx", sheet_name="ENTS")
-    
+def label_pipeline(df):
+    '''
+    Pipeline for labeling NER data as SpaCy Span
+    ''' 
     # remove context from ents
     df = remove_context(df)
 
@@ -192,6 +170,60 @@ def main():
 
     # create ents
     df = create_ents(df)
+
+    return df
+
+def convert_to_spacy(df, save_path=None):
+    '''
+    Convert dataframe to spacy format. Inspired by https://spacy.io/usage/training#training-data
+
+    Args
+        df: dataframe with ents column
+        save_path: path to save spacy docbin object (defaults to None i.e., no saving)
+    
+    Returns
+        db: spacy docbin object
+    '''
+    db = DocBin()  # create a DocBin object
+
+    for i, row in df.iterrows(): 
+        # get doc
+        doc = row['doc']
+
+        # access dictionary within list in row['ents']
+        ents = row['ents'][0]
+
+        # access values in dictionary
+        start, end, label = ents.values()
+
+        # create span
+        span = [doc.char_span(int(start), int(end)-1, label=label)]
+
+        # append ents to doc
+        doc.ents = span
+
+        # add doc to docbin
+        db.add(doc)
+
+    # save docbin
+    if save_path:
+        db.to_disk(save_path)
+
+    return db
+
+def main(): 
+    # define paths
+    path = pathlib.Path(__file__)
+    data_path = path.parents[1] / "data"
+
+    # load data
+    df = pd.read_excel(data_path / "DATASET.xlsx", sheet_name="ENTS")
+
+    # label data
+    df = label_pipeline(df)
+
+    # convert to spacy format (NB does not work!)
+    #db = convert_to_spacy(df)
 
 if __name__ == "__main__":
     main()
