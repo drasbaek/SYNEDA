@@ -92,6 +92,8 @@ def create_entity_dict(df):
 
     return df
 
+
+
 def create_ents(df):
     '''
     Create ents column for a dataframe with a spacy doc column
@@ -114,16 +116,34 @@ def create_ents(df):
             label = ents_dict['label']
 
             # Define the pattern to search for ent with or without quotations, accounting for various placements
-            pattern = re.compile(r'(?:["\']{}["\']|{})[.,!?\s]|$'.format(re.escape(ent), re.escape(ent)))
+            pattern = re.compile(r'(?:["\']{}["\']|{})[.,;!?\s]|$'.format(re.escape(ent), re.escape(ent)))
 
             # Search for the pattern in the sentence
             matches = pattern.search(row['sentences'])
 
             match = matches.group(0)  # get matched text
-            print(match)
+
             if not match: 
-                raise ValueError("Could not find {} in sentence: {} at row {}".format(ent, row['sentences'], i))
-                start = -1
+                # check whether the ent is more than one word
+                if len(ent.split()) > 1:
+                    # capitalize only the first word 
+                    ent_format = ent.split()[0].capitalize() + " " + " ".join(ent.split()[1:])
+
+                else: 
+                    ent_format = ent.capitalize()
+
+                # check pattern where ent is capitalized
+                pattern = re.compile(r'(?:["\']{}["\']|{})[.,!?\s]|$'.format(re.escape(ent_format), re.escape(ent_format.replace(".", r"\."))))
+
+                # Search for the pattern in the sentence
+                matches = pattern.search(row['sentences'])
+
+                match = matches.group(0)  # get matched text
+                #print(match)
+
+                if not match:
+                    print("Could not find {} in sentence: {} at row {}".format(ent_format, row['sentences'], i))
+                    start = -1
             else: 
                 start = row['sentences'].find(match)  # get start index
             
@@ -171,7 +191,7 @@ def main():
 
     # print all ents where start key has a value of -1
     #print(df[df['ents'].apply(lambda x: any(ent['start'] == -1 for ent in x))])
-    print(df.iloc[0])
+    #print(df.iloc[0])
 
 
 if __name__ == "__main__":
