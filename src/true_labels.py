@@ -94,7 +94,7 @@ def create_entity_dict(df):
 
 def create_ents(df):
     '''
-    Create ents column for dataframe with a spacy doc column
+    Create ents column for a dataframe with a spacy doc column
     '''
 
     # create list of all ents 
@@ -113,15 +113,21 @@ def create_ents(df):
             # get label
             label = ents_dict['label']
 
-            # check that ent is in doc in try except 
-            '''
-            if ent not in row['sentences']:
-                raise ValueError(f"Entity {ent} not in sentence {row['sentences']}, row {i}")
-            '''
+            # Define the pattern to search for ent with or without quotations, accounting for various placements
+            pattern = re.compile(r'(?:["\']{}["\']|{})[.,!?\s]|$'.format(re.escape(ent), re.escape(ent)))
 
-            # get start and end
-            start = row["sentences"].find(ent)
-            end = start + len(ent)
+            # Search for the pattern in the sentence
+            matches = pattern.search(row['sentences'])
+
+            match = matches.group(0)  # get matched text
+            print(match)
+            if not match: 
+                raise ValueError("Could not find {} in sentence: {} at row {}".format(ent, row['sentences'], i))
+                start = -1
+            else: 
+                start = row['sentences'].find(match)  # get start index
+            
+            end = start + len(match)  # get end index
 
             # create ent
             ent = {"start": start, "end": end, "label": label}
@@ -163,8 +169,9 @@ def main():
     # create ents
     df = create_ents(df)
 
-    # print row 27
-    print(df.iloc[27])
+    # print all ents where start key has a value of -1
+    #print(df[df['ents'].apply(lambda x: any(ent['start'] == -1 for ent in x))])
+    print(df.iloc[0])
 
 
 if __name__ == "__main__":
