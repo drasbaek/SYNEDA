@@ -3,6 +3,18 @@ Make true labels for data
 '''
 import pathlib
 import pandas as pd
+import spacy
+
+def test():
+    nlp = spacy.load("da_core_news_sm")
+    doc = nlp("Nina Bang: var en fremtrædende figur i politik.")
+
+    span = doc[0:2]
+
+    print(span.text)
+    print(span.start_char)
+    print(span.end_char)
+    print(span.id)
 
 def main(): 
     # define paths
@@ -21,4 +33,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    test()
