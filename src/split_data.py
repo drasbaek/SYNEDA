@@ -72,6 +72,31 @@ def convert_to_spacy(df, save_path=None):
 
     return db
 
+def distributions_labels(df):
+    '''
+    Return distribution of labels in ents dict from dataframe 
+    '''
+    # create empty dict
+    labels = {}
+
+    # loop through all rows
+    for i, row in df.iterrows():
+        # get ents
+        ents = row['ents']
+
+        # loop through all ents
+        for ent in ents:
+            # get label
+            label = ent['label']
+
+            # add to dict
+            if label in labels.keys():
+                labels[label] += 1
+            else:
+                labels[label] = 1
+        
+    return labels
+
 def main(): 
     # define paths 
     path = pathlib.Path(__file__)
@@ -84,6 +109,9 @@ def main():
 
     # convert entities dict into a dict again within col
     df['ents'] = df['ents'].apply(ast.literal_eval)
+
+    # print distribution of labels
+    print(distributions_labels(df))
 
     # create splits
     train_df, val_df, test_df = create_splits(df)
