@@ -165,12 +165,23 @@ def create_ents(df):
 
 def remove_cardinal_en(df):
     '''
-    Remove all cardinal numbers that are "en" from the dataframe
+    Remove all cardinal numbers that are "en" from the dataframe but without removing the entire row
     '''
-    df["entities_dict"] = df["entities_dict"].apply(
-        lambda x: [item for item in x if not (item["label"] == "CARDINAL" and item["ent"] == "en")]
-    )
+    for i, row in df.iterrows():
+        # get ents
+        ents = row['entities_dict']
 
+        # loop through all ents
+        for ent in ents:
+            # get label
+            label = ent['label']
+            text = ent['ent']
+
+            # check if label is cardinal and text is "en"
+            if label == "CARDINAL" and text == "en":
+                # remove from ents
+                ents.remove(ent)
+    
     return df
 
 def label_pipeline(df):
