@@ -149,6 +149,15 @@ def create_ents(df):
     
     return df
 
+def remove_cardinal_en(df):
+    '''
+    Remove all cardinal numbers that are "en" from the dataframe
+    '''
+    # remove all cardinal numbers that are "en"
+    df["entities_dict"] = df["entities_dict"].apply(lambda x: [item for item in x if item["label"] != "CARDINAL" and item["ent"] != "en"])
+
+    return df
+
 def label_pipeline(df):
     '''
     Pipeline for labeling NER data as SpaCy Span
@@ -158,6 +167,9 @@ def label_pipeline(df):
 
     # create entity dict
     df = create_entity_dict(df)
+
+    # remove cardinal numbers that are "en"
+    df = remove_cardinal_en(df)
 
     # convert sentences to doc objects
     df = convert_to_doc(df)
@@ -191,16 +203,25 @@ def convert_to_spacy(df, save_path=None):
         doc = row['doc']
 
         # access dictionary within list in row['ents']
-        ents = row['ents'][0]
+        spans = []
 
-        # access values in dictionary
-        start, end, label = ents.values()
+        for ent, ent_dict in zip(row['ents'], row['entities_dict']):
+            # get start, end and label
+            start, end, label = ent.values()
 
-        # create span
-        span = [doc.char_span(int(start), int(end)-1, label=label)]
+            # check if ent is at the end of a doc or if it is a money, quantity, ordinal or law entity (these often have annotation problems)
+            if end+2 >= len(doc.text) or label in ["MONEY", "QUANTITY", "ORDINAL", "LAW"]:
+                alignment_mode = "expand"
+            else: 
+                alignment_mode = "strict"
+
+            span = doc.char_span(int(start), int(end), label=label, alignment_mode=alignment_mode)
+
+            # append to list
+            spans.append(span)
 
         # append ents to doc
-        doc.ents = span
+        doc.ents = spans
 
         # add doc to docbin
         db.add(doc)
@@ -219,11 +240,14 @@ def main():
     # load data
     df = pd.read_excel(data_path / "DATASET.xlsx", sheet_name="ENTS")
 
+    # reset index
+    df.reset_index(inplace=True)
+
     # label data
     df = label_pipeline(df)
 
     # convert to spacy format (NB does not work!)
-    #db = convert_to_spacy(df)
+    db = convert_to_spacy(df)
 
 if __name__ == "__main__":
     main()
