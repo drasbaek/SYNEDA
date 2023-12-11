@@ -82,79 +82,94 @@ def create_entity_dict(df):
 
 def create_ents(df):
     '''
-    Create ents column for a dataframe with a spacy doc column. It goes through a lot of checks with various regex patterns in order to ensure that ents are correct
+    Create ents column for a dataframe with a spacy doc column. It goes through a lot of checks with various regex patterns in order to ensure that ents are correct.
     '''
-    # create list of all ents 
-    all_ents = []
+    all_ents = []  
 
     for i, row in df.iterrows():
-        # get ents
-        ents_dict_list = row['entities_dict']
+        ents_dict_list = row['entities_dict']  # get dict
 
-        ents_in_row = []
+        # skip row if entities_dict is empty
+        if not ents_dict_list:
+            all_ents.append([])
+            continue
+
+        ents_in_row = [] 
 
         for ents_dict in ents_dict_list:
-            # get ent
-            ent = ents_dict['ent']
+            ent = ents_dict['ent']  # get text
+            label = ents_dict['label']  # get label
 
-            # get label
-            label = ents_dict['label']
+            if label == "PERCENT" and "%" in ent:
+                pattern = re.escape(ent) + r'(?!\w)'
+            elif label == "ORDINAL":
+                pattern = re.escape(ent) + r'.'
+            # if the label is money and ent ends on a period, remove the period from the pattern
+            elif label == "MONEY" and ent.endswith("."):
+                pattern = re.escape(ent[:-1]) + r'(?!\w)'
+            # if the label is money and has a special character (e.g. $), add a backslash before the special character
+            elif label == "MONEY" and re.search(r'[^a-zA-Z0-9\s]', ent):
+                pattern = re.escape(ent) + r'(?!\w)'
+            elif label == "PERSON" and ent.endswith("."):
+                pattern = re.escape(ent) + r'(?!\w)'
+            # if ent starts with @, add a backslash before the @
+            elif ent.startswith("@"):
+                pattern = re.escape(ent) + r'(?!\w)'
+            # if ent has a parenthesis, add a backslash before the parenthesis
+            elif "(" in ent or ")" in ent:
+                pattern = re.escape(ent) + r'(?!\w)'
+            elif label == "LAW":
+                pattern = re.escape(ent) + r'(?!\w)'
+            # if ent contains a +, add a backslash before the +  OR contains a ' e.g., '23, add a backslash before the '
+            elif "+" in ent or "'" in ent:
+                pattern = re.escape(ent) + r'(?!\w)'
+            elif label == "CARDINAL":
+                pattern = r'\b' + re.escape(ent) + r'(?!\w)'
+            else:  # general case
+                pattern = r'\b' + re.escape(ent) + r'(?!\w)'
 
-            # Define the pattern to search for ent with or without quotations, accounting for various placements
-            pattern = re.compile(r'(?:["\']{}["\']|{})[".,:;!?\s]|$'.format(re.escape(ent), re.escape(ent)))
+            # search for the pattern in the sentence, ignoring case
+            for match in re.finditer(pattern, row['sentences'], re.UNICODE):
+                # get start and end of match
+                start, end = match.span()        
 
-            # Search for the pattern in the sentence
-            matches = pattern.search(row['sentences'])
+                if (row['sentences'][start-1:start] in ['"', "'"]) and (row['sentences'][end:end+1] in ['"', "'"]):
+                # exclude the quotes from the span
+                    start = start - 1
+                    end = end + 1
+                
+                # add span
+                ent_dict = {"start": start, "end": end, "label": label}
+                ents_in_row.append(ent_dict)
 
-            match = matches.group(0)  # get matched text
+        if not ents_in_row:
+            # search now but ignore case
+            for match in re.finditer(pattern, row['sentences'], re.IGNORECASE):
+                # get start and end of match
+                start, end = match.span()        
 
-            if not match: 
-                # check whether the ent is more than one word
-                if len(ent.split()) > 1:
-                    # capitalize only the first word 
-                    ent_format = ent.split()[0].capitalize() + " " + " ".join(ent.split()[1:])
+                if (row['sentences'][start-1:start] in ['"', "'"]) and (row['sentences'][end:end+1] in ['"', "'"]):
+                # exclude the quotes from the span
+                    start = start - 1
+                    end = end + 1
+                
+                # add span
+                ent_dict = {"start": start, "end": end, "label": label}
+                ents_in_row.append(ent_dict)
 
-                else: 
-                    ent_format = ent.capitalize()
+        all_ents.append(ents_in_row)  # Add entities of the current row to the main list
 
-                # check pattern where ent is capitalized
-                pattern = re.compile(r'(?:["\']{}["\']|{})["\'.;,:!?\s]|$'.format(re.escape(ent_format), re.escape(ent_format)))
+    df['ents'] = all_ents  # Add entities column to the dataframe
 
-                # Search for the pattern in the sentence
-                matches = pattern.search(row['sentences'])
-                match = matches.group(0)  # get matched text
-
-                # get start index
-                start = row['sentences'].find(match)
-
-                if not match:
-                    print("No {} and {} in sentence: {} at row {}".format(ent_format, ent, row['sentences'], i))
-                    start = -1
-            else: 
-                start = row['sentences'].find(match)  # get start index
-            
-            end = start + len(match)-1  # get end index
-
-            # create ent
-            ent = {"start": start, "end": end, "label": label}
-
-            # append to list
-            ents_in_row.append(ent)
-        
-        # append to list
-        all_ents.append(ents_in_row)
-
-    # add to dataframe
-    df['ents'] = all_ents
-    
     return df
 
 def remove_cardinal_en(df):
     '''
     Remove all cardinal numbers that are "en" from the dataframe
     '''
-    # remove all cardinal numbers that are "en"
-    df["entities_dict"] = df["entities_dict"].apply(lambda x: [item for item in x if item["label"] != "CARDINAL" and item["ent"] != "en"])
+    df["entities_dict"] = df["entities_dict"].apply(
+        lambda x: [item for item in x if not (item["label"] == "CARDINAL" and item["ent"] == "en")]
+    )
 
     return df
 
