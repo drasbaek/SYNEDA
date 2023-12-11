@@ -3,3 +3,4 @@ openpyxl
 spacy
 scikit-learn
 spacy-transformers
+wandb
