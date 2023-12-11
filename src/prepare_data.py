@@ -238,16 +238,26 @@ def main():
     data_path = path.parents[1] / "data"
 
     # load data
-    df = pd.read_excel(data_path / "DATASET.xlsx", sheet_name="ENTS")
+    df_ents = pd.read_excel(data_path / "DATASET.xlsx", sheet_name="ENTS")
+    df_noents = pd.read_excel(data_path / "DATASET.xlsx", sheet_name="NO ENTS")
+
+    # merge dataframes
+    df = pd.concat([df_ents, df_noents])
 
     # reset index
     df.reset_index(inplace=True)
 
     # label data
     df = label_pipeline(df)
-
+    
     # convert to spacy format (NB does not work!)
     db = convert_to_spacy(df)
+
+    # remove doc column from dataframe
+    df = df.drop(columns=["doc", "entities_dict", "checked", "changed?", "entities", "index", "type"])
+
+    # save dataframe to json
+    df.to_csv(data_path / "LABELLED_DATASET.csv", index=False)
 
 if __name__ == "__main__":
     main()
