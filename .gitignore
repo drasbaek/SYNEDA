@@ -161,3 +161,6 @@ cython_debug/
 
 # MAC ds_store
 .DS_Store
+
+# wandb 
+wandb/
