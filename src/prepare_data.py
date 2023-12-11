@@ -206,6 +206,9 @@ def main():
     # remove doc column from dataframe
     df = df.drop(columns=["doc", "checked", "changed?", "entities", "index", "type", "entities_dict"])
 
+    # rename "sentences" column to "text"
+    df = df.rename(columns={"sentences": "text"})
+
     # save dataframe to json
     df.to_csv(data_path / "LABELLED_DATASET.csv", index=False)
 
