@@ -3,7 +3,23 @@ import spacy
 import pandas as pd
 from spacy.tokens import DocBin
 import ast
+from sklearn.model_selection import train_test_split
 
+def create_splits(df, train_size=0.8, dev_size=0.1, test_size=0.1, random_state=1209):
+    '''
+    Create train, dev and test splits from dataframe
+    '''
+    # split into train and test
+    train_df, test_df = train_test_split(df, train_size=train_size, 
+                                         random_state=random_state, shuffle=True,
+                                         )
+
+    # split test into test and val
+    dev_df, test_df = train_test_split(test_df, train_size=dev_size/(dev_size+test_size), 
+                                       random_state=random_state, shuffle=True
+                                       )
+
+    return train_df, dev_df, test_df
 
 def convert_to_spacy(df, save_path=None):
     '''
@@ -21,10 +37,10 @@ def convert_to_spacy(df, save_path=None):
 
     for i, row in df.iterrows(): 
         # get doc
-        sentence = row['sentences']
+        text = row['text']
 
         # create doc
-        doc = nlp(sentence)
+        doc = nlp(text)
 
         # access dictionary within list in row['ents']
         spans = []
@@ -60,6 +76,8 @@ def main():
     # define paths 
     path = pathlib.Path(__file__)
     data_path = path.parents[1] / "data"
+    spacy_path = data_path / "spacy_formats"
+    spacy_path.mkdir(parents=True, exist_ok=True)
 
     # load data
     df = pd.read_csv(data_path / "LABELLED_DATASET.csv")
@@ -67,8 +85,18 @@ def main():
     # convert entities dict into a dict again within col
     df['ents'] = df['ents'].apply(ast.literal_eval)
 
-    # convert to spacy format
-    db = convert_to_spacy(df)
+    # create splits
+    train_df, val_df, test_df = create_splits(df)
+
+    # print lengths
+    print(f"Train length: {len(train_df)}")
+    print(f"Dev length: {len(val_df)}")
+    print(f"Test length: {len(test_df)}")
+
+    # convert all to spacy format
+    train_db = convert_to_spacy(train_df, save_path=spacy_path/ "train.spacy")
+    dev_db = convert_to_spacy(val_df, save_path=spacy_path/ "dev.spacy")
+    test_db = convert_to_spacy(test_df, save_path=spacy_path/ "test.spacy")
 
 
 if __name__ == "__main__":
