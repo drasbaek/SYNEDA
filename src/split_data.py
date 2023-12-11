@@ -1,5 +1,8 @@
+import pathlib
 import spacy 
+import pandas as pd
 from spacy.tokens import DocBin
+import ast
 
 
 def convert_to_spacy(df, save_path=None):
@@ -14,15 +17,19 @@ def convert_to_spacy(df, save_path=None):
         db: spacy docbin object
     '''
     db = DocBin()  # create a DocBin object
+    nlp = spacy.blank("da")
 
     for i, row in df.iterrows(): 
         # get doc
-        doc = row['doc']
+        sentence = row['sentences']
+
+        # create doc
+        doc = nlp(sentence)
 
         # access dictionary within list in row['ents']
         spans = []
 
-        for ent, ent_dict in zip(row['ents'], row['entities_dict']):
+        for ent in row['ents']:
             # get start, end and label
             start, end, label = ent.values()
 
@@ -48,3 +55,21 @@ def convert_to_spacy(df, save_path=None):
         db.to_disk(save_path)
 
     return db
+
+def main(): 
+    # define paths 
+    path = pathlib.Path(__file__)
+    data_path = path.parents[1] / "data"
+
+    # load data
+    df = pd.read_csv(data_path / "LABELLED_DATASET.csv")
+
+    # convert entities dict into a dict again within col
+    df['ents'] = df['ents'].apply(ast.literal_eval)
+
+    # convert to spacy format
+    db = convert_to_spacy(df)
+
+
+if __name__ == "__main__":
+    main()
