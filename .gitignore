@@ -167,3 +167,6 @@ wandb/
 
 # ignore output
 models/
+
+# ignore external datasets
+external_data/
