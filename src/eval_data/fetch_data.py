@@ -9,6 +9,7 @@ import spacy
 from datasets import load_dataset
 from spacy.tokens import Doc, DocBin
 import pathlib
+from check_data import check_dane
 
 def fetch_dansk():
     try:
@@ -36,6 +37,36 @@ def fetch_dansk():
         # save DANSK
         db.to_disk(corpus_path / f"DANSK_{p}.spacy")
 
+def fix_dane(dataset):
+    '''
+    Remove all sentences that have old, ambigious labels PER, ORG, LOC, MISC as entities
+    '''
+    # define labels to remove
+    labels_to_remove = ["PER", "ORG", "LOC", "MISC"]
+
+    # convert to pandas dataframe
+    df = dataset.to_pandas()
+
+    # loop through all rows
+    for i, row in df.iterrows():
+        # get ents
+        ents = row['ents']
+
+        # loop through all ents
+        for ent in ents:
+            # get label
+            label = ent['label']
+
+            # remove entire row if label is in labels_to_remove
+            if label in labels_to_remove:
+                df.drop(i, inplace=True)
+                break
+
+    # convert back to dataset
+    dataset = dataset.from_pandas(df)
+
+    return dataset
+
 def fetch_dane(): 
     try:
         datasets = load_dataset("KennethEnevoldsen/dane_plus")
@@ -43,14 +74,24 @@ def fetch_dane():
         raise FileNotFoundError(
             "Dane_Plus is not available. Check that HuggingFace is up and running, and that the dataset has been publically released.",
         )
-    nlp = spacy.blank("da")
-    partitions = ["train", "dev", "test"]
 
     path = pathlib.Path(__file__)
 
     corpus_path = path.parents[2] / "external_data"
     corpus_path.mkdir(parents=True, exist_ok=True)
 
+    nlp = spacy.blank("da")
+    partitions = ["train", "dev", "test"]
+
+    # use fix_dane 
+    for p in partitions:
+        datasets[f"{p}"] = fix_dane(datasets[f"{p}"])
+
+    # check fix_dane on test dataset
+    labels = check_dane(datasets)
+    print(labels)
+
+    # create DocBin 
     for p in partitions:
         db = DocBin()
         for doc in [
@@ -58,7 +99,7 @@ def fetch_dane():
         ]:
             db.add(doc)
         
-        # save DANSK
+        # save DANE
         db.to_disk(corpus_path / f"DANE_{p}.spacy")
 
 if __name__ == "__main__":
