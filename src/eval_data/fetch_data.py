@@ -23,7 +23,7 @@ def fetch_dansk():
 
     path = pathlib.Path(__file__)
 
-    corpus_path = path.parents[1] / "external_data"
+    corpus_path = path.parents[2] / "external_data"
     corpus_path.mkdir(parents=True, exist_ok=True)
 
     for p in partitions:
@@ -48,7 +48,7 @@ def fetch_dane():
 
     path = pathlib.Path(__file__)
 
-    corpus_path = path.parents[1] / "external_data"
+    corpus_path = path.parents[2] / "external_data"
     corpus_path.mkdir(parents=True, exist_ok=True)
 
     for p in partitions:
