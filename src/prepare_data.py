@@ -103,12 +103,11 @@ def create_ents(df):
 
             if label == "PERCENT" and "%" in ent:
                 pattern = re.escape(ent) + r'(?!\w)'
-            elif label == "ORDINAL":
+            elif label == "ORDINAL" and ent.endswith("."):
                 pattern = re.escape(ent) + r'.'
                 end_subtract = 1
-            # if the label is money and ent ends on a period, remove the period from the pattern
             elif label == "MONEY" and ent.endswith("."):
-                pattern = re.escape(ent[:-1]) + r'(?!\w)'
+                pattern = re.escape(ent) + r'(?!\w)'
             # if the label is money and has a special character (e.g. $), add a backslash before the special character
             elif label == "MONEY" and re.search(r'[^a-zA-Z0-9\s]', ent):
                 pattern = re.escape(ent) + r'(?!\w)'
@@ -138,10 +137,10 @@ def create_ents(df):
                 if (row['sentences'][start-1:start] in ['"', "'"]) and (row['sentences'][end:end+1] in ['"', "'"]):
                 # exclude the quotes from the span
                     start = start - 1
-                    end = end + 1 - end_subtract
+                    end = end + 1
                 
                 # add span
-                ent_dict = {"start": start, "end": end, "label": label}
+                ent_dict = {"start": start, "end": end - end_subtract, "label": label}
                 ents_in_row.append(ent_dict)
 
         if not ents_in_row:
@@ -156,8 +155,11 @@ def create_ents(df):
                     end = end + 1
                 
                 # add span
-                ent_dict = {"start": start, "end": end, "label": label}
+                ent_dict = {"start": start, "end": end - end_subtract, "label": label}
                 ents_in_row.append(ent_dict)
+        
+        elif not ents_in_row:
+            print(f"No ents found in row: {row['sentences']} with entities: {ent}")
 
         all_ents.append(ents_in_row)  # Add entities of the current row to the main list
 
