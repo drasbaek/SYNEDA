@@ -99,11 +99,13 @@ def create_ents(df):
         for ents_dict in ents_dict_list:
             ent = ents_dict['ent']  # get text
             label = ents_dict['label']  # get label
+            end_subtract = 0
 
             if label == "PERCENT" and "%" in ent:
                 pattern = re.escape(ent) + r'(?!\w)'
             elif label == "ORDINAL":
                 pattern = re.escape(ent) + r'.'
+                end_subtract = 1
             # if the label is money and ent ends on a period, remove the period from the pattern
             elif label == "MONEY" and ent.endswith("."):
                 pattern = re.escape(ent[:-1]) + r'(?!\w)'
@@ -136,7 +138,7 @@ def create_ents(df):
                 if (row['sentences'][start-1:start] in ['"', "'"]) and (row['sentences'][end:end+1] in ['"', "'"]):
                 # exclude the quotes from the span
                     start = start - 1
-                    end = end + 1
+                    end = end + 1 - end_subtract
                 
                 # add span
                 ent_dict = {"start": start, "end": end, "label": label}
