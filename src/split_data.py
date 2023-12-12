@@ -121,6 +121,12 @@ def main():
     print(f"Dev length: {len(val_df)}")
     print(f"Test length: {len(test_df)}")
 
+    # check distributions post split
+    for df in [train_df, val_df, test_df]:
+        labels = distributions_labels(df)
+        print(labels)
+        print(len(labels.keys()))
+
     # convert all to spacy format
     train_db = convert_to_spacy(train_df, save_path=spacy_path/ "train.spacy")
     dev_db = convert_to_spacy(val_df, save_path=spacy_path/ "dev.spacy")
