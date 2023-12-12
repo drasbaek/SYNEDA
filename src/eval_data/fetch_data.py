@@ -52,6 +52,14 @@ def fix_dane(dataset):
         # get ents
         ents = row['ents']
 
+        for ent in ents: 
+            # get label
+             label = ent['label']
+
+             # rename 
+             if label == "WORK_OF_ART": 
+                ent["label"] = "WORK OF ART"
+
         # loop through all ents
         for ent in ents:
             # get label
