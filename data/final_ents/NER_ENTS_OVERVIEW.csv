@@ -55,9 +55,9 @@ Oklahoma City-Bombningen,,EVENT
 coronapandemien,,EVENT
 coronapandemien,,EVENT
 coronapandemien,,EVENT
-cornonaviruspandemien,,EVENT
-cornonaviruspandemien,,EVENT
-cornonaviruspandemien,,EVENT
+cononaviruspandemien,,EVENT
+cononaviruspandemien,,EVENT
+cononaviruspandemien,,EVENT
 Bhopaulykken,,EVENT
 Tjernobylulykken,,EVENT
 OL i Rio,,EVENT
@@ -378,16 +378,16 @@ Moais,stoneheads,FACILITY
 Angkor Wat,,FACILITY
 meteora-klostrene,,FACILITY
 meteora-klostrene,,FACILITY
-Empire State Bulding,,FACILITY
-Empire State Bulding,,FACILITY
+Empire State Building,,FACILITY
+Empire State Building,,FACILITY
 One WTC,,FACILITY
 Keopspyramiden,,FACILITY
 Keopspyramiden,,FACILITY
 Mount Rushmore,,FACILITY
 Mount Rushmore,,FACILITY
 Bagan-templet,,FACILITY
-Stongehenge,,FACILITY
-Stongehenge,,FACILITY
+Stonehenge,,FACILITY
+Stonehenge,,FACILITY
 E1,highway,FACILITY
 E2,highway,FACILITY
 E2,highway,FACILITY
@@ -1013,7 +1013,7 @@ Viby,,GPE
 Vibys,,GPE
 Ølstykkes,,GPE
 Ølstykkes,,GPE
-Ørsted ,,GPE
+Ørsted,,GPE
 kinesisk,,LANGUAGE
 kinesisk,,LANGUAGE
 kinesisk,,LANGUAGE
@@ -1199,8 +1199,8 @@ Innovationsloven,,LAW
 Innovationsloven,,LAW
 §§ 6-9,,LAW
 § 5 i økologiloven,,LAW
-"retsplejelovens § 834, stk. 1, nr. 2 ",,LAW
-"retsplejelovens § 834, stk. 1, nr. 2 ",,LAW
+"retsplejelovens § 834, stk. 1, nr. 2",,LAW
+"retsplejelovens § 834, stk. 1, nr. 2",,LAW
 § 9 i lov nr. 395 ,,LAW
 BEK nr 1332,,LAW
 "Lov om ændring af lov om midlertidig opholdstilladelse til personer, der i Afghanistan har bistået danske myndigheder m.v.",,LAW
@@ -1295,8 +1295,8 @@ LEV-loven,,LAW
 Lastbilstilskudsloven,,LAW
 direktiv nr. 88/77/EØF,,LAW
 direktiv nr. 88/77/EØF,,LAW
-direktiv1999/96/EF ,,LAW
-direktiv1999/96/EF ,,LAW
+direktiv1999/96/EF,,LAW
+direktiv1999/96/EF,,LAW
 Stillehavet,,LOCATION
 det Indiske Ocean,,LOCATION
 det Indiske Ocean,,LOCATION
@@ -2236,8 +2236,8 @@ Skjern,handball team,ORGANIZATION
 Skjern,handball team,ORGANIZATION
 SønderjyskE,handball team,ORGANIZATION
 SønderjyskE,handball team,ORGANIZATION
-TTH Holsterbro,handball team,ORGANIZATION
-TTH Holsterbro,handball team,ORGANIZATION
+TTH Holstebro,handball team,ORGANIZATION
+TTH Holstebro,handball team,ORGANIZATION
 KIF Kolding,handball team,ORGANIZATION
 herrelandsholdet,,ORGANIZATION
 kvindelandsholdet,,ORGANIZATION
@@ -2509,8 +2509,8 @@ Jackie Year Bird 2023,wooden figure,PRODUCT
 Kubus,candlestick,PRODUCT
 Gytha gås,decoration,PRODUCT
 Gytha gås,decoration,PRODUCT
-Eva Lysestage ,,PRODUCT
-Eva Lysestage ,,PRODUCT
+Eva Lysestage,,PRODUCT
+Eva Lysestage,,PRODUCT
 Matima O-Neck Tee,,PRODUCT
 Kaleem Crop Blazer,,PRODUCT
 Brook Knit Rib Cardigan,,PRODUCT
@@ -2668,9 +2668,9 @@ kl. 10.00,,TIME
 13.00-23.00,,TIME
 13.00-23.00,,TIME
 06.00-15.00,,TIME
-04:30-10.00,,TIME
-04:30-10.00,,TIME
-18:15-19.15,,TIME
+04:30-10:00,,TIME
+04:30-10:00,,TIME
+18:15-19:15,,TIME
 10.00 - 11.00,,TIME
 10.00 - 11.00,,TIME
 12.30 - 14.15,,TIME
@@ -2686,8 +2686,8 @@ Fru Marie Grubbe,,WORK OF ART
 Fru Marie Grubbe,,WORK OF ART
 Lykke-Per,,WORK OF ART
 Lykke-Per,,WORK OF ART
-Kongens fald ,,WORK OF ART
-Kongens fald ,,WORK OF ART
+Kongens fald,,WORK OF ART
+Kongens fald,,WORK OF ART
 Pelle Erobreren,,WORK OF ART
 Fiskerne,,WORK OF ART
 Hærværk,,WORK OF ART
@@ -2878,8 +2878,8 @@ Tetris,,WORK OF ART
 PacMan,,WORK OF ART
 Pac-Man,,WORK OF ART
 Pac-Man,,WORK OF ART
-Need of Speed Underground,,WORK OF ART
-Need of Speed Underground,,WORK OF ART
+Need for Speed Underground,,WORK OF ART
+Need for Speed Underground,,WORK OF ART
 SIMS,,WORK OF ART
 The SIMS,,WORK OF ART
 The SIMS,,WORK OF ART
@@ -2944,7 +2944,7 @@ Rockstar,,WORK OF ART
 Uno,,WORK OF ART
 Monopoly,,WORK OF ART
 Monopoly,,WORK OF ART
-Partners ,,WORK OF ART
+Partners,,WORK OF ART
 Bezzerwizzer Familie,board game,WORK OF ART
 Cluedo,,WORK OF ART
 Skip-Bo,,WORK OF ART
