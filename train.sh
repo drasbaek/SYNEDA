@@ -3,12 +3,12 @@
 # activate env
 source env/bin/activate
 
-# train small model
 echo -e "[INFO:] INTIALISING MODEL TRAINING"
-python -m spacy train training/configs/config_small.cfg --output ./models/syneda_small
+# train SYNEDA model
+#python -m spacy train training/configs/config_SYNEDA.cfg --output ./models/SYNEDA
 
-# train big model 
-# python -m spacy train training/configs/config_big.cfg --output ./models/syneda_big
+# train SYNEDA-DANSK
+python -m spacy train training/configs/config_SYNEDA_DANSK.cfg --output ./models/SYNEDA_DANSK
 
 deactivate
 echo -e "[INFO:] DONE!"
