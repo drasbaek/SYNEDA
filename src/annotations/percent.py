@@ -70,7 +70,7 @@ def main():
 
     # define paths 
     path = pathlib.Path(__file__)
-    data_path = path.parents[2] / "data"
+    ents_path = path.parents[2] / "dbase" / "entities_lists"
 
     formatted_percents = percent()
 
@@ -82,7 +82,7 @@ def main():
     df["context"] = None
 
     # save to file
-    df.to_csv(data_path / "PERCENT.csv", index=False)
+    df.to_csv(ents_path / "PERCENT.csv", index=False)
 
     
 if __name__ == "__main__":
