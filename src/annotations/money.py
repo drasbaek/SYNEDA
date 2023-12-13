@@ -86,10 +86,10 @@ def main():
 
     # define paths 
     path = pathlib.Path(__file__)
-    data_path = path.parents[2] / "data"
+    ents_path = path.parents[2] / "dbase" / "entities_lists"
 
     # load data
-    formatted_numbers = money(data_path)
+    formatted_numbers = money(ents_path)
     print(formatted_numbers)
 
     # save data
@@ -100,7 +100,7 @@ def main():
     df["context"] = None
 
     # save to excel
-    df.to_csv(data_path / "MONEY.csv", index=False) 
+    df.to_csv(ents_path / "MONEY.csv", index=False) 
 
 if __name__ == "__main__":
     main()

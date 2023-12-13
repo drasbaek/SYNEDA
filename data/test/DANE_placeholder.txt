@@ -1,0 +1,1 @@
+Placeholder file for external data! Will be named DANE_test.spacy when feteched (never pushed to git)

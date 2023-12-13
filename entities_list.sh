@@ -1,10 +1,12 @@
 #!/bin/bash
 
+## SCRIPT TO CREATE LISTS OF ENTITIES WITHIN ENTITIES LIST (EXCEPT MANUAL LISTS)
+
 # activate env
 source env/bin/activate
 
 # define scripts dir 
-SCRIPTS_DIR="src/tags"
+SCRIPTS_DIR="src/annotations"
 
 # scripts to run
 SCRIPTS=(

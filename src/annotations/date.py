@@ -146,7 +146,7 @@ def main():
 
     # define paths
     path = pathlib.Path(__file__)
-    data_path = path.parents[2] / "data"
+    outpath =  path.parents[2] / "dbase" / "entities_lists"
 
     # add specific dates
     specific_dates = define_specific_dates()
@@ -165,7 +165,7 @@ def main():
     df["context"] = None
 
     # save to file
-    df.to_csv(data_path / "DATE.csv", index=False)
+    df.to_csv(outpath / "DATE.csv", index=False)
     
 if __name__ == "__main__":
     main()

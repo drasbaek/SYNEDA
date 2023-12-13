@@ -200,23 +200,23 @@ def create_examples(df_all, multiple):
 
     return examples
 
-def write_to_excel(examples, data_path):
+def write_to_excel(examples, outpath):
     '''
     Write examples to escel file.
     '''
     # write to csv file - each example is a row
     df = pd.DataFrame({"entities": examples})
 
-    df.to_excel(data_path / "NER_EXAMPLES.xlsx", index=True) 
+    df.to_excel(outpath / "annotations.xlsx", index=True) 
 
     print("Done writing to excel file.")
 
-def write_to_txt(examples, data_path):
+def write_to_txt(examples, outpath):
     '''
     Write examples to txt file.
     '''
     # write to txt file - each example is a row
-    with open(data_path / "NER_EXAMPLES.txt", "w") as f:
+    with open(outpath / "annotations.txt", "w") as f:
         for example in examples:
             f.write(f"{example}\n")
 
@@ -228,10 +228,11 @@ def main():
 
     # define paths 
     path = pathlib.Path(__file__)
-    data_path = path.parents[1] / "data"
+    ents_path = path.parents[2] / "dbase" / "entities_lists"
+    outpath =  path.parents[2] / "dbase" / "annotations"
 
     # load data
-    df, multiple = load_data(data_path)
+    df, multiple = load_data(data_path = ents_path)
 
     # update weights
     df = update_weights(df)
@@ -242,17 +243,14 @@ def main():
     # generate posessives
     df = generate_posessives(df)
 
-    # save df 
-    df.to_csv(data_path / "final_ents" / "NER_ENTS_OVERVIEW.csv", index=False)
-
     # create examples
     examples = create_examples(df, multiple)
 
     # write to csv
-    write_to_excel(examples, data_path / "final_ents")
+    write_to_excel(examples, outpath = outpath)
 
     # write to txt
-    write_to_txt(examples, data_path / "final_ents")
+    write_to_txt(examples, outpath = outpath)
 
 if __name__ == "__main__":
     main()

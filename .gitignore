@@ -166,7 +166,10 @@ cython_debug/
 wandb/
 
 # ignore output
-models/
+training/models/*
+!training/models/README.md
 
-# ignore external datasets
-external_data/
+# ignore external datasets with spacy extension
+data/*/DANE_*.spacy
+data/*/DANSK_*.spacy
+

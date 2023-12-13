@@ -3,6 +3,7 @@ import numpy as np
 def number_words():
     '''
     Create list of numbers in words (danish) from pre-defined list of small numbers and big numbers.
+    Utilized for multiple entities that all need numbers in front of a unit.
     '''
 
     small_numbers = [
