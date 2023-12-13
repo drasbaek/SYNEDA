@@ -22,59 +22,68 @@ def load_db(path, file_name):
     # return the DocBin object
     return db
 
-def combine_dbs(db1, db2, save_path=None):
+
+def shuffle_db(db, seed=1209):
     '''
-    Combines two DocBin objects into one DocBin object that have the same format and structure
+    Shuffle a docbin dataset
     '''
-    # combine the DocBin objects
-    db1.merge(db2)
+    # set seed
+    random.seed(seed)
 
-    # save
-    if save_path:
-        db1.to_disk(save_path)
-
-    return db1
-
-
-def shuffle_db(db):
-    # Load your spaCy model
+    # load mdl
     nlp = spacy.blank("da")
 
-    # Assuming you already have a DocBin object named doc_bin
-    # Extract Docs from DocBin
+    # extract docs from mdl
     docs = list(db.get_docs(nlp.vocab))
 
-    # Shuffle the Docs
+    # shuffle docs
     random.shuffle(docs)
 
-    # Create a new DocBin and add shuffled Docs
+    # create new docbin with shuffled
     shuffled_db = DocBin(docs=docs, store_user_data=True)
 
     return shuffled_db
 
+def combine_dbs(db1, db2, save_path=None):
+    '''
+    Combines two DocBin objects into one DocBin object that have the same format and structure. Shuffles the dataset with seed.
+    '''
+    # combine the DocBin objects
+    db1.merge(db2)
 
+    # shuffle
+    shuffled_db = shuffle_db(db1)
+
+    # save
+    if save_path:
+        print("SAVING COMBINED & SHUFFLED DATASET ...")
+        shuffled_db.to_disk(save_path)
+
+    return shuffled_db
 
 def main():
     # set paths
     path = pathlib.Path(__file__)
-    data_path = path.parents[2] / "data" / "train"
 
     # load the SYNEDA and DANSK DocBin objects
-    db_syneda = load_db(data_path, "SYNEDA_train.spacy")
-    db_dansk = load_db(data_path, "DANSK_train.spacy")
+    partions = ["train", "dev"]
 
-    # print len of DocBin objects
-    print(f"SYNEDA: {len(db_syneda)}")
-    print(f"DANSK: {len(db_dansk)}")
+    for p in partions: 
+        print(f"PROCESSING: {p.upper()} SET")
+        data_path = path.parents[2] / "data" / p
 
-    # combine the DocBin objects
-    db_combined = combine_dbs(db_syneda, db_dansk, save_path = data_path / "SYNEDA_DANSK_train.spacy")
+        db_syneda = load_db(data_path, f"SYNEDA_{p}.spacy")
+        db_dansk = load_db(data_path, f"DANSK_{p}.spacy")
 
-    # shuffle the DocBin object
-    shuffled_db = shuffle_db(db_combined)
+        # print len of DocBin objects
+        print(f"SYNEDA: {len(db_syneda)}")
+        print(f"DANSK: {len(db_dansk)}")
 
-    # print len of combined DocBin object
-    print(f"Combined (Shuffled): {len(shuffled_db)}")
+        # combine the DocBin objects
+        db_combined = combine_dbs(db_syneda, db_dansk, save_path = data_path / f"SYNEDA_DANSK_{p}.spacy")
+
+        # print len of combined DocBin object
+        print(f"Combined {p} set (Shuffled): {len(db_combined)}")
 
 if __name__ == "__main__":
     main()
