@@ -76,11 +76,6 @@ def fetch_dane(save_path, partitions=["train", "dev", "test"]):
             "Dane+ is not available. Check that HuggingFace is up and running, and that the dataset has been publically released.",
         )
 
-    path = pathlib.Path(__file__)
-
-    corpus_path = path.parents[2] / "external_data"
-    corpus_path.mkdir(parents=True, exist_ok=True)
-
     nlp = spacy.blank("da")
 
     # use fix_dane (rm old MISC, LOC labls)
@@ -104,10 +99,14 @@ def main():
     spacy_path = path.parents[2] / "data"
 
     # get DANE test set 
+    print("FETCHING DANE ...")
     fetch_dane(save_path=spacy_path, partitions=["test"])
     
     # get all sets from DANSK
+    print("FETCHING DANSK ...")
     fetch_dansk(save_path=spacy_path, partitions=["train", "dev", "test"])
+
+    print("DONE ...")
 
 if __name__ == "__main__":
     main()
