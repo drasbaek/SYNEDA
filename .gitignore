@@ -168,5 +168,7 @@ wandb/
 # ignore output
 models/
 
-# ignore external datasets
-external_data/
+# ignore external datasets with spacy extension
+data/*/DANE_*.spacy
+data/*/DANSK_*.spacy
+
