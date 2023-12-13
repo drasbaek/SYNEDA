@@ -5,7 +5,6 @@ import pathlib
 import pandas as pd
 import spacy
 import re
-from spacy.tokens import DocBin
 
 def convert_to_doc(df, textcol="sentences"):
     '''
@@ -218,11 +217,11 @@ def label_pipeline(df):
 def main(): 
     # define paths
     path = pathlib.Path(__file__)
-    data_path = path.parents[1] / "data"
+    data_path = path.parents[1] / "dbase" / "annotations"
 
     # load data
-    df_ents = pd.read_excel(data_path / "DATASET.xlsx", sheet_name="ENTS")
-    df_noents = pd.read_excel(data_path / "DATASET.xlsx", sheet_name="NO ENTS")
+    df_ents = pd.read_excel(data_path / "annotations_w_generations.xlsx", sheet_name="ENTS")
+    df_noents = pd.read_excel(data_path / "annotations_w_generations.xlsx", sheet_name="NO ENTS")
 
     # merge dataframes
     df = pd.concat([df_ents, df_noents])
@@ -239,8 +238,8 @@ def main():
     # rename "sentences" column to "text"
     df = df.rename(columns={"sentences": "text"})
 
-    # save dataframe to json
-    df.to_csv(data_path / "LABELLED_DATASET.csv", index=False)
+    # save spanned generations (e.g., now we have a dataset with text, ents, sents, tokens with spans)
+    df.to_csv(data_path / "annotations_w_generations_spanned.csv", index=False)
 
 if __name__ == "__main__":
     main()
