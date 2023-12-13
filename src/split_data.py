@@ -1,3 +1,7 @@
+'''
+Split annotations_w_generations_spanned into train, dev, test. Convert to .spacy formats for model development.
+'''
+
 import pathlib
 import spacy 
 import pandas as pd
@@ -100,12 +104,10 @@ def distributions_labels(df):
 def main(): 
     # define paths 
     path = pathlib.Path(__file__)
-    data_path = path.parents[1] / "data"
-    spacy_path = data_path / "spacy_formats"
-    spacy_path.mkdir(parents=True, exist_ok=True)
+    data_path = path.parents[1] / "dbase" / "annotations"
 
     # load data
-    df = pd.read_csv(data_path / "LABELLED_DATASET.csv")
+    df = pd.read_csv(data_path / "annotations_w_generations_spanned.csv")
 
     # convert entities dict into a dict again within col
     df['ents'] = df['ents'].apply(ast.literal_eval)
@@ -114,23 +116,26 @@ def main():
     print(distributions_labels(df))
 
     # create splits
-    train_df, val_df, test_df = create_splits(df)
+    train_df, dev_df, test_df = create_splits(df)
 
     # print lengths
     print(f"Train length: {len(train_df)}")
-    print(f"Dev length: {len(val_df)}")
+    print(f"Dev length: {len(dev_df)}")
     print(f"Test length: {len(test_df)}")
 
     # check distributions post split
-    for df in [train_df, val_df, test_df]:
+    for df in [train_df, dev_df, test_df]:
         labels = distributions_labels(df)
         print(labels)
         print(len(labels.keys()))
 
     # convert all to spacy format
-    train_db = convert_to_spacy(train_df, save_path=spacy_path/ "train.spacy")
-    dev_db = convert_to_spacy(val_df, save_path=spacy_path/ "dev.spacy")
-    test_db = convert_to_spacy(test_df, save_path=spacy_path/ "test.spacy")
+    spacy_path = path.parents[1] / "data" 
+    spacy_path.mkdir(parents=True, exist_ok=True)
+
+    train_db = convert_to_spacy(train_df, save_path = spacy_path/ "train" / "SYNEDA_train.spacy")
+    dev_db = convert_to_spacy(dev_df, save_path = spacy_path/ "dev" / "SYNEDA_dev.spacy")
+    test_db = convert_to_spacy(test_df, save_path = spacy_path/ "test" / "SYNEDA_test.spacy")
 
 
 if __name__ == "__main__":
