@@ -1,0 +1,1 @@
+Placeholder file for external data! Will be named DANSK_dev.spacy when feteched (never pushed to git)
