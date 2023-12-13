@@ -335,7 +335,7 @@ def main():
     np.random.seed(1209)
 
     path = pathlib.Path(__file__)
-    names_path = path.parents[2] / "lists" / "names" 
+    names_path = path.parents[2] / "dbase" / "entities_lists" / "person_names"
 
     # load the three lists
     men_df, women_df, last_names_df = load_persons(names_path)
@@ -371,8 +371,8 @@ def main():
         all_names.extend(lst)
 
     # load famous names
-    data_path = path.parents[2] / "data"
-    famous_df= pd.read_excel(data_path / "MANUAL_LISTS.xlsx", sheet_name="PERSON")
+    ents_path = path.parents[2] / "dbase" / "entities_lists" 
+    famous_df= pd.read_excel(ents_path / "MANUAL_LISTS.xlsx", sheet_name="PERSON")
 
     # make all regular names into a dataframe, add weights and context col (to match other lists)
     df = pd.DataFrame(all_names, columns=["entity"])
@@ -383,7 +383,7 @@ def main():
     final_df = pd.concat([df, famous_df], ignore_index=True)
 
     # save to file
-    final_df.to_csv(data_path / "PERSON.csv", index=False)
+    final_df.to_csv(ents_path / "PERSON.csv", index=False)
 
 
 if __name__ == '__main__':
