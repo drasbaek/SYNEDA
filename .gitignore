@@ -173,3 +173,5 @@ training/models/*
 data/*/DANE_*.spacy
 data/*/DANSK_*.spacy
 
+#ignore combined datasets
+data/*/SYNEDA_DANSK_*.spacy
