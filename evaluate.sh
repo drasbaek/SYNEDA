@@ -7,8 +7,7 @@ source env/bin/activate
 echo -e "[INFO:] INITIALIZING EVALUATION"
 
 # models to evaluate
-#models=("SYNEDA" "SYNEDA_DANSK", "DANSK")
-models=("DANSK")
+models=("SYNEDA" "SYNEDA_DANSK" "DANSK")
 
 # datasets to evaluate
 datasets=("SYNEDA" "DANE" "DANSK")
