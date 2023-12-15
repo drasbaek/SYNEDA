@@ -23,6 +23,52 @@ def annotation_errors(annotations_path, outpath):
     # save to file
     error_types.to_csv(outpath / "generation_entity_errors.csv")
 
+
+def entity_distributions(annotations_path, outpath):
+    # read spanned data
+    spanned_data = pd.read_csv(annotations_path / "annotations_w_generations_spanned.csv")
+
+    # all
+    all_ents = []
+
+    # iterate over ents column
+    for index, row in spanned_data.iterrows():
+        # split ents column by comma
+        ents = row["ents"]
+
+        # ensure that it is read as a list of dicts
+        ents_dict_list = eval(ents)
+
+        # iterate over ents
+        for ent in ents_dict_list:
+            # get label
+            label = ent["label"]
+            
+            # append to all_ents
+            all_ents.append(label)
+    
+    # count how many of each type
+    all_ents = pd.Series(all_ents).value_counts()
+
+    # add column with how many percent that is
+    all_ents = pd.DataFrame(all_ents)
+
+    # rename column
+    all_ents = all_ents.rename(columns={0: "count"})
+
+    # add column with percentage
+    all_ents["percentage"] = round(((all_ents["count"] / sum(all_ents["count"])) * 100), 1)
+
+    # set the index column as "type"
+    all_ents = all_ents.reset_index()
+    all_ents = all_ents.rename(columns={"index": "type"})
+
+    # save to file
+    all_ents.to_csv(outpath / "entity_distribution.csv")
+
+    print(all_ents)
+
+
 def main():
     # set paths
     path = pathlib.Path(__file__)
@@ -30,6 +76,10 @@ def main():
     outpath = path.parents[1] / "dbase" / "annotations"
 
     annotation_errors(annoations_path, outpath)
+
+    all_ents = entity_distributions(annoations_path, outpath)
+
+
 
 
 
