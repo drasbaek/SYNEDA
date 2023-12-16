@@ -90,7 +90,7 @@ def plot_curve(logs, y_col1, y_col2, y_col_name1, y_col_name2, x_col="#", save_p
         fig: matplotlib figure
     '''
     # subplots
-    fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(10, 10), sharex=True)
+    fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(10, 10))
 
     # set font to times
     if font_family:
@@ -99,31 +99,41 @@ def plot_curve(logs, y_col1, y_col2, y_col_name1, y_col_name2, x_col="#", save_p
     # curves and labels for 1 subplot
     ax1.plot(logs["SYNEDA"][x_col], logs["SYNEDA"][y_col1], label='SYNEDA', color="#65BBF3")
     ax1.plot(logs["DANSK"][x_col], logs["DANSK"][y_col1], label='DANSK', color="#F36965")
-    ax1.plot(logs["SYNEDA_DANSK"][x_col], logs["SYNEDA_DANSK"][y_col1], label='SYNEDA_DANSK', color="#9966FF")
-    ax1.set_title(f"[A] {y_col_name1.split(' ')[0]}", size=15)
+    ax1.plot(logs["SYNEDA_DANSK"][x_col], logs["SYNEDA_DANSK"][y_col1], label='SYNEDA + DANSK', color="#9966FF")
+    ax1.set_title(f"[A] {y_col_name1.split(' ')[0]}", size=18)
     ax1.set_ylabel(y_col_name1)
-    ax1.legend()
     ax1.grid(True)
 
     # curves and labels 2 subplot
     ax2.plot(logs["SYNEDA"][x_col], logs["SYNEDA"][y_col2], label='SYNEDA', color="#65BBF3")
     ax2.plot(logs["DANSK"][x_col], logs["DANSK"][y_col2], label='DANSK', color="#F36965")
-    ax2.plot(logs["SYNEDA_DANSK"][x_col], logs["SYNEDA_DANSK"][y_col2], label='SYNEDA_DANSK', color="#9966FF")
-    ax2.set_title(f"[B] {y_col_name1.split(' ')[0]}", size=15)
+    ax2.plot(logs["SYNEDA_DANSK"][x_col], logs["SYNEDA_DANSK"][y_col2], label='SYNEDA DANSK', color="#9966FF")
+    ax2.set_title(f"[B] {y_col_name2.split(' ')[0]}", size=18)
     ax2.set_xlabel('Steps')
     ax2.set_ylabel(y_col_name2)
-    ax2.legend()
     ax2.grid(True)
 
     # find which model has highest max steps
     max_steps = max(logs["SYNEDA"][x_col].max(), logs["DANSK"][x_col].max(), logs["SYNEDA_DANSK"][x_col].max())
 
+    ## LEGEND FIXES
+    # mv ax1 legend outside of plot
+    legend = ax1.legend(bbox_to_anchor=(0.85, 1.1), loc='upper left', borderaxespad=0.)
+    legend.get_frame().set_alpha(None)
+
+    for label in legend.get_texts():
+        label.set_fontsize(13)  
+
+    for line in legend.get_lines():
+        line.set_markersize(13)  
+
     # spread out x-axis ticks 
     ax2.set_xticks(range(0, max_steps, 400))
+    ax1.set_xticks(range(0, max_steps, 400))
 
     # save
     if save_path:
-        plt.savefig(save_path)
+        plt.savefig(save_path, bbox_inches='tight', dpi=600)
 
     return fig
 
