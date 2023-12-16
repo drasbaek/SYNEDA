@@ -77,12 +77,5 @@ def main():
 
     annotation_errors(annoations_path, outpath)
 
-    all_ents = entity_distributions(annoations_path, outpath)
-
-
-
-
-
-
 if __name__ == "__main__":
     main()
