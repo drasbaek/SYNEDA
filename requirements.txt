@@ -7,3 +7,4 @@ wandb
 datasets
 matplotlib
 seaborn
+tqdm
