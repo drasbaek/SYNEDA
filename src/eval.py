@@ -12,11 +12,27 @@ def confidence_interval(scores):
     upper = np.percentile(scores, 97.5)
     return lower, upper
 
+def convert_to_examples(db, nlp):
+    '''
+    Convert a DocBin to a list of spaCy Example objects with nlp object's vocab
+    '''
+    examples = []
+    for doc in db.get_docs(nlp.vocab):
+        entities = []
+
+        for ent in doc.ents:
+            entities.append((ent.start_char, ent.end_char, ent.label_))
+
+        example = Example.from_dict(nlp.make_doc(doc.text), {"entities": entities})
+        examples.append(example)
+
+    return examples
+
 def main():
     # set paths
     path = pathlib.Path(__file__)
     test_data_path = path.parents[1] / "data" / "test" / "SYNEDA_test.spacy"
-    model_path = path.parents[1] / "training" / "models" / "syneda" / "model-best"
+    model_path = path.parents[1] / "training" / "models" / "SYNEDA" / "model-best"
 
     # load spaCy model
     nlp = spacy.load(model_path)
@@ -25,40 +41,35 @@ def main():
     test_data = DocBin().from_disk(test_data_path)
 
     # convert DocBin to a list of examples
-    examples = list(test_data.get_docs(nlp.vocab))
+    examples = convert_to_examples(test_data, nlp)
 
-    # Bootstrap resampling
+    overall_scores = nlp.evaluate(examples)
+    print("Overall scores:", overall_scores)
+
+    # bootstrap resampling
     n_iterations = 100
-    precision_scores, recall_scores, f_scores = [], [], []
+    f_scores = []
 
     for _ in range(n_iterations):
         print("Iteration:", _)
 
-        # Resample your test data
-        sampled_examples = resample(examples)
+        # resample your test data
+        n_samples = 250
 
-        # Scoring
-        scorer = Scorer(nlp)
-        for example in sampled_examples:
-            scorer.score([example])  # score expects a list of Example objects
-            print(scorer.scores)
+        print(f"Bootstrapping with {n_samples} samples!")
+        sampled_examples = resample(examples, n_samples=n_samples)
+        scores = nlp.evaluate(sampled_examples)
 
-        # Collect scores
-        scores = scorer.scores
-        precision_scores.append(scores['ents_p'])
-        recall_scores.append(scores['ents_r'])
-        f_scores.append(scores['ents_f'])
+        f1_individual = scores["ents_f"]
+
+        print("F-score:", f1_individual, "At iteration:", _)
+
+        # collect scores
+        f_scores.append(f1_individual)
 
 
-    precision_ci = confidence_interval(precision_scores)
-    recall_ci = confidence_interval(recall_scores)
     f_score_ci = confidence_interval(f_scores)
-
-    print("Precision CI:", precision_ci)
-    print("Recall CI:", recall_ci)
     print("F-score CI:", f_score_ci)
 
 if __name__ == "__main__":
     main()
-
-
