@@ -46,7 +46,6 @@ def bootstrap(model_name, model_rootdir, test_db, test_filename, n_iter:int=100,
 
     # get overall score 
     overall_scores = nlp.evaluate(examples)
-    print("Overall scores:", overall_scores)
     
     # prepare for bootstrap
     f1_scores = []
@@ -87,7 +86,7 @@ def bootstrap(model_name, model_rootdir, test_db, test_filename, n_iter:int=100,
 
         # save confidence intervals to txt 
         with open(full_path / f"confidence_intervals_on_{test_filename}.txt", "w") as f:
-            f.write(f"Bootstrapping results for model: {model_name} on {test_filename}\n")
+            f.write(f"Bootstrapping results for model {model_name} on dataset {test_filename}\n")
             f.write(f"Overall scores: {overall_scores}\n")
             f.write("-----------------------------------\n")
             f.write(f"95% confidence intervals for model: {model_name} on {test_filename}\n")
