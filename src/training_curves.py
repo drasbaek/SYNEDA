@@ -89,12 +89,12 @@ def plot_curve(logs, y_col1, y_col2, y_col_name1, y_col_name2, x_col="#", save_p
     Returns:
         fig: matplotlib figure
     '''
-    # subplots
-    fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(10, 10))
-
     # set font to times
     if font_family:
         plt.rcParams["font.family"] = font_family
+
+    # subplots
+    fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(10, 10))
 
     # curves and labels for 1 subplot
     ax1.plot(logs["SYNEDA"][x_col], logs["SYNEDA"][y_col1], label='SYNEDA', color="#65BBF3")
@@ -156,7 +156,7 @@ def main():
         logs[f"{model_name}"] = log_df
     
     # plot loss 
-    plot_curve(logs, x_col="#", y_col1="LOSS NER", y_col2="ENTS_F", y_col_name1="Loss (NER)", y_col_name2="F1 Score (ENTS)", save_path=path.parents[1] / "plots" / "curves.png")
+    plot_curve(logs, x_col="#", y_col1="LOSS NER", y_col2="ENTS_F", y_col_name1="Loss (NER)", y_col_name2="F1 Score (ENTS)", save_path=path.parents[1] / "plots" / "curves.png", font_family="Times New Roman")
 
 
 
