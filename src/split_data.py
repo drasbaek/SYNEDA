@@ -101,7 +101,7 @@ def distributions_labels(df):
         
     return labels
 
-def save_label_distributions(df_dict, save_path):
+def save_label_distributions(df_dict, distribution_all, save_path):
     '''
     Takes a dict of dataframes (train, dev and test) with their name (key) and the dataframe (value). Saves label distributions to txt
     '''
@@ -113,6 +113,10 @@ def save_label_distributions(df_dict, save_path):
     # initialize txt file
     with open(save_path, "w") as f:
         f.write("Label distributions for train, dev and test\n\n")
+    
+    # add distribution all as top row
+    with open(save_path, "a") as f:
+        f.write(f"Total: {distribution_all}\n\n")
 
     # iterate over dfs
     for i, df in enumerate(df_list):
@@ -125,7 +129,7 @@ def save_label_distributions(df_dict, save_path):
         # save to txt
         with open(save_path, "a") as f:
             f.write(f"{df_names[i]}: {labels}\n")
-    
+
     return None
 
 
@@ -143,7 +147,7 @@ def main():
     df['ents'] = df['ents'].apply(ast.literal_eval)
 
     # print distribution of labels
-    print(distributions_labels(df))
+    distribution_all = distributions_labels(df)
 
     # create splits
     train_df, dev_df, test_df = create_splits(df)
@@ -154,7 +158,7 @@ def main():
     print(f"Test length: {len(test_df)}")
 
     # save label distributions
-    save_label_distributions({"train": train_df, "dev": dev_df, "test": test_df}, data_path / "label_distributions.txt")
+    save_label_distributions({"train": train_df, "dev": dev_df, "test": test_df}, distribution_all, data_path / "label_distributions.txt")
 
     # convert all to spacy format
     spacy_path = path.parents[1] / "data" 
