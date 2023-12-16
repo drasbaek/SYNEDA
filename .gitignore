@@ -159,19 +159,21 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-# MAC ds_store
+# mac ds_store
 .DS_Store
 
 # wandb 
 wandb/
 
-# ignore output
+# ign everything in training/models except README.md
 training/models/*
 !training/models/README.md
 
-# ignore external datasets with spacy extension
+# ign specific .spacy files in data directory
 data/*/DANE_*.spacy
 data/*/DANSK_*.spacy
-
-#ignore combined datasets
 data/*/SYNEDA_DANSK_*.spacy
+
+# do not ign anything in training/logs and training/configs
+!training/logs/*
+!training/configs/*
