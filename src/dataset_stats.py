@@ -3,6 +3,9 @@ import pandas as pd
 from external_data.fetch_data import fetch_dansk, fix_dane, fetch_dane
 from spacy.tokens import DocBin
 import spacy
+import matplotlib.pyplot as plt
+import seaborn as sns
+import numpy as np
 
 def annotation_errors(annotations_path, outpath):
     # load data
@@ -27,14 +30,29 @@ def annotation_errors(annotations_path, outpath):
     error_types.to_csv(outpath / "generation_entity_errors.csv")
 
 
-def map_sentence_lengths(data_path):
+def get_SYNEDA_sentence_lens(annotations_path):
     # create nlp object
     nlp = spacy.blank("da")
-    nlp.add_pipe('sentencizer')
+
+    # load syneda
+    syneda = pd.read_csv(annotations_path / "annotations_w_generations_spanned.csv")
+
+    # get text column into a list
+    text = syneda["text"].tolist()
+
+    # for each element, calculate word count with spacy
+    sentence_lengths = [len(nlp(text[i])) for i in range(len(text))]
+
+    return sentence_lengths
+
+
+def get_DANSK_DANE_sentence_lens(data_path):
+    # create nlp object
+    nlp = spacy.blank("da")
 
     # ensure that DANSK and DANE are fetched
-    fetch_dansk(save_path=data_path, partitions=["train", "dev", "test"])
-    fetch_dane(save_path=data_path, partitions=["train", "dev", "test"], fix_dane=False)
+    #fetch_dansk(save_path=data_path, partitions=["train", "dev", "test"])
+    #fetch_dane(save_path=data_path, partitions=["train", "dev", "test"], fix_dane=False)
 
     # load data from spacy format
     dansk_train = DocBin().from_disk(data_path / "train" / "dansk_train.spacy")
@@ -49,54 +67,54 @@ def map_sentence_lengths(data_path):
     dansk_docs = list(dansk_train.get_docs(nlp.vocab)) + list(dansk_dev.get_docs(nlp.vocab)) + list(dansk_test.get_docs(nlp.vocab))
     dane_docs = list(dane_train.get_docs(nlp.vocab)) + list(dane_dev.get_docs(nlp.vocab)) + list(dane_test.get_docs(nlp.vocab))
 
-    # check lengths
-    print(len(list(dane_train.get_docs(nlp.vocab))))
-    print(len(list(dane_dev.get_docs(nlp.vocab))))
-    print(len(list(dane_test.get_docs(nlp.vocab))))
-
     # get all sentences
     dansk_sentences = [sent for doc in dansk_docs for sent in doc.sents]
     dane_sentences = [sent for doc in dane_docs for sent in doc.sents]
-
-    print("Number of sentences in DANSK:", len(dansk_sentences))
-    print("Number of sentences in DANE:", len(dane_sentences))
 
     # get lengths
     dansk_lengths = [len(sent) for sent in dansk_sentences]
     dane_lengths = [len(sent) for sent in dane_sentences]
 
-    # create an overlapping plot of the two datasets
-    import matplotlib.pyplot as plt
-    import seaborn as sns
-    import numpy as np
+    return dansk_lengths, dane_lengths
 
-    # set style
-    sns.set_style("darkgrid")
+
+def plot_sentence_lengths(syneda_lengths, dansk_lengths, dane_lengths, plot_path):
+    # define custom params
+    custom_params = {"axes.spines.right": False, "axes.spines.top": False}
+    
+    # set theme
+    sns.set_theme(style="white", rc=custom_params)
+
+    # set font to times
+    plt.rcParams["font.family"] = "Times New Roman"
 
     # create figure
-    fig, ax = plt.subplots(figsize=(10, 6))
+    fig, ax = plt.subplots(figsize=(12, 8))
 
-    # create histogram
-    sns.histplot(data=dansk_lengths, bins=100, color="blue", label="DANSK", ax=ax)
+    # create density plot for SYNEDA
+    sns.kdeplot(data=syneda_lengths, ax=ax, fill=True, label="SYNEDA", color="#65BBF3")
 
-    # create histogram
-    sns.histplot(data=dane_lengths, bins=100, color="red", label="DANE", ax=ax)
+    # create density plot for DANSK
+    sns.kdeplot(data=dansk_lengths, ax=ax, fill=True, label="DANSK", color="#F36965")
 
-    # set labels
-    ax.set_xlabel("Sentence length")
-    ax.set_ylabel("Count")
+    # create density plot for DANE
+    sns.kdeplot(data=dane_lengths, ax=ax, fill=True, label="DANE", color="#40C438")
 
-    # set title
-    ax.set_title("Distribution of sentence lengths in DANSK and DANE")
+    # set x-axis label
+    ax.set_xlabel("Sentence length", fontsize=16, labelpad=10)
+
+    # set y-axis label
+    ax.set_ylabel("Density", fontsize=16, labelpad=10)
 
     # set legend
-    ax.legend()
+    ax.legend(fontsize=16, loc="upper right")
 
-    # show plot
-    plt.show()
+    # truncate x-axis
+    ax.set_xlim(0, 60)
 
-
-
+    # save plot to directory (create if it doesn't exist)
+    plot_path.mkdir(parents=True, exist_ok=True)
+    plt.savefig(plot_path / "sentence_length_distributions.png", bbox_inches="tight")
 
 
 def main():
@@ -105,10 +123,16 @@ def main():
     data_path = path.parents[1] / "data"
     annoations_path = path.parents[1] / "dbase" / "annotations"
     outpath = path.parents[1] / "dbase" / "annotations"
+    plot_path = path.parents[1] / "plots"
 
-    #annotation_errors(annoations_path, outpath)
+    annotation_errors(annoations_path, outpath)
 
-    map_sentence_lengths(data_path)
+    # get sentence lengths
+    dansk_lengths, dane_lengths = get_DANSK_DANE_sentence_lens(data_path)
+    syneda_lengths = get_SYNEDA_sentence_lens(annoations_path)
+
+    # plot sentence lengths
+    plot_sentence_lengths(syneda_lengths, dansk_lengths, dane_lengths, plot_path)
 
 if __name__ == "__main__":
     main()
