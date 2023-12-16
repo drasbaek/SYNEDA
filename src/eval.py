@@ -26,7 +26,6 @@ def main():
 
     # convert DocBin to a list of examples
     examples = list(test_data.get_docs(nlp.vocab))
-    print(examples)
 
     # Bootstrap resampling
     n_iterations = 100
