@@ -101,7 +101,7 @@ def plot_sentence_lengths(syneda_lengths, dansk_lengths, dane_lengths, plot_path
     sns.kdeplot(data=dane_lengths, ax=ax, fill=True, label="DaNE+", color="#40C438")
 
     # set x-axis label
-    ax.set_xlabel("Text length", fontsize=16, labelpad=10)
+    ax.set_xlabel("Text length (tokens/words)", fontsize=16, labelpad=10)
 
     # set y-axis label
     ax.set_ylabel("Density", fontsize=16, labelpad=10)
