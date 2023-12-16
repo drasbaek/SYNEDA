@@ -34,7 +34,7 @@ def map_sentence_lengths(data_path):
 
     # ensure that DANSK and DANE are fetched
     fetch_dansk(save_path=data_path, partitions=["train", "dev", "test"])
-    fetch_dane(save_path=data_path, partitions=["train", "dev", "test"])
+    fetch_dane(save_path=data_path, partitions=["train", "dev", "test"], fix_dane=False)
 
     # load data from spacy format
     dansk_train = DocBin().from_disk(data_path / "train" / "dansk_train.spacy")
@@ -49,9 +49,17 @@ def map_sentence_lengths(data_path):
     dansk_docs = list(dansk_train.get_docs(nlp.vocab)) + list(dansk_dev.get_docs(nlp.vocab)) + list(dansk_test.get_docs(nlp.vocab))
     dane_docs = list(dane_train.get_docs(nlp.vocab)) + list(dane_dev.get_docs(nlp.vocab)) + list(dane_test.get_docs(nlp.vocab))
 
+    # check lengths
+    print(len(list(dane_train.get_docs(nlp.vocab))))
+    print(len(list(dane_dev.get_docs(nlp.vocab))))
+    print(len(list(dane_test.get_docs(nlp.vocab))))
+
     # get all sentences
     dansk_sentences = [sent for doc in dansk_docs for sent in doc.sents]
     dane_sentences = [sent for doc in dane_docs for sent in doc.sents]
+
+    print("Number of sentences in DANSK:", len(dansk_sentences))
+    print("Number of sentences in DANE:", len(dane_sentences))
 
     # get lengths
     dansk_lengths = [len(sent) for sent in dansk_sentences]

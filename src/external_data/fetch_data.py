@@ -68,7 +68,7 @@ def fix_dane(dataset):
 
     return dataset
 
-def fetch_dane(save_path, partitions=["train", "dev", "test"]): 
+def fetch_dane(save_path, partitions=["train", "dev", "test"], fix_dane=True): 
     try:
         datasets = load_dataset("KennethEnevoldsen/dane_plus")
     except FileNotFoundError:
@@ -79,8 +79,9 @@ def fetch_dane(save_path, partitions=["train", "dev", "test"]):
     nlp = spacy.blank("da")
 
     # use fix_dane (rm old MISC, LOC labls)
-    for p in partitions:
-        datasets[f"{p}"] = fix_dane(datasets[f"{p}"])
+    if fix_dane:
+        for p in partitions:
+            datasets[f"{p}"] = fix_dane(datasets[f"{p}"])
 
     # create DocBin 
     for p in partitions:
@@ -104,7 +105,7 @@ def main():
     
     # get all sets from DANSK
     print("FETCHING DANSK ...")
-    fetch_dansk(save_path=spacy_path, partitions=["train", "dev", "test"])
+    fetch_dansk(save_path=spacy_path, partitions=["train", "dev", "test"], fix_dane=True)
 
     print("DONE ...")
 
