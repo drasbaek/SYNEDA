@@ -71,7 +71,7 @@ def bootstrap(model_name, model_rootdir, test_db, test_filename, n_iter:int=100,
         r_scores.append(r_score)
 
     # make into dataframe
-    df = pd.DataFrame({"iter":i+1, "f1": f1_scores, "p": p_scores, "r": r_scores})
+    df = pd.DataFrame({"f1_ents": f1_scores, "p_ents": p_scores, "r_ents": r_scores})
 
     # get confidence intervals
     f1_ci = confidence_interval(f1_scores)
@@ -86,13 +86,14 @@ def bootstrap(model_name, model_rootdir, test_db, test_filename, n_iter:int=100,
 
         # save confidence intervals to txt 
         with open(full_path / f"confidence_intervals_on_{test_filename}.txt", "w") as f:
-            f.write(f"Bootstrapping results for model {model_name} on dataset {test_filename}\n")
+            f.write(f"Results for model {model_name} on dataset {test_filename}\n")
+            f.write("-------------------------------------------------------------------------\n")
             f.write(f"Overall scores: {overall_scores}\n")
-            f.write("-----------------------------------\n")
-            f.write(f"95% confidence intervals for model: {model_name} on {test_filename}\n")
-            f.write(f"F1 CI: {f1_ci}\n")
-            f.write(f"Precision CI: {p_ci}\n")
-            f.write(f"Recall CI: {r_ci}\n")
+            f.write("-------------------------------------------------------------------------\n")
+            f.write(f"95% confidence intervals (bootstrapping with N = {n_iter} iterations)\n")
+            f.write(f"F1 (ents) CI: {f1_ci}\n")
+            f.write(f"Precision (ents) CI: {p_ci}\n")
+            f.write(f"Recall (ents) CI: {r_ci}\n")
 
     return df, f1_ci, p_ci, r_ci
 
