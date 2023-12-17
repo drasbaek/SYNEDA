@@ -68,7 +68,7 @@ def fix_dane(dataset):
 
     return dataset
 
-def fetch_dane(save_path, partitions=["train", "dev", "test"], fix_dane=True): 
+def fetch_dane(save_path, partitions=["train", "dev", "test"], fix=True): 
     try:
         datasets = load_dataset("KennethEnevoldsen/dane_plus")
     except FileNotFoundError:
@@ -79,7 +79,7 @@ def fetch_dane(save_path, partitions=["train", "dev", "test"], fix_dane=True):
     nlp = spacy.blank("da")
 
     # use fix_dane (rm old MISC, LOC labls)
-    if fix_dane:
+    if fix:
         for p in partitions:
             datasets[f"{p}"] = fix_dane(datasets[f"{p}"])
 
@@ -101,11 +101,11 @@ def main():
 
     # get DANE test set 
     print("FETCHING DANE ...")
-    fetch_dane(save_path=spacy_path, partitions=["test"])
+    fetch_dane(save_path=spacy_path, partitions=["test"], fix=True)
     
     # get all sets from DANSK
     print("FETCHING DANSK ...")
-    fetch_dansk(save_path=spacy_path, partitions=["train", "dev", "test"], fix_dane=True)
+    fetch_dansk(save_path=spacy_path, partitions=["train", "dev", "test"])
 
     print("DONE ...")
 
