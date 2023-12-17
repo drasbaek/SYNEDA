@@ -8,6 +8,29 @@ import pandas as pd
 from spacy.tokens import DocBin
 import ast
 from sklearn.model_selection import train_test_split
+import numpy as np
+
+def format_text(df): 
+    '''
+    Changing formatting of the text (15% uppercase, 15% lowercase, 70% same).
+    '''
+    # set seed
+    np.random.seed(1209)
+
+    for i, row in df.iterrows(): 
+        # get text
+        text = row['text']
+
+        # decide option with probability (15% uppercase, 15% lowercase, 70% same)
+        option = np.random.choice(["uppercase", "lowercase", "same"], p=[0.15, 0.15, 0.70])
+
+        if option == "uppercase":
+            df.at[i, 'text'] = text.upper()
+
+        elif option == "lowercase":
+            df.at[i, 'text'] = text.lower()
+        
+    return df
 
 def create_splits(df, train_size=0.8, dev_size=0.1, test_size=0.1, random_state=1209):
     '''
@@ -22,6 +45,11 @@ def create_splits(df, train_size=0.8, dev_size=0.1, test_size=0.1, random_state=
     dev_df, test_df = train_test_split(test_df, train_size=dev_size/(dev_size+test_size), 
                                        random_state=random_state, shuffle=True
                                        )
+
+    # reset index
+    train_df = train_df.reset_index(drop=True)
+    dev_df = dev_df.reset_index(drop=True)
+    test_df = test_df.reset_index(drop=True)
 
     return train_df, dev_df, test_df
 
@@ -132,9 +160,6 @@ def save_label_distributions(df_dict, distribution_all, save_path):
 
     return None
 
-
-
-
 def main(): 
     # define paths 
     path = pathlib.Path(__file__)
@@ -151,6 +176,10 @@ def main():
 
     # create splits
     train_df, dev_df, test_df = create_splits(df)
+
+    # format text
+    for df in [train_df, dev_df, test_df]:
+        df = format_text(df)
 
     # print lengths
     print(f"Train length: {len(train_df)}")
