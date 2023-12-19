@@ -2,7 +2,7 @@
 Qualitative analysis of the data
 '''
 import pathlib
-from eval import convert_to_examples
+from analysis.bootstrap_eval import convert_to_examples
 import spacy
 from spacy.tokens import DocBin
 from spacy.scorer import Scorer
