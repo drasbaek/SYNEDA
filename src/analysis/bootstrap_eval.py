@@ -1,5 +1,4 @@
 import spacy
-from spacy.scorer import Scorer
 from spacy.tokens import DocBin
 import numpy as np
 from sklearn.utils import resample
@@ -99,8 +98,8 @@ def bootstrap(model_name, model_rootdir, test_db, test_filename, n_iter:int=100,
 
 def main(): 
     path = pathlib.Path(__file__)
-    model_root = path.parents[1] / "training" / "models"
-    test_data_path = path.parents[1] / "data" / "test"
+    model_root = path.parents[2] / "training" / "models"
+    test_data_path = path.parents[2] / "data" / "test"
 
     test_files = ["SYNEDA_test.spacy", "DANSK_test.spacy", "DANE_test.spacy"]
     models = ["SYNEDA", "DANSK", "SYNEDA_DANSK"]
@@ -113,7 +112,7 @@ def main():
         test_dbs[test_file.split("_")[0]] = test_db
 
     # use bootstrap function
-    results_path = path.parents[1] / "results"
+    results_path = path.parents[2] / "results"
 
     for test_filename, test_data in test_dbs.items():
         for model in models:

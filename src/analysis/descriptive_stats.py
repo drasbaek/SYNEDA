@@ -1,11 +1,15 @@
 import pathlib
 import pandas as pd
-from external_data.fetch_data import fetch_dansk, fix_dane, fetch_dane
+import sys
 from spacy.tokens import DocBin
 import spacy
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
+
+sys.path.append(str(pathlib.Path(__file__).parents[1]))
+from external_data.fetch_data import fetch_dansk, fix_dane, fetch_dane
+
 
 def annotation_errors(annotations_path, outpath):
     # load data
@@ -51,8 +55,8 @@ def get_DANSK_DANE_sentence_lens(data_path):
     nlp = spacy.blank("da")
 
     # ensure that DANSK and DANE are fetched
-    #fetch_dansk(save_path=data_path, partitions=["train", "dev", "test"])
-    #fetch_dane(save_path=data_path, partitions=["train", "dev", "test"], fix_dane=False)
+    fetch_dansk(save_path=data_path, partitions=["train", "dev", "test"])
+    fetch_dane(save_path=data_path, partitions=["train", "dev", "test"], fix_dane=False)
 
     # load data from spacy format
     dansk_train = DocBin().from_disk(data_path / "train" / "dansk_train.spacy")
@@ -122,10 +126,10 @@ def plot_sentence_lengths(syneda_lengths, dansk_lengths, dane_lengths, plot_path
 def main():
     # set paths
     path = pathlib.Path(__file__)
-    data_path = path.parents[1] / "data"
-    annoations_path = path.parents[1] / "dbase" / "annotations"
-    outpath = path.parents[1] / "dbase" / "annotations"
-    plot_path = path.parents[1] / "plots"
+    data_path = path.parents[2] / "data"
+    annoations_path = path.parents[2] / "dbase" / "annotations"
+    outpath = path.parents[2] / "dbase" / "annotations"
+    plot_path = path.parents[2] / "plots"
 
     annotation_errors(annoations_path, outpath)
 

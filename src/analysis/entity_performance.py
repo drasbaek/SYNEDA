@@ -1,11 +1,14 @@
 import pathlib
 import pandas as pd
-from external_data.fetch_data import fetch_dansk, fix_dane, fetch_dane
+import sys
 from spacy.tokens import DocBin
 import spacy
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
+
+sys.path.append(str(pathlib.Path(__file__).parents[1]))
+from external_data.fetch_data import fetch_dansk, fix_dane, fetch_dane
 
 def get_performance(model_name, test_set_name, results_path):
     
@@ -103,8 +106,8 @@ def main():
     path = pathlib.Path(__file__)
 
     # get data path
-    results_path = path.parent.parent / "results"
-    plot_path = path.parent.parent / "plots"
+    results_path = path.parent.parent.parent / "results"
+    plot_path = path.parent.parent.parent / "plots"
 
     test_sets = ["DANE", "DANSK", "SYNEDA"]
 

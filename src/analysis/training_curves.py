@@ -4,7 +4,6 @@ Script for plotting loss and eval curves
 import pathlib
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns
 
 def load_wb_log(log_filename, log_path):
     '''
@@ -140,7 +139,7 @@ def plot_curve(logs, y_col1, y_col2, y_col_name1, y_col_name2, x_col="#", save_p
 def main(): 
     # define paths 
     path = pathlib.Path(__file__)
-    log_path = path.parents[1] / "training" / "logs"
+    log_path = path.parents[2] / "training" / "logs"
 
     # load a single log file
     log_filenames = ["SYNEDA.log", "DANSK.log", "SYNEDA_DANSK.log"]
@@ -156,7 +155,7 @@ def main():
         logs[f"{model_name}"] = log_df
     
     # plot loss 
-    plot_curve(logs, x_col="#", y_col1="LOSS NER", y_col2="ENTS_F", y_col_name1="Loss (NER)", y_col_name2="F1 Score (ENTS)", save_path=path.parents[1] / "plots" / "curves.png", font_family="Times New Roman")
+    plot_curve(logs, x_col="#", y_col1="LOSS NER", y_col2="ENTS_F", y_col_name1="Loss (NER)", y_col_name2="F1 Score (ENTS)", save_path=path.parents[2] / "plots" / "curves.png", font_family="Times New Roman")
 
 
 

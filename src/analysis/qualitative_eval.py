@@ -2,15 +2,15 @@
 Qualitative analysis of the data
 '''
 import pathlib
-from analysis.bootstrap_eval import convert_to_examples
+from bootstrap_eval import convert_to_examples
 import spacy
 from spacy.tokens import DocBin
 from spacy.scorer import Scorer
     
 def main(): 
     path = pathlib.Path(__file__)
-    model_root = path.parents[1] / "training" / "models"
-    test_data_path = path.parents[1] / "data" / "test"
+    model_root = path.parents[2] / "training" / "models"
+    test_data_path = path.parents[2] / "data" / "test"
 
     # load one test file
     dansk_test_db = DocBin().from_disk(test_data_path / "DANSK_test.spacy")
