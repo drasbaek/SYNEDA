@@ -1,4 +1,6 @@
-# SYNEDA
+
+![SYNEDA LOGO CROPPED](https://github.com/drasbaek/SYNEDA/assets/71491570/5104e03e-3bc0-4c7d-adb4-d6ee7569972d)
+
 This repository contains the scripts to utilise a reverse annotation pipeline for creating the dataset `SYNEDA` (**Sy**nthetic **N**amed **E**ntity **Da**nish dataset) as part of the NLP exam (E23) by Anton Drasbæk Schiønning and Mina Almasi. 
 <hr>
 <p align="center">
