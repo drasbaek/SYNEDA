@@ -50,7 +50,7 @@ The spaCy training pipeline can be rerun by running the three bash scripts `debu
 bash train.sh
 ```
 
-Other files, such as the file to perform evaluation with bootstrapping, can be run as such (while `env` is activated):
+Other files can be run as shown below while `env` is activated. For instance, the file to perform evaluation with bootstrapping:
 ```
 python src/analysis/bootstrap_eval.py
 ```
