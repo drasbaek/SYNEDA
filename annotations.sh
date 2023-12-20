@@ -12,17 +12,20 @@ SCRIPTS_DIR="src/annotations"
 SCRIPTS=(
     "money.py"
     "percent.py"
-    "date.py"
+    #"date.py"
     "person.py"
     "quantity.py"
 )
 
-echo "Running all scripts within $SCRIPTS_DIR"
-
-# execute all scripts 
+# run scripts
+echo "[INFO:] Running all scripts within $SCRIPTS_DIR"
 for script in "${SCRIPTS[@]}"; do
     python "$SCRIPTS_DIR/$script"
 done
+
+# exectute the generate annotations script
+echo "[INFO:] Creating the anotation lists ..."
+python "$SCRIPTS_DIR/create_annotations.py"
 
 # deactivate env
 deactivate
