@@ -8,12 +8,13 @@
 <hr>
 
 ## About
-This repository contains the scripts used to develop `SYNEDA` (**Sy**nthetic **N**amed **E**ntity **Da**nish dataset) for Danish named entity recognition. Concretely, the dataset is created by developing a `reverse annotation` pipeline, consisting of the following steps: 
+This repository contains the scripts used to develop `SYNEDA` (**Sy**nthetic **N**amed **E**ntity **Da**nish dataset) for Danish named entity recognition. Concretely, the dataset is created by developing a `reverse-annotation` pipeline, consisting of the following steps: 
 
 1. Devising entity databases for 18 entity categories, following the OntoNotes 5.0 framework (see [dbase/entities_lists](https://github.com/drasbaek/SYNEDA/tree/main/dbase/entities_lists))
 2. Combining entities across databases (randomly) to create `annotation lists` (see [dbase/annotations](https://github.com/drasbaek/SYNEDA/tree/main/dbase/annotations)). 
 3. Prompting a ChatGPT 4 instance with the `annotations lists` to generate text around them (see [data](https://github.com/drasbaek/SYNEDA/tree/main/data)).
 
+### Release
 The `SYNEDA` dataset can be downloaded from the `data` folder (already split into `train`, `dev` and `test`). 
 
 ## Project Overview
@@ -30,6 +31,12 @@ The repository is structured as such:
 | `debug.sh`, `train.sh`, `evaluate.sh` | For debugging datasets, training and evaluating models with SpaCy pipelines. |
 
 Please note that the `src` folder has a seperate [README](https://github.com/drasbaek/SYNEDA/tree/main/src) with a greater overview of the scripts within. 
+
+
+## Technical Requirements
+The training pipeline was run via on Ubuntu v22.04.3, Python v3.10.12 (UCloud, Coder Python 1.84.2). Creating the annotations and plotting was done locally on a Macbook Pro ‘13 (2020, 2 GHz Intel i5, 16GB of ram). 
+
+Python's venv needs to be installed for the code to run as intended.
 
 ## Setup
 Prior to running any code, please run the command below to create a virtual environment (`env`) and install necessary packages within it:
@@ -58,5 +65,5 @@ For any questions regarding the project or its reproducibility, please feel free
 </ul>
 
 ## Acknowledgements 
-Mention spaCy, DaCy and DANSK. 
+This work could not have been done without the extensive work by the teams behind [spaCy](https://spacy.io/) and [DaCy](https://github.com/centre-for-humanities-computing/DaCy) as well as the datasets [DANSK](https://huggingface.co/datasets/chcaa/DANSK) and [DaNe+](https://huggingface.co/datasets/KennethEnevoldsen/dane_plus).
 
