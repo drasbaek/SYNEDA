@@ -38,10 +38,18 @@ The training pipeline was run via on Ubuntu v22.04.3, Python v3.10.12 (UCloud, C
 
 Python's venv needs to be installed for the code to run as intended.
 
+*Please also note that training models is computionally intensive and requires a good CPU. The training was run on a 64 machine on UCloud.*
+
 ## Setup
 Prior to running any code, please run the command below to create a virtual environment (`env`) and install necessary packages within it:
 ```
 bash setup
+```
+
+To run the training pipelines, you also need to fetch the datasets [DANSK](https://huggingface.co/datasets/chcaa/DANSK) and [DaNe+](https://huggingface.co/datasets/KennethEnevoldsen/dane_plus) and create a combined `SYNEDA` + `DANSK` by running: 
+
+```
+bash external_data.sh
 ```
 
 ## Usage
@@ -54,6 +62,8 @@ Other files can be run as shown below while `env` is activated. For instance, th
 ```
 python src/analysis/bootstrap_eval.py
 ```
+
+*Please note that some analysis scripts cannot be run without re-running `train.sh` to get the models as they  are not pushed to [training/models](https://github.com/drasbaek/SYNEDA/tree/main/training/models) folder due to their size.*
 
 ## Contact
 For any questions regarding the project or its reproducibility, please feel free to contact us: 
